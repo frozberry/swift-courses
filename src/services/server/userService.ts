@@ -4,7 +4,6 @@ import jwt from "jsonwebtoken"
 import _ from "lodash"
 import { AccountPageData } from "../../lib/types"
 import { prisma } from "../../prisma/client"
-import { getUsersGradedExams } from "./gradedExamService"
 
 export const getUsers = async (): Promise<User[]> => {
   const users = await prisma.user.findMany()
@@ -57,33 +56,6 @@ export const deleteUser = async (id: string): Promise<boolean> => {
 
   await prisma.user.delete({ where: { id } })
   return true
-}
-
-export const userIsOAuth = async (id: string): Promise<boolean> => {
-  const user = await findUserById(id)
-  if (user?.passwordHash) {
-    return false
-  }
-  return true
-}
-
-export const updateUserScore = async (userId: string) => {
-  console.log("Updating users score")
-  const gradedExams = await getUsersGradedExams(userId, false)
-
-  const firstAttempts = gradedExams.filter(
-    (gradedExam) => gradedExam.firstAttempt
-  )
-  const score = _.meanBy(firstAttempts, (gradedExam) => gradedExam.percent)
-
-  await prisma.user.update({
-    where: {
-      id: userId,
-    },
-    data: {
-      score,
-    },
-  })
 }
 
 export const getUsersAccountPage = async (userId: string) => {
