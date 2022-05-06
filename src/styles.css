@@ -1,0 +1,39 @@
+/* @media screen and (min-width: 601px) {
+  div.example {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 1.75rem;
+  }
+  #buttonText {
+    font-size: 1.5rem;
+  }
+} */
+
+/* b,
+u {
+  color: #232129;
+} */
+
+p {
+  font-family: "Inter";
+}
+
+/* Hide number input field */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
