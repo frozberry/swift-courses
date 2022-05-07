@@ -11,8 +11,6 @@ type Props = {
 const FullSize = ({ handleLogout }: Props) => {
   return (
     <Box sx={{ display: { xs: "none", sm: "initial" } }}>
-      <HeaderLink link="/results">Results</HeaderLink>
-      <HeaderLink link="/stats">Stats</HeaderLink>
       <HeaderLink link="/account">Account</HeaderLink>
       <HeaderButton onClick={handleLogout}>Log out</HeaderButton>
     </Box>
@@ -52,12 +50,6 @@ const Mobile = ({ handleLogout }: Props) => {
           "aria-labelledby": "basic-button",
         }}
       >
-        <MenuItem onClick={handleClose}>
-          <HeaderLink link="/results">Results</HeaderLink>
-        </MenuItem>
-        <MenuItem onClick={handleClose}>
-          <HeaderLink link="/stats">Stats</HeaderLink>
-        </MenuItem>
         <MenuItem onClick={handleClose}>
           <HeaderLink link="/account">Account</HeaderLink>
         </MenuItem>

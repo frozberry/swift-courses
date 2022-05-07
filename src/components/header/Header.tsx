@@ -3,7 +3,6 @@ import Image from "next/image"
 import Link from "next/link"
 import { useSession } from "../../hooks/useSession"
 import LoggedIn from "./LoggedIn"
-import LoggedOut from "./LoggedOut"
 
 const Header = () => {
   const { session } = useSession()
@@ -42,7 +41,7 @@ const Header = () => {
 
         {/* Somehow sets to the right of the app bar marginRight not needed here, but could play with positioning */}
         <section style={{ marginLeft: "auto", marginRight: 0 }}>
-          {session ? <LoggedIn /> : <LoggedOut />}
+          <LoggedIn />
         </section>
       </Toolbar>
     </AppBar>
