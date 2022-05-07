@@ -38,7 +38,6 @@ export default function MyApp(props: MyAppProps) {
         <PlausibleProvider domain="bloomlearn.co.uk">
           <ThemeProvider theme={theme}>
             <CssBaseline />
-            <Header />
             <Toaster />
             <Component {...pageProps} />
           </ThemeProvider>

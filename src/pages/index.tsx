@@ -1,10 +1,9 @@
 import { User } from ".prisma/client"
 import { Box, Container, Grid, Typography } from "@mui/material"
 import Link from "next/link"
-import { useRouter } from "next/router"
+import Header from "../components/header/Header"
 import LinkButton from "../components/LinkButton"
 import useAuthQuery from "../hooks/useAuthQuery"
-import { useSession } from "../hooks/useSession"
 import { getUserSelf } from "../services/client/accountClient"
 
 const LandingPage = () => {
@@ -43,34 +42,37 @@ const LandingPage = () => {
   ]
 
   return (
-    <Container maxWidth="md" sx={{ mt: 4 }}>
-      <Grid container spacing={3}>
-        {courses.map((course) => (
-          <Box key={course.name} sx={{ display: "flex", my: 4 }}>
-            <Box sx={{ maxWidth: "100%" }}>
-              <Box sx={{ width: 400, height: 200 }}>
-                <Link href={course.link} passHref>
-                  <img
-                    src={course.owned ? course.img : course.lockedImg}
-                    alt={course.name}
-                    style={{ maxWidth: "100%", cursor: "pointer" }}
-                  />
-                </Link>
+    <>
+      <Header />
+      <Container maxWidth="md" sx={{ mt: 4 }}>
+        <Grid container spacing={3}>
+          {courses.map((course) => (
+            <Box key={course.name} sx={{ display: "flex", my: 4 }}>
+              <Box sx={{ maxWidth: "100%" }}>
+                <Box sx={{ width: 400, height: 200 }}>
+                  <Link href={course.link} passHref>
+                    <img
+                      src={course.owned ? course.img : course.lockedImg}
+                      alt={course.name}
+                      style={{ maxWidth: "100%", cursor: "pointer" }}
+                    />
+                  </Link>
+                </Box>
+              </Box>
+              <Box>
+                <Typography>{course.name}</Typography>
+                <Typography>{course.description}</Typography>
+                {course.owned ? (
+                  <LinkButton href={course.link} text="View course" />
+                ) : (
+                  <LinkButton href={course.link} text="Unlock course" />
+                )}
               </Box>
             </Box>
-            <Box>
-              <Typography>{course.name}</Typography>
-              <Typography>{course.description}</Typography>
-              {course.owned ? (
-                <LinkButton href={course.link} text="View course" />
-              ) : (
-                <LinkButton href={course.link} text="Unlock course" />
-              )}
-            </Box>
-          </Box>
-        ))}
-      </Grid>
-    </Container>
+          ))}
+        </Grid>
+      </Container>
+    </>
   )
 }
 

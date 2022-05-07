@@ -2,7 +2,6 @@ import { User } from "@prisma/client"
 import axios from "axios"
 import toast from "react-hot-toast"
 import notifyError from "../../lib/notifyError"
-import { AccountPageData } from "../../lib/types"
 
 export const signup = async (
   parentName: string,

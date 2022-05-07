@@ -54,7 +54,7 @@ const LoginForm = ({ setLoading }: Props) => {
     }
   }
 
-  const callbackUrl = "/home"
+  const callbackUrl = "/"
 
   return (
     <Formik

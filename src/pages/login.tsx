@@ -1,10 +1,4 @@
-import {
-  Box,
-  Container,
-  Divider,
-  LinearProgress,
-  Typography,
-} from "@mui/material"
+import { Box, Container, LinearProgress, Typography } from "@mui/material"
 import Link from "next/link"
 import { useState } from "react"
 import LoginForm from "../components/forms/LoginForm"
