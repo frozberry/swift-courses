@@ -5,7 +5,6 @@ import { ServerError } from "../../../lib/types"
 import {
   createUser,
   findUserByEmail,
-  getSubbedUsers,
   getUsers,
 } from "../../../services/server/userService"
 
@@ -18,13 +17,6 @@ type PostBody = {
 const GET = async (req: NextApiRequest, res: NextApiResponse<User[]>) => {
   const { unauthorized, response } = await authAdminSession(req, res)
   if (unauthorized) return response
-  const { sub } = req.query
-
-  if (sub === "true") {
-    const users = await getSubbedUsers()
-    res.send(users)
-    return
-  }
 
   const users = await getUsers()
   res.send(users)
