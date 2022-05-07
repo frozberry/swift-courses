@@ -45,3 +45,9 @@ export type Lesson = {
   pdfUrl?: string
   checklistUrl?: string
 }
+
+export type CourseQuery = {
+  courseName: string
+  moduleId: string
+  lessonId: string
+}

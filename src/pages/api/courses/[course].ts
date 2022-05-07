@@ -2,22 +2,41 @@ import { NextApiRequest, NextApiResponse } from "next"
 import footworkFastlane from "../../../../courses-data/footworkFastlane"
 import powerPathway from "../../../../courses-data/powerPathway"
 import kotc from "../../../../courses-data/kotc"
+import authUserSession from "../../../lib/authUserSession"
+import { findUserById } from "../../../services/server/userService"
+import { User } from "@prisma/client"
 
 const GET = async (
   req: NextApiRequest,
   res: NextApiResponse,
   course: string
 ) => {
-  console.log(course)
+  const { unauthorized, userId, response } = await authUserSession(req, res)
+  if (unauthorized) return response
+
+  const user = (await findUserById(userId)) as User
+
   if (course === "ff") {
+    if (!user.ff) {
+      res.status(403).end("You do not have access to this course")
+      return
+    }
     res.send(footworkFastlane)
     return
   }
   if (course === "pp") {
+    if (!user.pp) {
+      res.status(403).end("You do not have access to this course")
+      return
+    }
     res.send(powerPathway)
     return
   }
   if (course === "kotc") {
+    if (!user.kotc) {
+      res.status(403).end("You do not have access to this course")
+      return
+    }
     res.send(kotc)
     return
   }

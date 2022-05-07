@@ -6,22 +6,16 @@ import Header from "../components/header/Header"
 import LinkButton from "../components/LinkButton"
 import VideoPlayer from "../components/VideoPlayer"
 import useAuthQuery from "../hooks/useAuthQuery"
-import { Course } from "../lib/types"
+import { Course, CourseQuery } from "../lib/types"
 
 const getCourse = async (course: string) => {
   const res = await axios.get(`/api/courses/${course}`)
   return res.data
 }
 
-type QueryProps = {
-  courseName: string
-  moduleId: string
-  lessonId: string
-}
-
 const Page = () => {
   const router = useRouter()
-  const { courseName, moduleId, lessonId } = router.query as QueryProps
+  const { courseName, moduleId, lessonId } = router.query as CourseQuery
   const { data, escape, component } = useAuthQuery(courseName, () =>
     getCourse(courseName)
   )
