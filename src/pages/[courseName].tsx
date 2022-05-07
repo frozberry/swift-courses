@@ -1,7 +1,5 @@
-import { ViewModuleSharp } from "@mui/icons-material"
-import { Typography, Container, Button, Box } from "@mui/material"
+import { Box, Button, Container, Typography } from "@mui/material"
 import axios from "axios"
-import Link from "next/link"
 import { useRouter } from "next/router"
 import Anchor from "../components/Anchor"
 import Header from "../components/header/Header"
