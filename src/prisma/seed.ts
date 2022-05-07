@@ -1,4 +1,6 @@
 import { prisma } from "./client"
+import fs from "fs"
+import users from "../pages/api/users"
 
 const deleteAll = async () => {
   await prisma.user.deleteMany()
@@ -34,7 +36,31 @@ const main = async () => {
   console.log("Seeding database")
 
   await deleteAll()
-  await createUsers()
+  // await createUsers()
+
+  const json = fs.readFileSync("../../temp/users/old.json", "utf8")
+  const old = JSON.parse(json)
+
+  console.log(old[0])
+  console.log(old.length)
+
+  const n = old.map((item: any) => ({
+    name: item.name,
+    email: item.email,
+    passwordHash: item.passwordHash,
+    ff: item.footworkFastlane,
+    pp: item.powerPathway,
+    kotc: item.kotc,
+    admin: true,
+  }))
+
+  await prisma.user.createMany({ data: n })
+  await prisma.user.update({
+    where: { email: "pannicope@gmail.com" },
+    data: {
+      admin: true,
+    },
+  })
 }
 
 main().catch((e) => {
