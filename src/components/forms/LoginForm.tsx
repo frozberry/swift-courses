@@ -65,7 +65,7 @@ const LoginForm = ({ setLoading }: Props) => {
       {(formikProps: FormikProps<FormValues>) => (
         <Form noValidate>
           <Box>
-            <Typography variant="subtitle2">Parent's Email</Typography>
+            <Typography variant="subtitle2">Email</Typography>
             <Field
               name="email"
               placeholder="Email"

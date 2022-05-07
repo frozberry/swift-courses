@@ -20,15 +20,10 @@ export default function App() {
           <Typography variant="h2">Log in</Typography>
         </Box>
 
-        <Divider sx={{ color: "text.secondary", mb: 2 }}>
-          or continue with email
-        </Divider>
         <LoginForm setLoading={setLoading} />
 
         <Typography variant="body1" sx={{ textAlign: "center", mt: 2 }}>
           <Link href="/forgot-password">Forgot password?</Link>
-          {" · "}
-          <Link href="/signup">Sign up for an account</Link>
         </Typography>
       </Container>
     </>
