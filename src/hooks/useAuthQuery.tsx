@@ -15,11 +15,7 @@ type Payload = {
   component: JSX.Element | null
 }
 
-const useAuthQuery = (
-  key: string,
-  queryFn: QueryFunction,
-  allowInactive = false
-) => {
+const useAuthQuery = (key: string, queryFn: QueryFunction) => {
   const query = useQuery(key, queryFn)
   const { session } = useSession()
 

@@ -44,10 +44,6 @@ export const isUserOAuth = async () => {
 }
 
 export const getUserSelf = async () => {
-  try {
-    const res = await axios.get<User>("/api/users/self")
-    return res.data
-  } catch (e) {
-    notifyError(e)
-  }
+  const res = await axios.get<User>("/api/users/self")
+  return res.data
 }
