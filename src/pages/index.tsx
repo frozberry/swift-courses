@@ -3,33 +3,8 @@ import Image from "next/image"
 import Link from "next/link"
 import { useRouter } from "next/router"
 import { useEffect } from "react"
+import LinkButton from "../components/LinkButton"
 import { useSession } from "../hooks/useSession"
-
-const courses = [
-  {
-    name: "Footwork Fastlane",
-    description:
-      "The A-Z footwork course to get you moving to all 6 corners of the court with blinding speed and accuracy.",
-    img: "/ff.png",
-    lockedImg: "/ff-locked.png",
-    link: "/ff",
-  },
-  {
-    name: "Power Pathway",
-    description: "Learn to super-charge your smash and dominate your opponent.",
-    img: "/pp.png",
-    lockedImg: "/pp-locked.png",
-    link: "/ff",
-  },
-  {
-    name: "King of the Court",
-    description:
-      "Learn to dictate the pace of rallies by injecting pace and using decisive acceleration.",
-    img: "/kotc.png",
-    lockedImg: "/kotc-locked.png",
-    link: "/kotc",
-  },
-]
 
 const LandingPage = () => {
   const router = useRouter()
@@ -41,6 +16,42 @@ const LandingPage = () => {
     }
   }, [session, router])
 
+  const user = {
+    ff: true,
+    pp: false,
+    kotc: false,
+  }
+
+  const courses = [
+    {
+      name: "Footwork Fastlane",
+      description:
+        "The A-Z footwork course to get you moving to all 6 corners of the court with blinding speed and accuracy.",
+      img: "/ff.png",
+      lockedImg: "/ff-locked.png",
+      link: "/ff",
+      owned: user.ff,
+    },
+    {
+      name: "Power Pathway",
+      description:
+        "Learn to super-charge your smash and dominate your opponent.",
+      img: "/pp.png",
+      lockedImg: "/pp-locked.png",
+      link: "/ff",
+      owned: user.pp,
+    },
+    {
+      name: "King of the Court",
+      description:
+        "Learn to dictate the pace of rallies by injecting pace and using decisive acceleration.",
+      img: "/kotc.png",
+      lockedImg: "/kotc-locked.png",
+      link: "/kotc",
+      owner: user.kotc,
+    },
+  ]
+
   return (
     <Container maxWidth="md">
       <Grid container spacing={3}>
@@ -49,7 +60,7 @@ const LandingPage = () => {
             <Box sx={{ maxWidth: "100%" }}>
               <Box sx={{ width: 400, height: 200 }}>
                 <img
-                  src={course.img}
+                  src={course.owned ? course.img : course.lockedImg}
                   alt={course.name}
                   style={{ maxWidth: "100%" }}
                 />
@@ -58,11 +69,11 @@ const LandingPage = () => {
             <Box>
               <Typography>{course.name}</Typography>
               <Typography>{course.description}</Typography>
-              <Link href="/ff" passHref>
-                <Button color="primary" variant="contained">
-                  View Course
-                </Button>
-              </Link>
+              {course.owned ? (
+                <LinkButton href={course.link} text="View course" />
+              ) : (
+                <LinkButton href={course.link} text="Unlock course" />
+              )}
             </Box>
           </Box>
         ))}
