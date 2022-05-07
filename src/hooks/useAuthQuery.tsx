@@ -32,11 +32,11 @@ const useAuthQuery = (
     component: null,
   }
 
-  // if (session === null) {
-  //   payload.escape = true
-  //   payload.component = <NoUser />
-  //   return payload
-  // }
+  if (session === null) {
+    payload.escape = true
+    payload.component = <NoUser />
+    return payload
+  }
 
   if (isLoading) {
     payload.escape = true

@@ -1,25 +1,17 @@
+import { User } from ".prisma/client"
 import { Box, Container, Grid, Typography } from "@mui/material"
 import Link from "next/link"
 import { useRouter } from "next/router"
 import LinkButton from "../components/LinkButton"
+import useAuthQuery from "../hooks/useAuthQuery"
 import { useSession } from "../hooks/useSession"
+import { getUserSelf } from "../services/client/accountClient"
 
 const LandingPage = () => {
-  const router = useRouter()
-  const { session } = useSession()
+  const { data, escape, component } = useAuthQuery("self", getUserSelf)
+  if (escape) return component
 
-  // useEffect(() => {
-  //   if (session) {
-  //     router.push("/home")
-  //   }
-  // }, [session, router])
-
-  const user = {
-    ff: true,
-    pp: false,
-    kotc: false,
-  }
-
+  const user = data as User
   const courses = [
     {
       name: "Footwork Fastlane",

@@ -1,3 +1,4 @@
+import { User } from "@prisma/client"
 import axios from "axios"
 import toast from "react-hot-toast"
 import notifyError from "../../lib/notifyError"
@@ -42,18 +43,9 @@ export const isUserOAuth = async () => {
   }
 }
 
-export const getAccountPageData = async () => {
+export const getUserSelf = async () => {
   try {
-    const res = await axios.get<AccountPageData>("/api/users/account")
-    return res.data
-  } catch (e) {
-    notifyError(e)
-  }
-}
-
-export const checkUserActive = async () => {
-  try {
-    const res = await axios.get<{ active: boolean }>("/api/users/active")
+    const res = await axios.get<User>("/api/users/self")
     return res.data
   } catch (e) {
     notifyError(e)
