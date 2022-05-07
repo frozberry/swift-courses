@@ -1,8 +1,6 @@
-import { Box, Button, Container, Grid, Typography } from "@mui/material"
-import Image from "next/image"
+import { Box, Container, Grid, Typography } from "@mui/material"
 import Link from "next/link"
 import { useRouter } from "next/router"
-import { useEffect } from "react"
 import LinkButton from "../components/LinkButton"
 import { useSession } from "../hooks/useSession"
 
