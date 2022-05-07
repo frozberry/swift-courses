@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <AppBar position="static" style={{ backgroundColor: "white" }}>
       <Toolbar>
-        <Link href={session ? "/home" : "/"} passHref>
+        <Link href="/" passHref>
           <Box
             sx={{
               display: "inline",
