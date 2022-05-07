@@ -10,12 +10,6 @@ const NoUser = () => {
   return null
 }
 
-const NoSub = () => {
-  const router = useRouter()
-  router.push("/select-plan")
-  return null
-}
-
 type Payload = {
   data: any
   escape: boolean
@@ -46,22 +40,15 @@ const useAuthQuery = (
     component: null,
   }
 
-  if (session === null) {
-    payload.escape = true
-    payload.component = <NoUser />
-    return payload
-  }
+  // if (session === null) {
+  //   payload.escape = true
+  //   payload.component = <NoUser />
+  //   return payload
+  // }
 
   if (isLoading) {
     payload.escape = true
     payload.component = <Loading />
-    return payload
-  }
-
-  // If user subscription is invalid on a page that requires a valid sub
-  if (!activeQuery?.data?.active && !allowInactive) {
-    payload.escape = true
-    payload.component = <NoSub />
     return payload
   }
 
