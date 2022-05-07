@@ -4,6 +4,7 @@ import axios from "axios"
 import Link from "next/link"
 import { useRouter } from "next/router"
 import Anchor from "../components/Anchor"
+import Header from "../components/header/Header"
 import LinkButton from "../components/LinkButton"
 import VideoPlayer from "../components/VideoPlayer"
 import useAuthQuery from "../hooks/useAuthQuery"
@@ -75,39 +76,42 @@ const Page = () => {
   }
 
   return (
-    <Container sx={{ mt: 4 }}>
-      <VideoPlayer url={lesson.url} />
+    <>
+      <Header />
+      <Container sx={{ mt: 4 }}>
+        <VideoPlayer url={lesson.url} />
 
-      <Container maxWidth="lg">
-        <Typography variant="h4" sx={{ mt: 3 }}>
-          {lesson.name}
-        </Typography>
-        <Typography variant="h5" sx={{ mt: 1 }}>
-          {module.name}
-        </Typography>
-        <Typography sx={{ mt: 1, mb: 2 }}>{lesson.description}</Typography>
+        <Container maxWidth="lg">
+          <Typography variant="h4" sx={{ mt: 3 }}>
+            {lesson.name}
+          </Typography>
+          <Typography variant="h5" sx={{ mt: 1 }}>
+            {module.name}
+          </Typography>
+          <Typography sx={{ mt: 1, mb: 2 }}>{lesson.description}</Typography>
 
-        {lesson.pdfUrl && (
-          <Anchor href={lesson.pdfUrl}>
-            <Button>PDF Worksheet</Button>
-          </Anchor>
-        )}
-        {lesson.checklistUrl && (
-          <Anchor href={lesson.checklistUrl}>
-            <Button>Swift Checklist</Button>
-          </Anchor>
-        )}
+          {lesson.pdfUrl && (
+            <Anchor href={lesson.pdfUrl}>
+              <Button>PDF Worksheet</Button>
+            </Anchor>
+          )}
+          {lesson.checklistUrl && (
+            <Anchor href={lesson.checklistUrl}>
+              <Button>Swift Checklist</Button>
+            </Anchor>
+          )}
 
-        {!isFinal && (
-          <Box sx={{ mt: 4 }}>
-            <LinkButton
-              text="Next Lesson"
-              href={`/${courseName}?moduleId=${nextModule}&lessonId=${nextLesson}`}
-            />
-          </Box>
-        )}
+          {!isFinal && (
+            <Box sx={{ mt: 4 }}>
+              <LinkButton
+                text="Next Lesson"
+                href={`/${courseName}?moduleId=${nextModule}&lessonId=${nextLesson}`}
+              />
+            </Box>
+          )}
+        </Container>
       </Container>
-    </Container>
+    </>
   )
 }
 

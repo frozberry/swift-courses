@@ -1,14 +1,18 @@
 import { Container, Typography } from "@mui/material"
 import ContactForm from "../components/forms/ContactForm"
+import Header from "../components/header/Header"
 
 export default function App() {
   return (
-    <Container maxWidth="sm">
-      <Typography variant="h2" sx={{ my: 4 }}>
-        Please contact us to reset your password
-      </Typography>
-      <ContactForm />
-    </Container>
+    <>
+      <Header />
+      <Container maxWidth="sm">
+        <Typography variant="h2" sx={{ my: 4 }}>
+          Please contact us to reset your password
+        </Typography>
+        <ContactForm />
+      </Container>
+    </>
   )
 }
 // import { Box, Button, Container, Typography } from "@mui/material"
