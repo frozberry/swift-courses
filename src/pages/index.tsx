@@ -38,7 +38,7 @@ const LandingPage = () => {
         "Learn to super-charge your smash and dominate your opponent.",
       img: "/pp.png",
       lockedImg: "/pp-locked.png",
-      link: "/ff",
+      link: "/pp",
       owned: user.pp,
     },
     {
