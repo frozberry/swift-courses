@@ -10,11 +10,11 @@ const LandingPage = () => {
   const router = useRouter()
   const { session } = useSession()
 
-  useEffect(() => {
-    if (session) {
-      router.push("/home")
-    }
-  }, [session, router])
+  // useEffect(() => {
+  //   if (session) {
+  //     router.push("/home")
+  //   }
+  // }, [session, router])
 
   const user = {
     ff: true,
