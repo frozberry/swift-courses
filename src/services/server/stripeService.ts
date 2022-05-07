@@ -76,8 +76,8 @@ export const paymentSucceeded = async (invoice: Stripe.Invoice) => {
         where: { email },
         data: {
           stripeId,
-          subEnds,
-          firstSubscribed,
+          // subEnds,
+          // firstSubscribed,
         },
       })
       break
