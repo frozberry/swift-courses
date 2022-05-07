@@ -75,31 +75,38 @@ const Page = () => {
   }
 
   return (
-    <Container>
+    <Container sx={{ mt: 4 }}>
       <VideoPlayer url={lesson.url} />
-      <Typography variant="h3">{lesson.name}</Typography>
-      <Typography variant="h4">{module.name}</Typography>
-      <Typography>{lesson.description}</Typography>
 
-      {lesson.pdfUrl && (
-        <Anchor href={lesson.pdfUrl}>
-          <Button>PDF Worksheet</Button>
-        </Anchor>
-      )}
-      {lesson.checklistUrl && (
-        <Anchor href={lesson.checklistUrl}>
-          <Button>Swift Checklist</Button>
-        </Anchor>
-      )}
+      <Container maxWidth="lg">
+        <Typography variant="h4" sx={{ mt: 3 }}>
+          {lesson.name}
+        </Typography>
+        <Typography variant="h5" sx={{ mt: 1 }}>
+          {module.name}
+        </Typography>
+        <Typography sx={{ mt: 1, mb: 2 }}>{lesson.description}</Typography>
 
-      {!isFinal && (
-        <Box>
-          <LinkButton
-            text="Next Lesson"
-            href={`/${courseName}?moduleId=${nextModule}&lessonId=${nextLesson}`}
-          />
-        </Box>
-      )}
+        {lesson.pdfUrl && (
+          <Anchor href={lesson.pdfUrl}>
+            <Button>PDF Worksheet</Button>
+          </Anchor>
+        )}
+        {lesson.checklistUrl && (
+          <Anchor href={lesson.checklistUrl}>
+            <Button>Swift Checklist</Button>
+          </Anchor>
+        )}
+
+        {!isFinal && (
+          <Box sx={{ mt: 4 }}>
+            <LinkButton
+              text="Next Lesson"
+              href={`/${courseName}?moduleId=${nextModule}&lessonId=${nextLesson}`}
+            />
+          </Box>
+        )}
+      </Container>
     </Container>
   )
 }

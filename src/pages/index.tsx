@@ -53,7 +53,7 @@ const LandingPage = () => {
   ]
 
   return (
-    <Container maxWidth="md">
+    <Container maxWidth="md" sx={{ mt: 4 }}>
       <Grid container spacing={3}>
         {courses.map((course) => (
           <Box key={course.name} sx={{ display: "flex", my: 4 }}>
