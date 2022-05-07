@@ -59,11 +59,13 @@ const LandingPage = () => {
           <Box key={course.name} sx={{ display: "flex", my: 4 }}>
             <Box sx={{ maxWidth: "100%" }}>
               <Box sx={{ width: 400, height: 200 }}>
-                <img
-                  src={course.owned ? course.img : course.lockedImg}
-                  alt={course.name}
-                  style={{ maxWidth: "100%" }}
-                />
+                <Link href={course.link} passHref>
+                  <img
+                    src={course.owned ? course.img : course.lockedImg}
+                    alt={course.name}
+                    style={{ maxWidth: "100%", cursor: "pointer" }}
+                  />
+                </Link>
               </Box>
             </Box>
             <Box>
