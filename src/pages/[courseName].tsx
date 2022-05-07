@@ -6,6 +6,7 @@ import Header from "../components/header/Header"
 import LinkButton from "../components/LinkButton"
 import VideoPlayer from "../components/VideoPlayer"
 import useAuthQuery from "../hooks/useAuthQuery"
+import { Course } from "../lib/types"
 
 const getCourse = async (course: string) => {
   const res = await axios.get(`/api/courses/${course}`)
@@ -16,28 +17,6 @@ type QueryProps = {
   courseName: string
   moduleId: string
   lessonId: string
-}
-
-type Course = {
-  name: string
-  id: number
-  code: string
-  modules: Module[]
-}
-
-type Module = {
-  name: string
-  id: number
-  lessons: Lesson[]
-}
-
-type Lesson = {
-  name: string
-  url: string
-  description: string
-  id: number
-  pdfUrl?: string
-  checklistUrl?: string
 }
 
 const Page = () => {
