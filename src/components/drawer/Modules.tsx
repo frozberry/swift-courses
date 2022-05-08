@@ -1,20 +1,17 @@
-import { PlayLesson } from "@mui/icons-material"
 import ExpandLessIcon from "@mui/icons-material/ExpandLess"
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 import { Box, Collapse, List, ListItem } from "@mui/material"
-import Divider from "@mui/material/Divider"
 import ListItemIcon from "@mui/material/ListItemIcon"
 import ListItemText from "@mui/material/ListItemText"
-import Toolbar from "@mui/material/Toolbar"
 import Link from "next/link"
 import { useState } from "react"
-import { Course } from "../lib/types"
+import { Course } from "../../lib/types"
 
 type Props = {
   course: Course
 }
 
-const MultipleModules = ({ course }: Props) => {
+export const MultipleModules = ({ course }: Props) => {
   const [open, setOpen] = useState(course.modules.map(() => false))
 
   const handleClick = (id: number) => {
@@ -62,7 +59,7 @@ const MultipleModules = ({ course }: Props) => {
   )
 }
 
-const SingleModule = ({ course }: { course: Course }) => {
+export const SingleModule = ({ course }: Props) => {
   return (
     <>
       {course.modules[0].lessons.map((lesson) => (
@@ -75,21 +72,3 @@ const SingleModule = ({ course }: { course: Course }) => {
     </>
   )
 }
-
-const Navigation = ({ course }: Props) => {
-  return (
-    <Box>
-      <Toolbar />
-      <Divider />
-      <List>
-        {course.code === "kotc" ? (
-          <SingleModule course={course} />
-        ) : (
-          <MultipleModules course={course} />
-        )}
-      </List>
-    </Box>
-  )
-}
-
-export default Navigation

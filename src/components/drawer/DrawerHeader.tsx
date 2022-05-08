@@ -11,8 +11,8 @@ import ListItemText from "@mui/material/ListItemText"
 import Toolbar from "@mui/material/Toolbar"
 import Link from "next/link"
 import { useState } from "react"
-import Header from "../components/header/Header"
-import { Course } from "../lib/types"
+import Header from "../header/Header"
+import { Course } from "../../lib/types"
 import Navigation from "./Navigation"
 
 const drawerWidth = 240
