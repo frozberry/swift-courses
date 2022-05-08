@@ -75,7 +75,7 @@ const Page = () => {
           {!isFinal && (
             <Box sx={{ mt: 4 }}>
               <LinkButton
-                text="Next Lesson"
+                text="Next lesson"
                 href={`/${courseName}?moduleId=${nextModule}&lessonId=${nextLesson}`}
               />
             </Box>
