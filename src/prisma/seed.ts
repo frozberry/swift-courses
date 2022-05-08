@@ -1,6 +1,5 @@
-import { prisma } from "./client"
 import fs from "fs"
-import users from "../pages/api/users"
+import { prisma } from "./client"
 
 const deleteAll = async () => {
   await prisma.user.deleteMany()
