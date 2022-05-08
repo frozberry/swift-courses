@@ -4,7 +4,14 @@ import LoggedIn from "./LoggedIn"
 
 const Header = () => {
   return (
-    <AppBar position="static" style={{ backgroundColor: "white" }}>
+    <AppBar
+      position="fixed"
+      sx={{
+        backgroundColor: "white",
+        // Display above drawer
+        zIndex: (theme: any) => theme.zIndex.drawer + 1,
+      }}
+    >
       <Toolbar>
         <Link href="/" passHref>
           <Box sx={{ cursor: "pointer" }}>
