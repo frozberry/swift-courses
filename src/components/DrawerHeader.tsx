@@ -1,5 +1,6 @@
-import MailIcon from "@mui/icons-material/Mail"
-import InboxIcon from "@mui/icons-material/MoveToInbox"
+import ExpandLessIcon from "@mui/icons-material/ExpandLess"
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
+import { Collapse } from "@mui/material"
 import Box from "@mui/material/Box"
 import Divider from "@mui/material/Divider"
 import Drawer from "@mui/material/Drawer"
@@ -8,21 +9,30 @@ import ListItem from "@mui/material/ListItem"
 import ListItemIcon from "@mui/material/ListItemIcon"
 import ListItemText from "@mui/material/ListItemText"
 import Toolbar from "@mui/material/Toolbar"
-import Typography from "@mui/material/Typography"
+import Link from "next/link"
 import { useState } from "react"
 import Header from "../components/header/Header"
+import { Course } from "../lib/types"
 
 const drawerWidth = 240
 
 type Props = {
   children: React.ReactNode
+  course: Course
 }
 
-export default function ResponsiveDrawer({ children }: Props) {
+export default function ResponsiveDrawer({ children, course }: Props) {
   const [mobileOpen, setMobileOpen] = useState(false)
+  const [open, setOpen] = useState(course.modules.map(() => false))
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen)
+  }
+
+  const handleClick = (id: number) => {
+    const newState = [...open]
+    newState[id] = !newState[id]
+    setOpen(newState)
   }
 
   const drawer = (
@@ -30,24 +40,38 @@ export default function ResponsiveDrawer({ children }: Props) {
       <Toolbar />
       <Divider />
       <List>
-        {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon>
-              {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-            </ListItemIcon>
-            <ListItemText primary={text} />
-          </ListItem>
-        ))}
-      </List>
-      <Divider />
-      <List>
-        {["All mail", "Trash", "Spam"].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon>
-              {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-            </ListItemIcon>
-            <ListItemText primary={text} />
-          </ListItem>
+        {course.modules.map((module) => (
+          <Box key={module.name}>
+            <ListItem
+              button
+              key={module.name}
+              onClick={() => handleClick(module.id)}
+            >
+              <ListItemText primary={module.name} />
+              <ListItemIcon>
+                {open[module.id] ? <ExpandLessIcon /> : <ExpandMoreIcon />}
+              </ListItemIcon>
+            </ListItem>
+
+            {module.lessons.map((lesson) => {
+              return (
+                <Box key={lesson.id}>
+                  <Collapse in={open[module.id]} timeout="auto" unmountOnExit>
+                    <Link
+                      href={`/${course.code}?moduleId=${module.id}&lessonId=${lesson.id}`}
+                      passHref
+                    >
+                      <List component="div" disablePadding>
+                        <ListItem button>
+                          <ListItemText inset primary={lesson.name} />
+                        </ListItem>
+                      </List>
+                    </Link>
+                  </Collapse>
+                </Box>
+              )
+            })}
+          </Box>
         ))}
       </List>
     </div>

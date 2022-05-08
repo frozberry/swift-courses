@@ -1,7 +1,7 @@
 const footworkFastlane = {
   name: "Footwork Fastlane",
   id: 0,
-  code: "footworkfastlane", // to compare against url param
+  code: "ff",
   modules: [
     {
       name: "Module 1",

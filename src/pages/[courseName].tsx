@@ -48,7 +48,7 @@ const Page = () => {
   }
 
   return (
-    <DrawerHeader>
+    <DrawerHeader course={course}>
       <Container sx={{ mt: 4 }}>
         <VideoPlayer url={lesson.url} />
 

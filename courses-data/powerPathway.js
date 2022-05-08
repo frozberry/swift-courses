@@ -1,7 +1,7 @@
 const powerPathway = {
   name: "Power Pathway",
   id: 1,
-  code: "powerpathway",
+  code: "pp",
   modules: [
     {
       name: "Module 1",
