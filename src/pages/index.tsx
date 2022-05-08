@@ -6,12 +6,21 @@ import LinkButton from "../components/LinkButton"
 import useAuthQuery from "../hooks/useAuthQuery"
 import { getUserSelf } from "../services/client/accountClient"
 
+type Course = {
+  name: string
+  description: string
+  img: string
+  lockedImg: string
+  link: string
+  owned: boolean
+}
+
 const LandingPage = () => {
   const { data, escape, component } = useAuthQuery("self", getUserSelf)
   if (escape) return component
 
   const user = data as User
-  const courses = [
+  const courses: Course[] = [
     {
       name: "Footwork Fastlane",
       description:
@@ -37,7 +46,7 @@ const LandingPage = () => {
       img: "/kotc.png",
       lockedImg: "/kotc-locked.png",
       link: "/kotc",
-      owner: user.kotc,
+      owned: user.kotc,
     },
   ]
 
