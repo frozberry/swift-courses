@@ -1,5 +1,5 @@
 import { User } from ".prisma/client"
-import { Box, Container, Grid, Typography } from "@mui/material"
+import { Box, Container, Grid, Toolbar, Typography } from "@mui/material"
 import Link from "next/link"
 import Header from "../components/header/Header"
 import LinkButton from "../components/LinkButton"
@@ -44,6 +44,7 @@ const LandingPage = () => {
   return (
     <>
       <Header />
+      <Toolbar />
       <Container maxWidth="md" sx={{ mt: 4 }}>
         <Grid container spacing={3}>
           {courses.map((course) => (

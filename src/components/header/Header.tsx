@@ -3,7 +3,12 @@ import { AppBar, Box, IconButton, Toolbar, Typography } from "@mui/material"
 import Link from "next/link"
 import LoggedIn from "./LoggedIn"
 
-const Header = ({ handleDrawerToggle }) => {
+type Props = {
+  handleDrawerToggle?: () => void
+  menu?: boolean
+}
+
+const Header = ({ handleDrawerToggle, menu = false }: Props) => {
   return (
     <AppBar
       position="fixed"
@@ -14,15 +19,17 @@ const Header = ({ handleDrawerToggle }) => {
       }}
     >
       <Toolbar>
-        <IconButton
-          color="primary"
-          aria-label="open drawer"
-          edge="start"
-          onClick={handleDrawerToggle}
-          sx={{ color: "black", mr: 2, display: { sm: "none" } }}
-        >
-          <MenuIcon />
-        </IconButton>
+        {menu && (
+          <IconButton
+            color="primary"
+            aria-label="open drawer"
+            edge="start"
+            onClick={handleDrawerToggle}
+            sx={{ color: "black", mr: 2, display: { sm: "none" } }}
+          >
+            <MenuIcon />
+          </IconButton>
+        )}
         <Link href="/" passHref>
           <Box sx={{ cursor: "pointer" }}>
             <Typography

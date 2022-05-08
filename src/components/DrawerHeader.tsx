@@ -55,7 +55,7 @@ export default function ResponsiveDrawer({ children }: Props) {
 
   return (
     <Box sx={{ display: "flex" }}>
-      <Header handleDrawerToggle={handleDrawerToggle} />
+      <Header handleDrawerToggle={handleDrawerToggle} menu={true} />
       <Box
         component="nav"
         sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}

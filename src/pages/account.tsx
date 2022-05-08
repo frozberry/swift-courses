@@ -1,4 +1,4 @@
-import { Box, Container, Typography } from "@mui/material"
+import { Box, Container, Toolbar, Typography } from "@mui/material"
 import { useRouter } from "next/router"
 import { Fragment } from "react"
 import ChangePasswordForm from "../components/forms/ChangePasswordForm"
@@ -17,6 +17,7 @@ export default function App() {
   return (
     <>
       <Header />
+      <Toolbar />
       <Container maxWidth="xs">
         <Box sx={{ my: 4 }}>
           <Typography variant="h2">Change password</Typography>
