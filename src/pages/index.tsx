@@ -57,9 +57,9 @@ const LandingPage = () => {
       <Container maxWidth="md" sx={{ mt: 4 }}>
         <Grid container spacing={3}>
           {courses.map((course) => (
-            <Box key={course.name} sx={{ display: "flex", my: 4 }}>
+            <Box key={course.name} sx={{ display: "flex", my: 2 }}>
               <Box sx={{ maxWidth: "100%" }}>
-                <Box sx={{ width: 400, height: 200 }}>
+                <Box sx={{ width: 400 }}>
                   <Link href={course.link} passHref>
                     <img
                       src={course.owned ? course.img : course.lockedImg}
@@ -69,14 +69,23 @@ const LandingPage = () => {
                   </Link>
                 </Box>
               </Box>
-              <Box>
-                <Typography>{course.name}</Typography>
+              <Box
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "space-around",
+                  px: 4,
+                }}
+              >
+                <Typography variant="h5">{course.name}</Typography>
                 <Typography>{course.description}</Typography>
-                {course.owned ? (
-                  <LinkButton href={course.link} text="View course" />
-                ) : (
-                  <LinkButton href={course.link} text="Unlock course" />
-                )}
+                <Box>
+                  {course.owned ? (
+                    <LinkButton href={course.link} text="View course" />
+                  ) : (
+                    <LinkButton href={course.link} text="Unlock course" />
+                  )}
+                </Box>
               </Box>
             </Box>
           ))}
