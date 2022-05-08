@@ -2,6 +2,7 @@ import { Box, Button, Container, Typography } from "@mui/material"
 import axios from "axios"
 import { useRouter } from "next/router"
 import Anchor from "../components/Anchor"
+import DrawerHeader from "../components/DrawerHeader"
 import Header from "../components/header/Header"
 import LinkButton from "../components/LinkButton"
 import VideoPlayer from "../components/VideoPlayer"
@@ -47,8 +48,7 @@ const Page = () => {
   }
 
   return (
-    <>
-      <Header />
+    <DrawerHeader>
       <Container sx={{ mt: 4 }}>
         <VideoPlayer url={lesson.url} />
 
@@ -82,7 +82,7 @@ const Page = () => {
           )}
         </Container>
       </Container>
-    </>
+    </DrawerHeader>
   )
 }
 
