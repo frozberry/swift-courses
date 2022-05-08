@@ -9,7 +9,12 @@ type Props = {
 const LinkButton = ({ href, text }: Props) => {
   return (
     <Link href={href} passHref>
-      <Button color="primary" variant="contained">
+      <Button
+        color="primary"
+        variant="contained"
+        sx={{ textTransform: "none" }}
+        size="large"
+      >
         {text}
       </Button>
     </Link>
