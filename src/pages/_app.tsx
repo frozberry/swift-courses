@@ -27,8 +27,6 @@ export default function MyApp(props: MyAppProps) {
     pageProps: { ...pageProps },
   } = props
 
-  console.log(process.env.NEXT_PUBLIC_VERCEL_URL)
-
   return (
     <CacheProvider value={emotionCache}>
       <Head>

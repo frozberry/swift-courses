@@ -63,7 +63,7 @@ const Mobile = ({ handleLogout }: Props) => {
 
 const LoggedIn = () => {
   const handleLogout = () => {
-    signOut({ callbackUrl: `${process.env.NEXT_PUBLIC_URL}/login` })
+    signOut({ callbackUrl: `${process.env.NEXT_PUBLIC_VERCEL_URL}/login` })
   }
   return (
     <Box>

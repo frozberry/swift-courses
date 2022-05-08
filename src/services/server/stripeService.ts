@@ -17,8 +17,8 @@ export const createCheckoutSession = async (item: string, email: string) => {
     price = process.env.STRIPE_PRICE_YEAR
   }
 
-  const successUrl = `${process.env.FRONTEND}/home`
-  const cancelUrl = `${process.env.FRONTEND}/select-plan`
+  const successUrl = `${process.env.NEXT_PUBLIC_VERCEL_URL}/home`
+  const cancelUrl = `${process.env.NEXT_PUBLIC_VERCEL_URL}/select-plan`
 
   const sessionData: Stripe.Checkout.SessionCreateParams = {
     payment_method_types: ["card"],
