@@ -1,8 +1,9 @@
-import { AppBar, Box, Toolbar, Typography } from "@mui/material"
+import MenuIcon from "@mui/icons-material/Menu"
+import { AppBar, Box, IconButton, Toolbar, Typography } from "@mui/material"
 import Link from "next/link"
 import LoggedIn from "./LoggedIn"
 
-const Header = () => {
+const Header = ({ handleDrawerToggle }) => {
   return (
     <AppBar
       position="fixed"
@@ -13,6 +14,15 @@ const Header = () => {
       }}
     >
       <Toolbar>
+        <IconButton
+          color="primary"
+          aria-label="open drawer"
+          edge="start"
+          onClick={handleDrawerToggle}
+          sx={{ color: "black", mr: 2, display: { sm: "none" } }}
+        >
+          <MenuIcon />
+        </IconButton>
         <Link href="/" passHref>
           <Box sx={{ cursor: "pointer" }}>
             <Typography
