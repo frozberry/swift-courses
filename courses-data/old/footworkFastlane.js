@@ -1,3 +1,5 @@
+// Switched to storing in JSON
+// Also switched to 1 indexing IDs for easier navigation
 const footworkFastlane = {
   name: "Footwork Fastlane",
   id: 0,

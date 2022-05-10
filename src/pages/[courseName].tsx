@@ -24,26 +24,25 @@ const Page = () => {
     return null
   if (escape) return component
   if (!moduleId || !lessonId) {
-    router.replace(`/${courseName}?moduleId=0&lessonId=0`)
+    router.replace(`/${courseName}?moduleId=1&lessonId=1`)
     return null
   }
 
-  const module = course.modules[Number(moduleId)]
-  const lesson = module.lessons[Number(lessonId)]
+  const module = course.modules[Number(moduleId) - 1]
+  const lesson = module.lessons[Number(lessonId) - 1]
 
   let nextModule
   let nextLesson
 
   const isFinal =
-    module.id === course.modules.length - 1 &&
-    lesson.id === module.lessons.length - 1
+    module.id === course.modules.length && lesson.id === module.lessons.length
 
-  if (lesson.id !== module.lessons.length - 1) {
+  if (lesson.id !== module.lessons.length) {
     nextLesson = lesson.id + 1
     nextModule = module.id
   } else {
     nextModule = module.id + 1
-    nextLesson = 0
+    nextLesson = 1
   }
 
   return (
