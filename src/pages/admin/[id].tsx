@@ -27,29 +27,29 @@ const Page = () => {
         variant="contained"
         color={user.ff ? "warning" : "primary"}
       >
-        {user.ff ? "Remove  access" : "Add access"}
+        {user.ff ? "Remove access" : "Add access"}
       </Button>
       <Typography>Power Pathway: {user.pp ? "✔️" : "❌ "}</Typography>
       <Button
         sx={{ textTransform: "none", mb: 3 }}
         variant="contained"
-        color={user.ff ? "warning" : "primary"}
+        color={user.pp ? "warning" : "primary"}
       >
-        {user.ff ? "Remove access" : "Add access"}
+        {user.pp ? "Remove access" : "Add access"}
       </Button>
       <Typography>King of the Court: {user.kotc ? "✔️" : "❌ "}</Typography>
       <Button
         sx={{ textTransform: "none", mb: 3 }}
         variant="contained"
-        color={user.ff ? "warning" : "primary"}
+        color={user.kotc ? "warning" : "primary"}
       >
-        {user.ff ? "Remove access" : "Add access"}
+        {user.kotc ? "Remove access" : "Add access"}
       </Button>
       <Typography>Admin: {user.admin ? "✔️" : "❌ "}</Typography>
       <Button
         sx={{ textTransform: "none", mb: 3 }}
         variant="contained"
-        color={user.ff ? "warning" : "primary"}
+        color={user.admin ? "warning" : "primary"}
       >
         {user.ff ? "Remove access" : "Add access"}
       </Button>

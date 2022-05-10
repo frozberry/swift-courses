@@ -17,6 +17,26 @@ export const findUserByEmail = async (email: string): Promise<User | null> => {
   const user = await prisma.user.findUnique({ where: { email } })
   return user
 }
+export const toggleUserField = async (
+  userId: string,
+  field: string
+): Promise<User | null> => {
+  if (!["admin", "ff", "pp", "kotc"].includes(field)) {
+    throw new Error("Invalid field")
+  }
+
+  const existingUser = (await findUserById(userId)) as User
+
+  const data = {
+    admin: field === "admin" ? !existingUser.admin : undefined,
+    ff: field === "ff" ? !existingUser.ff : undefined,
+    pp: field === "pp" ? !existingUser.pp : undefined,
+    kotc: field === "kotc" ? !existingUser.kotc : undefined,
+  }
+
+  const user = await prisma.user.update({ where: { id: userId }, data })
+  return user
+}
 
 export const createUser = async (
   parentName: string,

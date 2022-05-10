@@ -5,7 +5,9 @@ import { ServerError } from "../../../lib/types"
 import {
   createUser,
   findUserByEmail,
+  findUserById,
   getUsers,
+  toggleUserField,
 } from "../../../services/server/userService"
 
 type PostBody = {
@@ -41,6 +43,21 @@ const POST = async (
   res.send(user)
 }
 
+type PutProps = {
+  field: string
+  toggleUserId: string
+}
+
+const PUT = async (req: NextApiRequest, res: NextApiResponse<User>) => {
+  const { field, toggleUserId } = req.query as PutProps
+  const { unauthorized, response } = await authAdminSession(req, res)
+  if (unauthorized) return response
+
+  const editedUser = await toggleUserField(toggleUserId, field)
+
+  res.send(editedUser!)
+}
+
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   switch (req.method) {
     case "GET":
@@ -48,6 +65,9 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
       break
     case "POST":
       POST(req, res)
+      break
+    case "PUT":
+      PUT(req, res)
       break
     default:
       res.status(405).end(`Method ${req.method} Not Allowed`)
