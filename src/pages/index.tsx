@@ -5,10 +5,13 @@ import {
   Button,
   Container,
   Grid,
+  LinearProgress,
   Toolbar,
   Typography,
 } from "@mui/material"
 import Link from "next/link"
+import { useState } from "react"
+import toast from "react-hot-toast"
 import getCoursesOverview from "../../courses-data/getOverview"
 import Footer from "../components/Footer"
 import Header from "../components/header/Header"
@@ -19,6 +22,8 @@ import { getUserSelf } from "../services/client/accountClient"
 import { stripeCheckout } from "../services/client/stripeClient"
 
 const LandingPage = () => {
+  const [stripeLoading, setStripeLoading] = useState(false)
+
   const { data, escape, component } = useAuthQuery("self", getUserSelf)
   if (escape) return component
 
@@ -26,14 +31,20 @@ const LandingPage = () => {
   const courses = getCoursesOverview(user)
 
   const handleCheckout = async (courseCode: CourseCode) => {
-    // setStripeLoading(true)
-    await stripeCheckout(courseCode)
+    try {
+      setStripeLoading(true)
+      await stripeCheckout(courseCode)
+    } catch {
+      toast.error("Sorry, an unexpected error occurred")
+    }
   }
 
   return (
     <>
       <Header />
       <Toolbar />
+      {stripeLoading && <LinearProgress />}
+
       <Container maxWidth="md" sx={{ mt: 4 }}>
         {/* <Grid container spacing={3}> */}
         {courses.map((course) => (
