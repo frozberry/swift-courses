@@ -53,6 +53,9 @@ export const createCheckoutSession = async (
     metadata: {},
     success_url: successUrl,
     cancel_url: cancelUrl,
+    payment_intent_data: {
+      setup_future_usage: "on_session",
+    },
   }
 
   if (user.stripeId) {
