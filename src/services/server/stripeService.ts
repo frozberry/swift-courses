@@ -2,7 +2,6 @@ import { User } from "@prisma/client"
 import Stripe from "stripe"
 import { CourseCode } from "../../lib/types"
 import { prisma } from "../../prisma/client"
-import { findUserByEmail } from "./userService"
 
 // eslint-disable-next-line
 export const stripe = new Stripe(process.env.STRIPE_SECRET!, {
@@ -38,8 +37,8 @@ export const createCheckoutSession = async (
     }
   }
 
-  const successUrl = process.env.NEXT_PUBLIC_VERCEL_URL as string
-  const cancelUrl = process.env.NEXT_PUBLIC_VERCEL_URL as string
+  const successUrl = process.env.NEXT_PUBLIC_VERCEL_URL!
+  const cancelUrl = process.env.NEXT_PUBLIC_VERCEL_URL!
 
   const sessionData: Stripe.Checkout.SessionCreateParams = {
     payment_method_types: ["card"],
