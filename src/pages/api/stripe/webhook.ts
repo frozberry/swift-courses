@@ -2,7 +2,10 @@ import { buffer } from "micro"
 import Cors from "micro-cors"
 import { NextApiRequest, NextApiResponse } from "next"
 import Stripe from "stripe"
-import { paymentSucceeded, stripe } from "../../../services/server/stripeService"
+import {
+  paymentSucceeded,
+  stripe,
+} from "../../../services/server/stripeService"
 
 const webhookSecret: string = process.env.ENDPOINT_SECRET as string
 

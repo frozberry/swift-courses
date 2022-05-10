@@ -2,6 +2,7 @@ import { loadStripe } from "@stripe/stripe-js"
 import axios from "axios"
 import toast from "react-hot-toast"
 import { CourseCode } from "../../lib/types"
+import { StripeCheckoutBody } from "../../pages/api/stripe/checkout"
 
 const stripePublic = process.env.NEXT_PUBLIC_STRIPE_PUBLIC as string
 const stripePromise = loadStripe(stripePublic)
@@ -10,9 +11,9 @@ type StripeSession = {
   id: string
 }
 
-export const stripeCheckout = async (item: CourseCode) => {
+export const stripeCheckout = async (course: CourseCode) => {
   const stripe = await stripePromise
-  const checkoutData = { item }
+  const checkoutData: StripeCheckoutBody = { course }
 
   const response = await axios.post<StripeSession>(
     "/api/stripe/checkout",

@@ -1,3 +1,4 @@
+import { User } from "@prisma/client"
 import Stripe from "stripe"
 import { CourseCode } from "../../lib/types"
 import { prisma } from "../../prisma/client"
@@ -9,7 +10,7 @@ export const stripe = new Stripe(process.env.STRIPE_SECRET!, {
 })
 
 export const createCheckoutSession = async (
-  email: string,
+  user: User,
   course: CourseCode,
   isIndia: boolean
 ) => {
@@ -54,14 +55,13 @@ export const createCheckoutSession = async (
     cancel_url: cancelUrl,
   }
 
-  const user = await findUserByEmail(email)
-
-  if (user?.stripeId) {
+  if (user.stripeId) {
     sessionData.customer = user.stripeId
   } else {
-    sessionData.customer_email = email
+    sessionData.customer_email = user.email
   }
 
+  console.log(sessionData)
   const session = await stripe.checkout.sessions.create(sessionData)
   return { id: session.id }
 }
@@ -69,22 +69,30 @@ export const createCheckoutSession = async (
 export const paymentSucceeded = async (
   checkoutSession: Stripe.Checkout.Session
 ) => {
-  const { customer_email } = checkoutSession
+  const { customer } = checkoutSession as { customer: string }
+  const stripeCustomer = (await stripe.customers.retrieve(
+    customer
+  )) as Stripe.Customer
+  const { id, email } = stripeCustomer
+
   const lineItems = await stripe.checkout.sessions.listLineItems(
     checkoutSession.id
   )
 
+  console.log(checkoutSession)
+  console.log(stripeCustomer)
   const courses = lineItems.data.map((item) => item.description)
-  const ff = courses.includes("Footwork Fastlane")
-  const pp = courses.includes("Power Pathway")
-  const kotc = courses.includes("King of the Court")
+  const ff = courses.includes("Footwork Fastlane") || undefined
+  const pp = courses.includes("Power Pathway") || undefined
+  const kotc = courses.includes("King of the Court") || undefined
 
   await prisma.user.update({
-    where: { email: customer_email! },
+    where: { email: email! },
     data: {
       ff,
       pp,
       kotc,
+      stripeId: id,
     },
   })
 }

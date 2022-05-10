@@ -14,7 +14,7 @@ const POST = async (req: NextApiRequest, res: NextApiResponse) => {
   if (unauthorized) return response
 
   const user = await findUserById(userId)
-  const session = await createCheckoutSession(user!.email, course, false)
+  const session = await createCheckoutSession(user!, course, false)
   res.send(session)
 }
 
