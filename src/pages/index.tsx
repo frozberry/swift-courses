@@ -79,13 +79,22 @@ const LandingPage = () => {
             <Box key={course.name} sx={{ display: "flex", my: 2 }}>
               <Box sx={{ maxWidth: "100%" }}>
                 <Box sx={{ width: 400 }}>
-                  <Link href={course.link} passHref>
+                  {course.owned ? (
+                    <Link href={course.link} passHref>
+                      <img
+                        src={course.owned ? course.img : course.lockedImg}
+                        alt={course.name}
+                        style={{ maxWidth: "100%", cursor: "pointer" }}
+                      />
+                    </Link>
+                  ) : (
                     <img
                       src={course.owned ? course.img : course.lockedImg}
                       alt={course.name}
                       style={{ maxWidth: "100%", cursor: "pointer" }}
+                      onClick={() => handleCheckout(course.code)}
                     />
-                  </Link>
+                  )}
                 </Box>
               </Box>
               <Box
@@ -103,7 +112,7 @@ const LandingPage = () => {
                     <LinkButton href={course.link} text="View course" />
                   ) : (
                     <Button
-                      color="primary"
+                      color="warning"
                       variant="contained"
                       sx={{ textTransform: "none" }}
                       size="large"
