@@ -2,10 +2,7 @@ import { buffer } from "micro"
 import Cors from "micro-cors"
 import { NextApiRequest, NextApiResponse } from "next"
 import Stripe from "stripe"
-import {
-  paymentSucceeded,
-  stripe,
-} from "../../../services/server/stripeService"
+import { paymentSucceeded, stripe } from "../../../services/server/stripeService"
 
 const webhookSecret: string = process.env.ENDPOINT_SECRET as string
 
@@ -35,9 +32,9 @@ const webhookHandler = async (req: NextApiRequest, res: NextApiResponse) => {
     event = stripe.webhooks.constructEvent(buf, sig, webhookSecret)
 
     switch (event.type) {
-      case "invoice.payment_succeeded": {
-        const invoice = event.data.object as Stripe.Invoice
-        paymentSucceeded(invoice)
+      case "checkout.session.completed": {
+        const checkoutSession = event.data.object as Stripe.Checkout.Session
+        paymentSucceeded(checkoutSession)
         break
       }
       default:

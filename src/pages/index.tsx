@@ -1,10 +1,19 @@
 import { User } from ".prisma/client"
-import { Box, Container, Grid, Toolbar, Typography } from "@mui/material"
+import {
+  Box,
+  Button,
+  Container,
+  Grid,
+  Toolbar,
+  Typography,
+} from "@mui/material"
 import Link from "next/link"
 import Header from "../components/header/Header"
 import LinkButton from "../components/LinkButton"
 import useAuthQuery from "../hooks/useAuthQuery"
+import { CourseCode } from "../lib/types"
 import { getUserSelf } from "../services/client/accountClient"
+import { stripeCheckout } from "../services/client/stripeClient"
 
 type Course = {
   name: string
@@ -13,6 +22,7 @@ type Course = {
   lockedImg: string
   link: string
   owned: boolean
+  code: CourseCode
 }
 
 const LandingPage = () => {
@@ -29,6 +39,7 @@ const LandingPage = () => {
       lockedImg: "/ff-locked.png",
       link: "/ff",
       owned: user.ff,
+      code: "ff",
     },
     {
       name: "Power Pathway",
@@ -38,6 +49,7 @@ const LandingPage = () => {
       lockedImg: "/pp-locked.png",
       link: "/pp",
       owned: user.pp,
+      code: "pp",
     },
     {
       name: "King of the Court",
@@ -47,8 +59,14 @@ const LandingPage = () => {
       lockedImg: "/kotc-locked.png",
       link: "/kotc",
       owned: user.kotc,
+      code: "kotc",
     },
   ]
+
+  const handleCheckout = async (courseCode: CourseCode) => {
+    // setStripeLoading(true)
+    await stripeCheckout(courseCode)
+  }
 
   return (
     <>
@@ -83,7 +101,15 @@ const LandingPage = () => {
                   {course.owned ? (
                     <LinkButton href={course.link} text="View course" />
                   ) : (
-                    <LinkButton href={course.link} text="Unlock course" />
+                    <Button
+                      color="primary"
+                      variant="contained"
+                      sx={{ textTransform: "none" }}
+                      size="large"
+                      onClick={() => handleCheckout(course.code)}
+                    >
+                      Unlock Course
+                    </Button>
                   )}
                 </Box>
               </Box>

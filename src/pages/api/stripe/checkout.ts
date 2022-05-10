@@ -1,14 +1,20 @@
 import type { NextApiRequest, NextApiResponse } from "next"
+import authUserSession from "../../../lib/authUserSession"
+import { CourseCode } from "../../../lib/types"
 import { createCheckoutSession } from "../../../services/server/stripeService"
+import { findUserById } from "../../../services/server/userService"
 
 export type StripeCheckoutBody = {
-  item: string
-  email: string
+  course: CourseCode
 }
 
 const POST = async (req: NextApiRequest, res: NextApiResponse) => {
-  const { item, email }: StripeCheckoutBody = req.body
-  const session = await createCheckoutSession(item, email)
+  const { course }: StripeCheckoutBody = req.body
+  const { unauthorized, userId, response } = await authUserSession(req, res)
+  if (unauthorized) return response
+
+  const user = await findUserById(userId)
+  const session = await createCheckoutSession(user!.email, course, false)
   res.send(session)
 }
 

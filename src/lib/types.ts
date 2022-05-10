@@ -51,3 +51,5 @@ export type CourseQuery = {
   moduleId: string
   lessonId: string
 }
+
+export type CourseCode = "ff" | "pp" | "kotc"
