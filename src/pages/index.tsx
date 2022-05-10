@@ -109,7 +109,7 @@ const LandingPage = () => {
                 <Typography>{course.description}</Typography>
                 <Box>
                   {course.owned ? (
-                    <LinkButton href={course.link} text="View course" />
+                    <LinkButton href={course.link} text="View Course" />
                   ) : (
                     <Button
                       color="warning"
