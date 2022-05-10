@@ -1,18 +1,32 @@
-import { Typography, Container, Toolbar, Divider, Button } from "@mui/material"
+import { Button, Container, Divider, Toolbar, Typography } from "@mui/material"
 import { User } from "@prisma/client"
 import { useRouter } from "next/router"
+import toast from "react-hot-toast"
+import { useMutation, useQueryClient } from "react-query"
 import Header from "../../components/header/Header"
 import useAuthQuery from "../../hooks/useAuthQuery"
-import { findUserById } from "../../services/client/userClient"
+import { findUserById, toggleUserField } from "../../services/client/userClient"
 
 const Page = () => {
   const router = useRouter()
   const { id } = router.query as { id: string }
   const { data, escape, component } = useAuthQuery(id, () => findUserById(id))
+  const queryClient = useQueryClient()
+
+  const { mutate } = useMutation(
+    (field: string) => toggleUserField(id, field),
+    {
+      onSuccess: () => {
+        queryClient.invalidateQueries(id)
+        toast.success("Succesfully updated")
+      },
+    }
+  )
+
   if (escape) return component
 
   const user = data as User
-  console.log(user)
+
   return (
     <Container sx={{ mt: 4 }}>
       <Header />
@@ -26,6 +40,7 @@ const Page = () => {
         sx={{ textTransform: "none", mb: 3 }}
         variant="contained"
         color={user.ff ? "warning" : "primary"}
+        onClick={() => mutate("ff")}
       >
         {user.ff ? "Remove access" : "Add access"}
       </Button>
@@ -34,6 +49,7 @@ const Page = () => {
         sx={{ textTransform: "none", mb: 3 }}
         variant="contained"
         color={user.pp ? "warning" : "primary"}
+        onClick={() => mutate("pp")}
       >
         {user.pp ? "Remove access" : "Add access"}
       </Button>
@@ -42,6 +58,7 @@ const Page = () => {
         sx={{ textTransform: "none", mb: 3 }}
         variant="contained"
         color={user.kotc ? "warning" : "primary"}
+        onClick={() => mutate("kotc")}
       >
         {user.kotc ? "Remove access" : "Add access"}
       </Button>
@@ -50,8 +67,9 @@ const Page = () => {
         sx={{ textTransform: "none", mb: 3 }}
         variant="contained"
         color={user.admin ? "warning" : "primary"}
+        onClick={() => mutate("admin")}
       >
-        {user.ff ? "Remove access" : "Add access"}
+        {user.admin ? "Remove access" : "Add access"}
       </Button>
       <Typography>Logged in: {user.loggedIn ? "✔️" : "❌ "}</Typography>
       <Typography>{user.id}</Typography>

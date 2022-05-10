@@ -1,6 +1,7 @@
 import { User } from "@prisma/client"
 import bcrypt from "bcrypt"
 import jwt from "jsonwebtoken"
+import LoginForm from "../../components/forms/LoginForm"
 import { prisma } from "../../prisma/client"
 
 export const getUsers = async (): Promise<User[]> => {
@@ -22,7 +23,8 @@ export const toggleUserField = async (
   field: string
 ): Promise<User | null> => {
   if (!["admin", "ff", "pp", "kotc"].includes(field)) {
-    throw new Error("Invalid field")
+    console.log(field)
+    throw new Error(`Invalid field: ${field}`)
   }
 
   const existingUser = (await findUserById(userId)) as User

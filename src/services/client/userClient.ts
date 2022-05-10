@@ -10,3 +10,7 @@ export const findUserById = async (id: string) => {
   const res = await axios.get<User>(`/api/users/${id}`)
   return res.data
 }
+export const toggleUserField = async (id: string, field: string) => {
+  const res = await axios.put(`/api/users?toggleUserId=${id}&field=${field}`)
+  return res.data
+}
