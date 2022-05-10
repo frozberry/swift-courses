@@ -64,9 +64,14 @@ export const SingleModule = ({ course }: Props) => {
     <>
       {course.modules[0].lessons.map((lesson) => (
         <Box key={lesson.id}>
-          <ListItem button>
-            <ListItemText primary={lesson.name} />
-          </ListItem>
+          <Link
+            href={`/${course.code}?moduleId=${course.modules[0].id}&lessonId=${lesson.id}`}
+            passHref
+          >
+            <ListItem button>
+              <ListItemText primary={lesson.name} />
+            </ListItem>
+          </Link>
         </Box>
       ))}
     </>
