@@ -9,6 +9,7 @@ import {
   Typography,
 } from "@mui/material"
 import Link from "next/link"
+import Footer from "../components/Footer"
 import Header from "../components/header/Header"
 import LinkButton from "../components/LinkButton"
 import useAuthQuery from "../hooks/useAuthQuery"
@@ -126,6 +127,7 @@ const LandingPage = () => {
             </Box>
           ))}
         </Grid>
+        <Footer />
       </Container>
     </>
   )
