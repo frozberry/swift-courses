@@ -53,3 +53,13 @@ export type CourseQuery = {
 }
 
 export type CourseCode = "ff" | "pp" | "kotc"
+
+export type CourseOverview = {
+  name: string
+  description: string
+  img: string
+  lockedImg: string
+  link: string
+  owned: boolean
+  code: CourseCode
+}
