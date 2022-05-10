@@ -75,7 +75,7 @@ export const paymentSucceeded = async (
   const stripeCustomer = (await stripe.customers.retrieve(
     customer
   )) as Stripe.Customer
-  const { id, email } = stripeCustomer
+  const { id, email, name } = stripeCustomer
 
   const lineItems = await stripe.checkout.sessions.listLineItems(
     checkoutSession.id
@@ -88,7 +88,7 @@ export const paymentSucceeded = async (
   const pp = courses.includes("Power Pathway") || undefined
   const kotc = courses.includes("King of the Court") || undefined
 
-  await prisma.user.update({
+  const savedUser = await prisma.user.update({
     where: { email: email! },
     data: {
       ff,
@@ -97,4 +97,13 @@ export const paymentSucceeded = async (
       stripeId: id,
     },
   })
+
+  if (!savedUser.name) {
+    await prisma.user.update({
+      where: { email: email! },
+      data: {
+        name,
+      },
+    })
+  }
 }
