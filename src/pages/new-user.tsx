@@ -11,6 +11,7 @@ const getCheckoutUser = async (sessionId: string) => {
   )
   return res.data
 }
+
 const Page = () => {
   const router = useRouter()
   const { session } = router.query as { session: string }

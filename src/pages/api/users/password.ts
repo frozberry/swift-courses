@@ -4,13 +4,44 @@ import authUserSession from "../../../lib/authUserSession"
 import { ServerError } from "../../../lib/types"
 import {
   changePassword,
-  validatePassword
+  validatePassword,
 } from "../../../services/server/accountService"
-import { findUserById } from "../../../services/server/userService"
+import {
+  findUserByEmail,
+  findUserById,
+} from "../../../services/server/userService"
+
+type PostBody = {
+  email: string
+  password: string
+}
 
 type PutBody = {
   currentPassword: string
   newPassword: string
+}
+
+const POST = async (req: NextApiRequest, res: NextApiResponse) => {
+  const { email, password }: PostBody = req.body
+
+  const user = (await findUserByEmail(email)) as User
+
+  if (password.length < 3) {
+    return res.status(400).send({
+      type: "passwordTooShort",
+      message: "Password must be at least 3 characters long",
+    })
+  }
+
+  if (user.passwordSet) {
+    return res.status(400).send({
+      type: "passwordAlreadySet",
+      message: "Account has already been created, please try loggin in",
+    })
+  }
+
+  await changePassword(user.id, password)
+  res.status(200).end()
 }
 
 const PUT = async (req: NextApiRequest, res: NextApiResponse<ServerError>) => {
@@ -46,6 +77,9 @@ const PUT = async (req: NextApiRequest, res: NextApiResponse<ServerError>) => {
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   switch (req.method) {
+    case "POST":
+      POST(req, res)
+      break
     case "PUT":
       PUT(req, res)
       break
