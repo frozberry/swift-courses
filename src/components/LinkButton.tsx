@@ -12,7 +12,13 @@ const LinkButton = ({ href, text }: Props) => {
       <Button
         color="primary"
         variant="contained"
-        sx={{ textTransform: "none" }}
+        sx={{
+          textTransform: "none",
+          width: {
+            xs: "100%",
+            sm: "auto",
+          },
+        }}
         size="large"
       >
         {text}
