@@ -10,7 +10,10 @@ const Footer = () => {
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
-        position: "fixed",
+        position: {
+          xs: "static",
+          sm: "fixed",
+        },
         bottom: 10,
         left: 0,
         right: 0,
