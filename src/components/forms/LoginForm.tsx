@@ -98,7 +98,7 @@ const LoginForm = ({ setLoading }: Props) => {
             disabled={formikProps.isSubmitting}
             sx={{ mt: 2 }}
           >
-            Submit
+            Log in
           </Button>
         </Form>
       )}
