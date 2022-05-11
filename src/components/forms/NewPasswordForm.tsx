@@ -1,4 +1,5 @@
 import { Box, Button, Typography } from "@mui/material"
+import axios from "axios"
 import { Field, Form, Formik, FormikHelpers, FormikProps } from "formik"
 import { signIn } from "next-auth/react"
 import { Dispatch, SetStateAction } from "react"
@@ -9,6 +10,14 @@ import FormTextField from "./FormTextField"
 type Props = {
   email: string
   setLoading: Dispatch<SetStateAction<boolean>>
+}
+
+const setNewPassword = async (email: string, password: string) => {
+  const res = await axios.post("/api/users/password", {
+    email,
+    password,
+  })
+  return res.data
 }
 
 const NewPasswordForm = ({ email, setLoading }: Props) => {
@@ -29,9 +38,9 @@ const NewPasswordForm = ({ email, setLoading }: Props) => {
     formikHelpers: FormikHelpers<FormValues>
   ) => {
     try {
-      setLoading(true)
+      // setLoading(true)
 
-      // await setNewPassword(values.password)
+      await setNewPassword(email, values.password)
 
       await signIn("credentials", {
         email,
@@ -39,7 +48,7 @@ const NewPasswordForm = ({ email, setLoading }: Props) => {
         callbackUrl: "/",
       })
 
-      setLoading(false)
+      // setLoading(false)
     } catch (e) {
       notifyError(e)
       formikHelpers.setSubmitting(false)
