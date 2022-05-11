@@ -15,7 +15,7 @@
     "seed": "npx ts-node --transpileOnly src/prisma/seed.ts",
     "reset": "npx ts-node --transpileOnly src/prisma/seed.ts --reset",
     "db": "npx ts-node --transpileOnly scripts/db.ts",
-    "main": "JWT_SECRET=sjFJJNYHhNhgBQKbgzenfcbhYiRfytye FRONTEND_URL=http://localhost:3000 npx ts-node --transpileOnly scripts/main.ts JWT_SECRET = sjFJJNYHhNhgBQKbgzenfcbhYiRfytye"
+    "main": "npx ts-node --transpileOnly scripts/main.ts"
   },
   "prisma": {
     "schema": "src/prisma/schema.prisma",
