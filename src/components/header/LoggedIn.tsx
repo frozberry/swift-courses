@@ -70,7 +70,7 @@ const Mobile = ({ handleLogout, isAdmin }: Props) => {
 
 const LoggedIn = ({ isAdmin }: { isAdmin: boolean }) => {
   const handleLogout = () => {
-    signOut({ callbackUrl: `${process.env.NEXT_PUBLIC_VERCEL_URL}/login` })
+    signOut({ callbackUrl: "/login" })
   }
   return (
     <Box>
