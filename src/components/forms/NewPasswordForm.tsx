@@ -4,28 +4,23 @@ import { signIn } from "next-auth/react"
 import { Dispatch, SetStateAction } from "react"
 import * as yup from "yup"
 import notifyError from "../../lib/notifyError"
-import { signup } from "../../services/client/accountClient"
 import FormTextField from "./FormTextField"
 
 type Props = {
+  email: string
   setLoading: Dispatch<SetStateAction<boolean>>
 }
-const SignupForm = ({ setLoading }: Props) => {
+
+const NewPasswordForm = ({ email, setLoading }: Props) => {
   type FormValues = {
-    name: string
-    email: string
     password: string
   }
 
   const initialValues = {
-    name: "",
-    email: "",
     password: "",
   }
 
   const validationSchema = yup.object().shape({
-    name: yup.string().required("Required"),
-    email: yup.string().required("Required").email("Invalid email"),
     password: yup.string().required("Required"),
   })
 
@@ -35,12 +30,13 @@ const SignupForm = ({ setLoading }: Props) => {
   ) => {
     try {
       setLoading(true)
-      await signup(values.name, values.email, values.password)
+
+      // await setNewPassword(values.password)
 
       await signIn("credentials", {
-        email: values.email,
+        email,
         password: values.password,
-        callbackUrl: "/home",
+        callbackUrl: "/",
       })
 
       setLoading(false)
@@ -58,30 +54,6 @@ const SignupForm = ({ setLoading }: Props) => {
     >
       {(formikProps: FormikProps<FormValues>) => (
         <Form noValidate>
-          <Box>
-            <Typography variant="subtitle2">Parent's Full Name</Typography>
-            <Field
-              name="name"
-              placeholder="Name"
-              autoComplete="name"
-              size="small"
-              component={FormTextField}
-              fullWidth
-              sx={{ mb: 2 }}
-            />
-          </Box>
-          <Box>
-            <Typography variant="subtitle2">Parent's Email</Typography>
-            <Field
-              name="email"
-              placeholder="Email"
-              autoComplete="email"
-              size="small"
-              component={FormTextField}
-              fullWidth
-              sx={{ mb: 2 }}
-            />
-          </Box>
           <Box>
             <Typography variant="subtitle2">Password</Typography>
             <Field
@@ -112,4 +84,4 @@ const SignupForm = ({ setLoading }: Props) => {
   )
 }
 
-export default SignupForm
+export default NewPasswordForm

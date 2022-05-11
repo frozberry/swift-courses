@@ -2,7 +2,7 @@ import { User } from "@prisma/client"
 import Stripe from "stripe"
 import { CourseCode } from "../../lib/types"
 import { prisma } from "../../prisma/client"
-import { createUser } from "./userService"
+import { createUser, findUserByEmail } from "./userService"
 
 // eslint-disable-next-line
 export const stripe = new Stripe(process.env.STRIPE_SECRET!, {
@@ -117,14 +117,20 @@ export const paymentSucceeded = async (
   await createUser(name!, email!, ff, pp, kotc)
 }
 
-export const session = async (sessionId: string) => {
+export const getCheckoutUser = async (sessionId: string) => {
   const session = await stripe.checkout.sessions.retrieve(sessionId)
   const { customer } = session as { customer: string }
 
   const stripeCustomer = (await stripe.customers.retrieve(
     customer
   )) as Stripe.Customer
-  const { id, email, name } = stripeCustomer
+  const { email } = stripeCustomer
+  const user = (await findUserByEmail(email!)) as User
 
-  return { id, email, name }
+  if (user.passwordSet) {
+    return
+    //todo
+  }
+
+  return user
 }

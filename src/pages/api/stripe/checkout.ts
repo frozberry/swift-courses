@@ -3,7 +3,7 @@ import authUserSession from "../../../lib/authUserSession"
 import { CourseCode } from "../../../lib/types"
 import {
   createCheckoutSession,
-  session,
+  getCheckoutUser,
 } from "../../../services/server/stripeService"
 import { findUserById } from "../../../services/server/userService"
 
@@ -14,7 +14,7 @@ const GET = async (req: NextApiRequest, res: NextApiResponse) => {
   const { sessionId } = req.query
   if (!sessionId) return res.status(400).send("Missing sessionId")
 
-  const data = await session(sessionId as string)
+  const data = await getCheckoutUser(sessionId as string)
 
   res.send(data)
 }

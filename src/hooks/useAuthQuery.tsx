@@ -15,7 +15,11 @@ type Payload = {
   component: JSX.Element | null
 }
 
-const useAuthQuery = (key: string, queryFn: QueryFunction) => {
+const useAuthQuery = (
+  key: string,
+  queryFn: QueryFunction,
+  allowNonUser = false
+) => {
   const query = useQuery(key, queryFn)
   const { session } = useSession()
 
@@ -28,7 +32,7 @@ const useAuthQuery = (key: string, queryFn: QueryFunction) => {
     component: null,
   }
 
-  if (session === null) {
+  if (session === null && !allowNonUser) {
     payload.escape = true
     payload.component = <NoUser />
     return payload
