@@ -8,19 +8,19 @@ import notifyError from "../../lib/notifyError"
 import FormTextField from "./FormTextField"
 
 type Props = {
-  email: string
+  sessionId: string
   setLoading: Dispatch<SetStateAction<boolean>>
 }
 
-const setNewPassword = async (email: string, password: string) => {
+const setNewPassword = async (sessionId: string, password: string) => {
   const res = await axios.post("/api/users/password", {
-    email,
+    sessionId,
     password,
   })
   return res.data
 }
 
-const NewPasswordForm = ({ email, setLoading }: Props) => {
+const NewPasswordForm = ({ sessionId, setLoading }: Props) => {
   type FormValues = {
     password: string
   }
@@ -40,7 +40,7 @@ const NewPasswordForm = ({ email, setLoading }: Props) => {
     try {
       // setLoading(true)
 
-      await setNewPassword(email, values.password)
+      const email = await setNewPassword(sessionId, values.password)
 
       await signIn("credentials", {
         email,

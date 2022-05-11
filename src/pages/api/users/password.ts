@@ -1,18 +1,20 @@
 import { User } from "@prisma/client"
 import type { NextApiRequest, NextApiResponse } from "next"
+import Stripe from "stripe"
 import authUserSession from "../../../lib/authUserSession"
 import { ServerError } from "../../../lib/types"
 import {
   changePassword,
   validatePassword,
 } from "../../../services/server/accountService"
+import { stripe } from "../../../services/server/stripeService"
 import {
   findUserByEmail,
   findUserById,
 } from "../../../services/server/userService"
 
 type PostBody = {
-  email: string
+  sessionId: string
   password: string
 }
 
@@ -22,16 +24,16 @@ type PutBody = {
 }
 
 const POST = async (req: NextApiRequest, res: NextApiResponse) => {
-  const { email, password }: PostBody = req.body
+  const { sessionId, password }: PostBody = req.body
 
-  const user = (await findUserByEmail(email)) as User
+  const session = await stripe.checkout.sessions.retrieve(sessionId)
+  const { customer } = session as { customer: string }
 
-  if (password.length < 3) {
-    return res.status(400).send({
-      type: "passwordTooShort",
-      message: "Password must be at least 3 characters long",
-    })
-  }
+  const stripeCustomer = (await stripe.customers.retrieve(
+    customer
+  )) as Stripe.Customer
+  const { email } = stripeCustomer
+  const user = (await findUserByEmail(email!)) as User
 
   if (user.passwordSet) {
     return res.status(400).send({
@@ -40,8 +42,15 @@ const POST = async (req: NextApiRequest, res: NextApiResponse) => {
     })
   }
 
+  if (password.length < 3) {
+    return res.status(400).send({
+      type: "passwordTooShort",
+      message: "Password must be at least 3 characters long",
+    })
+  }
+
   await changePassword(user.id, password)
-  res.status(200).end()
+  res.status(200).end(email)
 }
 
 const PUT = async (req: NextApiRequest, res: NextApiResponse<ServerError>) => {
