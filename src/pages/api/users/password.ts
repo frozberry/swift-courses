@@ -38,7 +38,7 @@ const POST = async (req: NextApiRequest, res: NextApiResponse) => {
   if (user.passwordSet) {
     return res.status(400).send({
       type: "passwordAlreadySet",
-      message: "Account has already been created, please try loggin in",
+      message: "Account has already been created, please try logging in",
     })
   }
 

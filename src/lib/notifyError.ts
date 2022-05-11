@@ -8,13 +8,9 @@ const notifyError = (e: any) => {
   if (axios.isAxiosError(e)) {
     const error = e as AxiosError<ServerError>
 
-    if (error?.response?.data.type === "notCredentialUser") {
-      signIn("google", { callbackUrl: "/home" })
-      return
-    }
-
-    if (error?.response?.data.type === "existingExamSession") {
-      Router.push("/session")
+    if (error?.response?.data.type === "passwordAlreadySet") {
+      toast.error(error.response?.data.message as string)
+      Router.push("/login")
       return
     }
 
