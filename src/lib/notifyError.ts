@@ -1,5 +1,4 @@
 import axios, { AxiosError } from "axios"
-import { signIn } from "next-auth/react"
 import Router from "next/router"
 import toast from "react-hot-toast"
 import { ServerError } from "./types"

@@ -5,7 +5,6 @@ import { ServerError } from "../../../lib/types"
 import {
   createUser,
   findUserByEmail,
-  findUserById,
   getUsers,
   toggleUserField,
 } from "../../../services/server/userService"

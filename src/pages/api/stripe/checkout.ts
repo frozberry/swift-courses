@@ -1,10 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from "next"
 import authUserSession from "../../../lib/authUserSession"
 import { CourseCode } from "../../../lib/types"
-import {
-  createCheckoutSession,
-  getCheckoutUser,
-} from "../../../services/server/stripeService"
+import { createCheckoutSession } from "../../../services/server/stripeService"
 import { findUserById } from "../../../services/server/userService"
 
 export type StripeCheckoutBody = {
