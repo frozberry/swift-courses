@@ -47,8 +47,8 @@ export const fufillCourse = async (
   kotc: boolean | undefined
 ) => {
   const ffDate = ff ? new Date() : undefined
-  const ppDate = ff ? new Date() : undefined
-  const kotcDate = ff ? new Date() : undefined
+  const ppDate = pp ? new Date() : undefined
+  const kotcDate = kotc ? new Date() : undefined
 
   const savedUser = await prisma.user.update({
     where: { email: email! },
@@ -86,8 +86,8 @@ export const createUser = async (
   const passwordHash = await bcrypt.hash(password, 10)
 
   const ffDate = ff ? new Date() : undefined
-  const ppDate = ff ? new Date() : undefined
-  const kotcDate = ff ? new Date() : undefined
+  const ppDate = pp ? new Date() : undefined
+  const kotcDate = kotc ? new Date() : undefined
 
   const user = await prisma.user.create({
     data: {
