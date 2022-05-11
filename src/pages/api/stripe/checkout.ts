@@ -1,11 +1,22 @@
 import type { NextApiRequest, NextApiResponse } from "next"
 import authUserSession from "../../../lib/authUserSession"
 import { CourseCode } from "../../../lib/types"
-import { createCheckoutSession } from "../../../services/server/stripeService"
+import {
+  createCheckoutSession,
+  session,
+} from "../../../services/server/stripeService"
 import { findUserById } from "../../../services/server/userService"
 
 export type StripeCheckoutBody = {
   course: CourseCode
+}
+const GET = async (req: NextApiRequest, res: NextApiResponse) => {
+  const { sessionId } = req.query
+  if (!sessionId) return res.status(400).send("Missing sessionId")
+
+  const data = await session(sessionId as string)
+
+  res.send(data)
 }
 
 const POST = async (req: NextApiRequest, res: NextApiResponse) => {
@@ -20,6 +31,9 @@ const POST = async (req: NextApiRequest, res: NextApiResponse) => {
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   switch (req.method) {
+    case "GET":
+      GET(req, res)
+      break
     case "POST":
       POST(req, res)
       break

@@ -116,3 +116,15 @@ export const paymentSucceeded = async (
 
   await createUser(name!, email!, ff, pp, kotc)
 }
+
+export const session = async (sessionId: string) => {
+  const session = await stripe.checkout.sessions.retrieve(sessionId)
+  const { customer } = session as { customer: string }
+
+  const stripeCustomer = (await stripe.customers.retrieve(
+    customer
+  )) as Stripe.Customer
+  const { id, email, name } = stripeCustomer
+
+  return { id, email, name }
+}
