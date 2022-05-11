@@ -38,18 +38,70 @@ export const toggleUserField = async (
   return user
 }
 
+export const fufillCourse = async (
+  name: string,
+  email: string,
+  id: string,
+  ff: boolean | undefined,
+  pp: boolean | undefined,
+  kotc: boolean | undefined
+) => {
+  const ffDate = ff ? new Date() : undefined
+  const ppDate = ff ? new Date() : undefined
+  const kotcDate = ff ? new Date() : undefined
+
+  const savedUser = await prisma.user.update({
+    where: { email: email! },
+    data: {
+      stripeId: id,
+      ff,
+      pp,
+      kotc,
+      ffDate,
+      ppDate,
+      kotcDate,
+    },
+  })
+
+  if (!savedUser.name) {
+    await prisma.user.update({
+      where: { email: email! },
+      data: {
+        name,
+      },
+    })
+  }
+  return
+}
+
 export const createUser = async (
   name: string,
   email: string,
+  stripeId: string,
   ff: boolean | undefined,
   pp: boolean | undefined,
-  kotc: boolean | undefined,
-  password = "123"
+  kotc: boolean | undefined
 ): Promise<User> => {
+  const password = "123"
   const passwordHash = await bcrypt.hash(password, 10)
 
+  const ffDate = ff ? new Date() : undefined
+  const ppDate = ff ? new Date() : undefined
+  const kotcDate = ff ? new Date() : undefined
+
   const user = await prisma.user.create({
-    data: { name, email, ff, pp, kotc, passwordHash },
+    data: {
+      name,
+      email,
+      stripeId,
+      ff,
+      pp,
+      kotc,
+      passwordHash,
+      ffDate,
+      ppDate,
+      kotcDate,
+    },
   })
 
   return user

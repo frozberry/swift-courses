@@ -2,7 +2,7 @@ import { User } from "@prisma/client"
 import Stripe from "stripe"
 import { CourseCode } from "../../lib/types"
 import { prisma } from "../../prisma/client"
-import { createUser, findUserByEmail } from "./userService"
+import { createUser, findUserByEmail, fufillCourse } from "./userService"
 
 // eslint-disable-next-line
 export const stripe = new Stripe(process.env.STRIPE_SECRET!, {
@@ -93,28 +93,10 @@ export const paymentSucceeded = async (
   })
 
   if (existingUser) {
-    const savedUser = await prisma.user.update({
-      where: { email: email! },
-      data: {
-        ff,
-        pp,
-        kotc,
-        stripeId: id,
-      },
-    })
-
-    if (!savedUser.name) {
-      await prisma.user.update({
-        where: { email: email! },
-        data: {
-          name,
-        },
-      })
-    }
-    return
+    await fufillCourse(name!, email!, id, ff, pp, kotc)
+  } else {
+    await createUser(name!, email!, id, ff, pp, kotc)
   }
-
-  await createUser(name!, email!, ff, pp, kotc)
 }
 
 export const getCheckoutUser = async (sessionId: string) => {
