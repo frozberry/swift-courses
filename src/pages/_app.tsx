@@ -34,6 +34,7 @@ export default function MyApp(props: MyAppProps) {
         <link rel="shortcut icon" href="/logo.png" />
       </Head>
       <QueryClientProvider client={queryClient}>
+        {/* TODO switch when deployed */}
         <PlausibleProvider domain="bloomlearn.co.uk">
           <ThemeProvider theme={theme}>
             <CssBaseline />
