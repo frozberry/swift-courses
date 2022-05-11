@@ -38,7 +38,7 @@ const NewPasswordForm = ({ sessionId, setLoading }: Props) => {
     formikHelpers: FormikHelpers<FormValues>
   ) => {
     try {
-      // setLoading(true)
+      setLoading(true)
 
       const email = await setNewPassword(sessionId, values.password)
 
@@ -48,7 +48,7 @@ const NewPasswordForm = ({ sessionId, setLoading }: Props) => {
         callbackUrl: "/",
       })
 
-      // setLoading(false)
+      setLoading(false)
     } catch (e) {
       notifyError(e)
       formikHelpers.setSubmitting(false)
