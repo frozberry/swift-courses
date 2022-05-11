@@ -38,8 +38,8 @@ export const createCheckoutSession = async (
     }
   }
 
-  const successUrl = process.env.NEXT_PUBLIC_VERCEL_URL!
-  const cancelUrl = process.env.NEXT_PUBLIC_VERCEL_URL!
+  const successUrl = process.env.NEXT_PUBLIC_URL!
+  const cancelUrl = process.env.NEXT_PUBLIC_URL!
 
   const sessionData: Stripe.Checkout.SessionCreateParams = {
     payment_method_types: ["card"],
