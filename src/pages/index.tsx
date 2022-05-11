@@ -1,5 +1,6 @@
 import { User } from ".prisma/client"
-import { Container, LinearProgress, Toolbar } from "@mui/material"
+import { Box, Container, LinearProgress, Toolbar } from "@mui/material"
+import Link from "next/link"
 import { useState } from "react"
 import getCoursesOverview from "../../courses-data/getOverview"
 import CourseOverview from "../components/CourseOverview"

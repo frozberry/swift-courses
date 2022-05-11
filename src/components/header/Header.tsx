@@ -41,16 +41,16 @@ const Header = ({
           </IconButton>
         )}
         <Link href="/" passHref>
-          <Box sx={{ cursor: "pointer" }}>
-            <a>
+          <a style={{ textDecoration: "none" }}>
+            <Box sx={{ cursor: "pointer" }}>
               <Typography
                 color="textPrimary"
                 sx={{ fontSize: 20, ml: 1, letterSpacing: 1, fontWeight: 700 }}
               >
                 <b>Swift Badminton</b>
               </Typography>
-            </a>
-          </Box>
+            </Box>
+          </a>
         </Link>
 
         {/* Somehow sets to the right of the app bar marginRight not needed here, but could play with positioning */}

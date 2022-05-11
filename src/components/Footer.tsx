@@ -24,12 +24,20 @@ const Footer = () => {
         © Swift Badminton {year}
       </Typography>
       <Box sx={{ display: "flex", flexDirection: "row", mb: 2 }}>
-        <Link href="https://drive.google.com/file/d/1H6in-dQjmNZXUen3Y4dyDOHGHYU-yqjb/view?usp=sharing">
+        <Link
+          href="https://drive.google.com/file/d/1H6in-dQjmNZXUen3Y4dyDOHGHYU-yqjb/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Typography sx={{ fontSize: "0.75rem", mx: 2 }} s>
             60 Day Guarantee
           </Typography>
         </Link>
-        <Link href="https://drive.google.com/file/d/1z-kXdn6yvdz7LVckKhC7dr9pKKgYKiZx/view">
+        <Link
+          href="https://drive.google.com/file/d/1z-kXdn6yvdz7LVckKhC7dr9pKKgYKiZx/view"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Typography sx={{ fontSize: "0.75rem", mx: 2 }}>
             Physical Disclaimer
           </Typography>

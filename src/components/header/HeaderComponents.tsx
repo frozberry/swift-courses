@@ -35,7 +35,9 @@ export const HeaderButton = ({ onClick, emphasis, children }: ButtonProps) => {
 export const HeaderLink = ({ link, children, emphasis }: LinkProps) => {
   return (
     <Link href={link} passHref>
-      <HeaderButton emphasis={emphasis}>{children}</HeaderButton>
+      <a style={{ textDecoration: "none" }}>
+        <HeaderButton emphasis={emphasis}>{children}</HeaderButton>
+      </a>
     </Link>
   )
 }
