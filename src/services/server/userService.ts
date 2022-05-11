@@ -1,7 +1,5 @@
 import { User } from "@prisma/client"
 import bcrypt from "bcrypt"
-import jwt from "jsonwebtoken"
-import LoginForm from "../../components/forms/LoginForm"
 import { prisma } from "../../prisma/client"
 
 export const getUsers = async (): Promise<User[]> => {
