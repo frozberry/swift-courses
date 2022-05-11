@@ -1,14 +1,24 @@
 import MenuIcon from "@mui/icons-material/Menu"
 import { AppBar, Box, IconButton, Toolbar, Typography } from "@mui/material"
 import Link from "next/link"
+import { useSession } from "../../hooks/useSession"
+import { MySession } from "../../lib/types"
 import LoggedIn from "./LoggedIn"
 
 type Props = {
   handleDrawerToggle?: () => void
   menu?: boolean
+  isAdmin?: boolean
 }
 
-const Header = ({ handleDrawerToggle, menu = false }: Props) => {
+const Header = ({
+  handleDrawerToggle,
+  menu = false,
+  isAdmin = false,
+}: Props) => {
+  const { session } = useSession() as { session: MySession }
+  console.log(session)
+
   return (
     <AppBar
       position="fixed"
@@ -43,7 +53,7 @@ const Header = ({ handleDrawerToggle, menu = false }: Props) => {
 
         {/* Somehow sets to the right of the app bar marginRight not needed here, but could play with positioning */}
         <section style={{ marginLeft: "auto", marginRight: 0 }}>
-          <LoggedIn />
+          <LoggedIn isAdmin={isAdmin} />
         </section>
       </Toolbar>
     </AppBar>

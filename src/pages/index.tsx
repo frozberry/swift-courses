@@ -19,7 +19,7 @@ const LandingPage = () => {
 
   return (
     <>
-      <Header />
+      <Header isAdmin={user.admin} />
       <Toolbar />
       {stripeLoading && <LinearProgress />}
 

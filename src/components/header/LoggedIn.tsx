@@ -6,18 +6,20 @@ import { HeaderButton, HeaderLink } from "./HeaderComponents"
 
 type Props = {
   handleLogout: () => void
+  isAdmin: boolean
 }
 
-const FullSize = ({ handleLogout }: Props) => {
+const FullSize = ({ handleLogout, isAdmin }: Props) => {
   return (
     <Box sx={{ display: { xs: "none", sm: "initial" } }}>
+      {isAdmin && <HeaderLink link="/admin">Admin</HeaderLink>}
       <HeaderLink link="/account">Account</HeaderLink>
       <HeaderButton onClick={handleLogout}>Log out</HeaderButton>
     </Box>
   )
 }
 
-const Mobile = ({ handleLogout }: Props) => {
+const Mobile = ({ handleLogout, isAdmin }: Props) => {
   const [anchorEl, setAnchorEl] = useState(null)
   const open = Boolean(anchorEl)
 
@@ -50,6 +52,11 @@ const Mobile = ({ handleLogout }: Props) => {
           "aria-labelledby": "basic-button",
         }}
       >
+        {isAdmin && (
+          <MenuItem onClick={handleClose}>
+            <HeaderLink link="/admin">Admin</HeaderLink>
+          </MenuItem>
+        )}
         <MenuItem onClick={handleClose}>
           <HeaderLink link="/account">Account</HeaderLink>
         </MenuItem>
@@ -61,14 +68,14 @@ const Mobile = ({ handleLogout }: Props) => {
   )
 }
 
-const LoggedIn = () => {
+const LoggedIn = ({ isAdmin }: { isAdmin: boolean }) => {
   const handleLogout = () => {
     signOut({ callbackUrl: `${process.env.NEXT_PUBLIC_VERCEL_URL}/login` })
   }
   return (
     <Box>
-      <FullSize handleLogout={handleLogout} />
-      <Mobile handleLogout={handleLogout} />
+      <FullSize handleLogout={handleLogout} isAdmin={isAdmin} />
+      <Mobile handleLogout={handleLogout} isAdmin={isAdmin} />
     </Box>
   )
 }
