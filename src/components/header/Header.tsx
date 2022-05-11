@@ -42,12 +42,14 @@ const Header = ({
         )}
         <Link href="/" passHref>
           <Box sx={{ cursor: "pointer" }}>
-            <Typography
-              color="textPrimary"
-              sx={{ fontSize: 20, ml: 1, letterSpacing: 1, fontWeight: 700 }}
-            >
-              <b>Swift Badminton</b>
-            </Typography>
+            <a>
+              <Typography
+                color="textPrimary"
+                sx={{ fontSize: 20, ml: 1, letterSpacing: 1, fontWeight: 700 }}
+              >
+                <b>Swift Badminton</b>
+              </Typography>
+            </a>
           </Box>
         </Link>
 

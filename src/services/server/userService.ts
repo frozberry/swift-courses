@@ -41,24 +41,20 @@ export const toggleUserField = async (
 }
 
 export const createUser = async (
-  parentName: string,
+  name: string,
   email: string,
-  password: string
-): Promise<string> => {
+  ff: boolean | undefined,
+  pp: boolean | undefined,
+  kotc: boolean | undefined,
+  password = "123"
+): Promise<User> => {
   const passwordHash = await bcrypt.hash(password, 10)
 
   const user = await prisma.user.create({
-    data: { name: parentName.trim(), email: email.trim(), passwordHash },
+    data: { name, email, ff, pp, kotc, passwordHash },
   })
 
-  // TODO no longer needs to send token
-  const token = jwt.sign(
-    { id: user.id, email: user.email },
-    // eslint-disable-next-line
-    process.env.JWT_SECRET!
-  )
-
-  return token
+  return user
 }
 
 export const deleteUser = async (id: string): Promise<boolean> => {
