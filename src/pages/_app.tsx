@@ -31,7 +31,7 @@ export default function MyApp(props: MyAppProps) {
       <Head>
         <title>Swift Badminton</title>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
-        <link rel="shortcut icon" href="/logo.png" />
+        <link rel="shortcut icon" href="/favicon.png" />
       </Head>
       <QueryClientProvider client={queryClient}>
         {/* TODO switch when deployed */}
