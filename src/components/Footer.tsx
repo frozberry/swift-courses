@@ -29,7 +29,7 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Typography sx={{ fontSize: "0.75rem", mx: 2 }} s>
+          <Typography sx={{ fontSize: "0.75rem", mx: 2 }}>
             60 Day Guarantee
           </Typography>
         </Link>
