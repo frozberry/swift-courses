@@ -21,7 +21,7 @@ export const createCheckoutSession = async (
       price = process.env.FF_PRICE_INR
     }
     if (course === "pp") {
-      price = process.env.FF_PRICE_INR
+      price = process.env.PP_PRICE_INR
     }
     if (course === "kotc") {
       price = process.env.KOTC_PRICE_INR
