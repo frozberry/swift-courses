@@ -82,7 +82,7 @@ export const createUser = async (
   pp: boolean | undefined,
   kotc: boolean | undefined
 ): Promise<User> => {
-  const password = "123"
+  const password = Math.random().toString(36).slice(2, 12)
   const passwordHash = await bcrypt.hash(password, 10)
 
   const ffDate = ff ? new Date() : undefined
