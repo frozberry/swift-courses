@@ -54,9 +54,7 @@ const Page = () => {
               <Typography>
                 Footwork Fastlane: {user.ff ? "✔️" : "❌ "}
               </Typography>
-              <Typography sx>
-                Power Pathway: {user.pp ? "✔️" : "❌ "}
-              </Typography>
+              <Typography>Power Pathway: {user.pp ? "✔️" : "❌ "}</Typography>
               <Typography>
                 King of the Court: {user.kotc ? "✔️" : "❌ "}
               </Typography>
