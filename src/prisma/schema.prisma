@@ -26,7 +26,6 @@ model User {
   admin        Boolean  @default(false)
   createdAt    DateTime @default(now())
   stripeId     String?
-  loggedIn     Boolean  @default(false)
 
   ff   Boolean @default(false)
   pp   Boolean @default(false)
