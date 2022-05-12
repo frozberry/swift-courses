@@ -19,7 +19,7 @@ const Footer = () => {
         right: 0,
       }}
     >
-      <Divider sx={{ my: 2 }} width={30} />
+      <Divider sx={{ my: 2, width: 30 }} />
       <Typography sx={{ fontSize: "0.75rem", mb: 1 }}>
         © Swift Badminton {year}
       </Typography>
