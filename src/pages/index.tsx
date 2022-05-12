@@ -27,7 +27,7 @@ const LandingPage = () => {
       {stripeLoading && <LinearProgress />}
       {notAllCourses && (
         <Alert variant="filled" severity="info">
-          New courses are now avaiable to be unlocked
+          You are now eligible to unlock new courses
         </Alert>
       )}
 
