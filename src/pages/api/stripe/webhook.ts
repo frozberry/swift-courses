@@ -37,7 +37,7 @@ const webhookHandler = async (req: NextApiRequest, res: NextApiResponse) => {
     switch (event.type) {
       case "checkout.session.completed": {
         const checkoutSession = event.data.object as Stripe.Checkout.Session
-        paymentSucceeded(checkoutSession)
+        await paymentSucceeded(checkoutSession)
         break
       }
       default:
