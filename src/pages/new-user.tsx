@@ -8,7 +8,7 @@ import NewPasswordForm from "../components/forms/NewPasswordForm"
 const Page = () => {
   const router = useRouter()
   const [loading, setLoading] = useState(false)
-  const { session } = router.query as { session: string }
+  const { sessionId } = router.query as { session: string }
   const { reward } = useReward("rewardId", "confetti", {
     lifetime: 5000,
     spread: 100,
@@ -36,7 +36,7 @@ const Page = () => {
           </Typography>
         </Box>
 
-        <NewPasswordForm setLoading={setLoading} sessionId={session} />
+        <NewPasswordForm setLoading={setLoading} sessionId={sessionId} />
       </Container>
     </>
   )
