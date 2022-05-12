@@ -71,7 +71,7 @@ const Page = () => {
       >
         {user.admin ? "Remove access" : "Add access"}
       </Button>
-      <Typography>Logged in: {user.loggedIn ? "✔️" : "❌ "}</Typography>
+      <Typography>Password set: {user.passwordSet ? "✔️" : "❌ "}</Typography>
       <Typography>{user.id}</Typography>
       <Divider sx={{ my: 2 }} />
       <Typography>Stripe ID: {user.stripeId}</Typography>

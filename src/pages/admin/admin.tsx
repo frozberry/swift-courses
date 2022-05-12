@@ -47,17 +47,25 @@ const Page = () => {
 
       {searchUsers.map((user) => (
         <Link href={`/admin/${user.id}`} passHref key={user.id}>
-          <Box sx={{ cursor: "pointer" }}>
-            <Typography>{user.email}</Typography>
-            <Typography>{user.name}</Typography>
-            <Typography>Footwork Fastlane: {user.ff ? "✔️" : "❌ "}</Typography>
-            <Typography sx>Power Pathway: {user.pp ? "✔️" : "❌ "}</Typography>
-            <Typography>
-              King of the Court: {user.kotc ? "✔️" : "❌ "}
-            </Typography>
-            <Typography>Logged in: {user.kotc ? "✔️" : "❌ "}</Typography>
-            <Divider sx={{ my: 4 }} />
-          </Box>
+          <a style={{ textDecoration: "none", color: "inherit" }}>
+            <Box sx={{ cursor: "pointer" }}>
+              <Typography>{user.email}</Typography>
+              <Typography>{user.name}</Typography>
+              <Typography>
+                Footwork Fastlane: {user.ff ? "✔️" : "❌ "}
+              </Typography>
+              <Typography sx>
+                Power Pathway: {user.pp ? "✔️" : "❌ "}
+              </Typography>
+              <Typography>
+                King of the Court: {user.kotc ? "✔️" : "❌ "}
+              </Typography>
+              <Typography>
+                Password set: {user.passwordSet ? "✔️" : "❌ "}
+              </Typography>
+              <Divider sx={{ my: 4 }} />
+            </Box>
+          </a>
         </Link>
       ))}
     </Container>
