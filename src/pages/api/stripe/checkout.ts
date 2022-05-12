@@ -9,11 +9,13 @@ export type StripeCheckoutBody = {
 }
 const POST = async (req: NextApiRequest, res: NextApiResponse) => {
   const { course }: StripeCheckoutBody = req.body
+  const country = req.headers["x-vercel-ip-country"] || "none"
+  const isIndia = country === "IN"
   const { unauthorized, userId, response } = await authUserSession(req, res)
   if (unauthorized) return response
 
   const user = await findUserById(userId)
-  const session = await createCheckoutSession(user!, course, false)
+  const session = await createCheckoutSession(user!, course, isIndia)
   res.send(session)
 }
 
