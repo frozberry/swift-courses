@@ -25,11 +25,11 @@ const Page = () => {
   }
 
   const users = data as User[]
-  console.log(users)
+  const admin = users.filter((user) => user.admin)
 
   const orderedUsers = reversed ? users.reverse() : users
   const searchUsers = orderedUsers.filter((user) => user.email.includes(search))
-
+  const withAdmin = [...admin, ...searchUsers]
   return (
     <Container sx={{ mt: 4 }}>
       <Header />
@@ -45,7 +45,7 @@ const Page = () => {
         Reverse
       </Button>
 
-      {searchUsers.map((user) => (
+      {withAdmin.map((user) => (
         <Link href={`/admin/${user.id}`} passHref key={user.id}>
           <a style={{ textDecoration: "none", color: "inherit" }}>
             <Box sx={{ cursor: "pointer" }}>
@@ -61,6 +61,7 @@ const Page = () => {
               <Typography>
                 Password set: {user.passwordSet ? "✔️" : "❌ "}
               </Typography>
+              <Typography>Admin: {user.admin ? "✔️" : "❌ "}</Typography>
               <Divider sx={{ my: 4 }} />
             </Box>
           </a>
