@@ -1,6 +1,5 @@
 import { User } from ".prisma/client"
-import { Box, Container, LinearProgress, Toolbar } from "@mui/material"
-import Link from "next/link"
+import { Alert, Container, LinearProgress, Toolbar } from "@mui/material"
 import { useState } from "react"
 import getCoursesOverview from "../../courses-data/getOverview"
 import CourseOverview from "../components/CourseOverview"
@@ -18,11 +17,19 @@ const LandingPage = () => {
   const user = data as User
   const courses = getCoursesOverview(user)
 
+  const notAllCourses = !(user.ff && user.kotc && user.pp)
+
   return (
     <>
       <Header isAdmin={user.admin} />
       <Toolbar />
+
       {stripeLoading && <LinearProgress />}
+      {notAllCourses && (
+        <Alert variant="filled" severity="info">
+          New courses are now avaiable to be unlocked
+        </Alert>
+      )}
 
       <Container maxWidth="md" sx={{ mt: 4 }}>
         {courses.map((course) => (
