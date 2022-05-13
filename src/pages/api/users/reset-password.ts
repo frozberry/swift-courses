@@ -10,7 +10,7 @@ type PutBody = {
 
 const PUT = async (
   req: NextApiRequest,
-  res: NextApiResponse<User | ServerError>
+  res: NextApiResponse<{ email: string } | ServerError>
 ) => {
   const { newPassword, token }: PutBody = req.body
 
@@ -22,8 +22,8 @@ const PUT = async (
   }
 
   try {
-    const updatedUser = await resetPassword(newPassword, token)
-    res.send(updatedUser)
+    const email = await resetPassword(newPassword, token)
+    res.send({ email })
   } catch (e) {
     res.status(400).send({
       type: "resetTokenExpired",

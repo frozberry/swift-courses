@@ -53,7 +53,7 @@ export const resetPassword = async (password: string, token: string) => {
   }
 
   const updatedUser = await changePassword(reset.id, password)
-  return updatedUser
+  return updatedUser.email
 }
 
 export const passwordResetUrl = (userId: string): string => {
