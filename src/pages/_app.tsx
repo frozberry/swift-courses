@@ -34,7 +34,6 @@ export default function MyApp(props: MyAppProps) {
         <link rel="shortcut icon" href="/favicon.png" />
       </Head>
       <QueryClientProvider client={queryClient}>
-        {/* TODO switch when deployed */}
         <PlausibleProvider domain="app.swiftbadminton.com">
           <ThemeProvider theme={theme}>
             <CssBaseline />
