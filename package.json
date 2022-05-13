@@ -31,6 +31,7 @@
     "@next-auth/prisma-adapter": "^1.0.3",
     "@prisma/client": "^3.9.2",
     "@stripe/stripe-js": "^1.22.0",
+    "aws-sdk": "^2.1134.0",
     "axios": "^0.24.0",
     "bcrypt": "^5.0.1",
     "dayjs": "^1.10.7",
