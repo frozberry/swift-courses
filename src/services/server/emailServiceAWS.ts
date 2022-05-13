@@ -15,7 +15,7 @@ const sendPasswordResetEmailAWS = (userId: string, email: string) => {
   const templateJson = JSON.stringify(templateObject)
 
   const params = {
-    Source: "Swift Badminton <jonathan@swiftbadminton.com>",
+    Source: "Swift Badminton <admin@swiftbadminton.com>",
     Template: "SwiftPasswordReset",
     Destination: {
       ToAddresses: [email],
