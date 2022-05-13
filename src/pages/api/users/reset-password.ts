@@ -25,7 +25,10 @@ const PUT = async (
     const updatedUser = await resetPassword(newPassword, token)
     res.send(updatedUser)
   } catch (e) {
-    res.status(400).end("error")
+    res.status(400).send({
+      type: "resetTokenExpired",
+      message: "URL expired, please request a new reset email",
+    })
   }
 }
 

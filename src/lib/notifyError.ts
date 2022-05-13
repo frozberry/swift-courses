@@ -12,6 +12,11 @@ const notifyError = (e: any) => {
       Router.push("/login")
       return
     }
+    if (error?.response?.data.type === "resetTokenExpired") {
+      toast.error(error.response?.data.message as string)
+      Router.push("/forgot-password")
+      return
+    }
 
     toast.error(error.response?.data.message as string)
     return
