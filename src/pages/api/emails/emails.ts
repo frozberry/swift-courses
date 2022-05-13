@@ -1,5 +1,4 @@
 import type { NextApiRequest, NextApiResponse } from "next"
-import { ServerError } from "../../../lib/types"
 import {} from "../../../services/server/emailService"
 import sendPasswordResetEmailAWS from "../../../services/server/emailServiceAWS"
 import { findUserByEmail } from "../../../services/server/userService"

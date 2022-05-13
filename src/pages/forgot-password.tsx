@@ -1,5 +1,5 @@
 import { Container, Typography } from "@mui/material"
-import ContactForm from "../components/forms/ContactForm"
+import ContactForm from "../components/forms/ForgotPasswordForm"
 import Header from "../components/header/Header"
 
 export default function App() {

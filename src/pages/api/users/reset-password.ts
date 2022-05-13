@@ -1,5 +1,6 @@
 import { User } from "@prisma/client"
 import type { NextApiRequest, NextApiResponse } from "next"
+import { ServerError } from "../../../lib/types"
 import { resetPassword } from "../../../services/server/accountService"
 
 type PutBody = {
@@ -7,12 +8,17 @@ type PutBody = {
   token: string
 }
 
-// TODO this route doesn't work with sessions
-const PUT = async (req: NextApiRequest, res: NextApiResponse<User | null>) => {
+const PUT = async (
+  req: NextApiRequest,
+  res: NextApiResponse<User | ServerError>
+) => {
   const { newPassword, token }: PutBody = req.body
 
   if (newPassword.length < 3) {
-    return res.status(400).end("password too short")
+    return res.status(400).send({
+      type: "passwordTooShort",
+      message: "Password must be at least 3 characters",
+    })
   }
 
   try {

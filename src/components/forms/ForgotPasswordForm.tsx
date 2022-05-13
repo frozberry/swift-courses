@@ -35,7 +35,7 @@ export default function App() {
   return (
     <Container maxWidth="xs">
       <Box sx={{ my: 4 }}>
-        <Typography variant="h2">Reset your password</Typography>
+        <Typography variant="h2">Forgot your password?</Typography>
       </Box>
 
       <Formik
