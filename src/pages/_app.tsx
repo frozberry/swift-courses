@@ -35,7 +35,7 @@ export default function MyApp(props: MyAppProps) {
       </Head>
       <QueryClientProvider client={queryClient}>
         {/* TODO switch when deployed */}
-        <PlausibleProvider domain="bloomlearn.co.uk">
+        <PlausibleProvider domain="app.swiftbadminton.com">
           <ThemeProvider theme={theme}>
             <CssBaseline />
             <Toaster />
