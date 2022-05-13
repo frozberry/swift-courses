@@ -6,7 +6,9 @@ import { signIn } from "next-auth/react"
 import { useRouter } from "next/router"
 import * as yup from "yup"
 import FormTextField from "../../components/forms/FormTextField"
+import { useSession } from "../../hooks/useSession"
 import notifyError from "../../lib/notifyError"
+import { MySession } from "../../lib/types"
 
 type FormValues = {
   password: string
@@ -45,6 +47,11 @@ const onSubmit = async (
 export default function App() {
   const router = useRouter()
   const { token } = router.query as { token: string }
+  const { session } = useSession() as { session: MySession }
+  if (session) {
+    router.push("/")
+  }
+
   return (
     <Container maxWidth="xs">
       <Box sx={{ my: 4 }}>
