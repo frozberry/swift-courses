@@ -27,7 +27,7 @@ const LoginForm = ({ setLoading }: Props) => {
   }
 
   const validationSchema = yup.object().shape({
-    email: yup.string().required("Required").email("Invalid email"),
+    email: yup.string().trim().required("Required").email("Invalid email"),
     password: yup.string().required("Required"),
   })
 
@@ -37,12 +37,13 @@ const LoginForm = ({ setLoading }: Props) => {
   ) => {
     try {
       setLoading(true)
+      const email = values.email.trim()
       await axios.post("/api/auth/verify-login", {
-        email: values.email,
+        email,
         password: values.password,
       })
       await signIn("credentials", {
-        email: values.email,
+        email,
         password: values.password,
         callbackUrl,
       })

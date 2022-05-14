@@ -16,7 +16,7 @@ export default function App() {
   }
 
   const validationSchema = yup.object().shape({
-    email: yup.string().required("Required"),
+    email: yup.string().trim().required("Required").email("Invalid email"),
   })
 
   const onSubmit = async (
@@ -25,7 +25,7 @@ export default function App() {
   ) => {
     try {
       await axios.post("/api/emails?type=password-reset", {
-        email: values.email,
+        email: values.email.trim(),
       })
       toast.success(
         "Please check your email for a link to reset your password."
