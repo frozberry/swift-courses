@@ -64,7 +64,7 @@ export default function ResponsiveDrawer({ children, course }: Props) {
         component="main"
         sx={{
           flexGrow: 1,
-          p: 3,
+          py: 0,
           width: { sm: `calc(100% - ${drawerWidth}px)` },
         }}
       >
