@@ -1,4 +1,3 @@
-import { User } from "@prisma/client"
 import type { NextApiRequest, NextApiResponse } from "next"
 import { ServerError } from "../../../lib/types"
 import { resetPassword } from "../../../services/server/accountService"
