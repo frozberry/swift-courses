@@ -43,11 +43,13 @@ export const MultipleModules = ({ course }: Props) => {
                     href={`/${course.code}?moduleId=${module.id}&lessonId=${lesson.id}`}
                     passHref
                   >
-                    <List component="div" disablePadding>
-                      <ListItem button>
-                        <ListItemText inset primary={lesson.name} />
-                      </ListItem>
-                    </List>
+                    <a style={{ textDecoration: "none", color: "inherit" }}>
+                      <List component="div" disablePadding>
+                        <ListItem button>
+                          <ListItemText inset primary={lesson.name} />
+                        </ListItem>
+                      </List>
+                    </a>
                   </Link>
                 </Collapse>
               </Box>
@@ -68,9 +70,11 @@ export const SingleModule = ({ course }: Props) => {
             href={`/${course.code}?moduleId=${course.modules[0].id}&lessonId=${lesson.id}`}
             passHref
           >
-            <ListItem button>
-              <ListItemText primary={lesson.name} />
-            </ListItem>
+            <a style={{ textDecoration: "none", color: "inherit" }}>
+              <ListItem button>
+                <ListItemText primary={lesson.name} />
+              </ListItem>
+            </a>
           </Link>
         </Box>
       ))}

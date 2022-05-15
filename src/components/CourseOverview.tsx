@@ -38,14 +38,16 @@ const CourseComponent = ({ course, setStripeLoading }: Props) => {
       <Box sx={{ maxWidth: 400 }}>
         {course.owned ? (
           <Link href={course.link} passHref>
-            <Box sx={{ cursor: "pointer" }}>
-              <Image
-                width={1920}
-                height={1080}
-                src={course.img}
-                alt={course.name}
-              />
-            </Box>
+            <a>
+              <Box sx={{ cursor: "pointer" }}>
+                <Image
+                  width={1920}
+                  height={1080}
+                  src={course.img}
+                  alt={course.name}
+                />
+              </Box>
+            </a>
           </Link>
         ) : (
           <Box>
@@ -59,7 +61,6 @@ const CourseComponent = ({ course, setStripeLoading }: Props) => {
             />
           </Box>
         )}
-        {/* </Box> */}
       </Box>
 
       <Box
