@@ -13,7 +13,7 @@ const LandingPage = () => {
   const [stripeLoading, setStripeLoading] = useState(false)
 
   const { data, escape, component } = useAuthQuery("self", getUserSelf)
-  if (data === "Oudated session") {
+  if (data === "Outdated session") {
     signOut()
     return null
   }
