@@ -1,5 +1,6 @@
 import { User } from "@prisma/client"
 import bcrypt from "bcrypt"
+import dayjs from "dayjs"
 import { prisma } from "../../prisma/client"
 
 export const getUsers = async (): Promise<User[]> => {
@@ -115,4 +116,18 @@ export const deleteUser = async (id: string): Promise<boolean> => {
 
   await prisma.user.delete({ where: { id } })
   return true
+}
+
+export const updateActiveDates = async (user: User) => {
+  const today = new Date()
+  const alreadyLoggedToday = user.activeDates.some((activeDates) =>
+    dayjs(activeDates).isSame(today)
+  )
+
+  if (!alreadyLoggedToday) {
+    await prisma.user.update({
+      where: { id: user.id },
+      data: { activeDates: [...user.activeDates, today] },
+    })
+  }
 }
