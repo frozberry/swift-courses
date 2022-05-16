@@ -120,8 +120,9 @@ export const deleteUser = async (id: string): Promise<boolean> => {
 
 export const updateOnLogin = async (user: User, country: string) => {
   const today = new Date()
+
   const alreadyLoggedToday = user.activeDates.some((activeDates) =>
-    dayjs(activeDates).isSame(today)
+    dayjs(activeDates).isSame(today, "day")
   )
 
   if (!alreadyLoggedToday) {
