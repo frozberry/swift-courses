@@ -13,7 +13,9 @@ const GET = async (req: NextApiRequest, res: NextApiResponse<User>) => {
   const country = getCountry(req)
 
   const user = await findUserById(userId)
-  await updateOnLogin(user!, country)
+  if (user) {
+    await updateOnLogin(user!, country)
+  }
 
   res.send(user as User)
 }

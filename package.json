@@ -15,7 +15,8 @@
     "seed": "npx ts-node --transpileOnly src/prisma/seed.ts",
     "reset": "npx ts-node --transpileOnly src/prisma/seed.ts --reset",
     "db": "npx ts-node --transpileOnly scripts/db.ts",
-    "main": "npx ts-node --transpileOnly scripts/main.ts"
+    "main": "npx ts-node --transpileOnly scripts/main.ts",
+    "import": "npx ts-node --transpileOnly scripts/import.ts"
   },
   "prisma": {
     "schema": "src/prisma/schema.prisma",
