@@ -45,6 +45,7 @@ const useAuthQuery = (
   }
 
   if (isError) {
+    console.log(query.error)
     payload.escape = true
     payload.component = (
       // @ts-ignore
