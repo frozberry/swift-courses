@@ -118,7 +118,7 @@ export const deleteUser = async (id: string): Promise<boolean> => {
   return true
 }
 
-export const updateActiveDates = async (user: User) => {
+export const updateOnLogin = async (user: User, country: string) => {
   const today = new Date()
   const alreadyLoggedToday = user.activeDates.some((activeDates) =>
     dayjs(activeDates).isSame(today)
@@ -127,7 +127,14 @@ export const updateActiveDates = async (user: User) => {
   if (!alreadyLoggedToday) {
     await prisma.user.update({
       where: { id: user.id },
-      data: { activeDates: [...user.activeDates, today] },
+      data: { activeDates: [...user.activeDates, new Date()] },
     })
+
+    if (country !== "none") {
+      await prisma.user.update({
+        where: { id: user.id },
+        data: { country },
+      })
+    }
   }
 }

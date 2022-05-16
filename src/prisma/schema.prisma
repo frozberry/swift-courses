@@ -36,6 +36,7 @@ model User {
   kotcDate DateTime?
 
   activeDates DateTime[]
+  country     String     @default("none")
 }
 
 // NextAuth

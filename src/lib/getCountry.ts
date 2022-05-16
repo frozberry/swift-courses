@@ -1,8 +1,8 @@
 import { NextApiRequest } from "next"
 
-const getCountry = async (req: NextApiRequest) => {
+const getCountry = (req: NextApiRequest) => {
   const country = req.headers["x-vercel-ip-country"] || "none"
-  return country
+  return country as string
 }
 
 export default getCountry
