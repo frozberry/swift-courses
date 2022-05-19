@@ -21,7 +21,7 @@ model User {
   sessions      Session[]
 
   // Backend
-  passwordHash String?
+  passwordHash String
   passwordSet  Boolean  @default(false)
   admin        Boolean  @default(false)
   createdAt    DateTime @default(now())
