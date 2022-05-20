@@ -6,6 +6,7 @@ import transcript from "../../courses-data/transcripts/lesson1.json"
 import Anchor from "../components/Anchor"
 import DrawerHeader from "../components/drawer/DrawerHeader"
 import LinkButton from "../components/LinkButton"
+import Transcript from "../components/Transcrip"
 import VideoPlayer from "../components/VideoPlayer"
 import useAuthQuery from "../hooks/useAuthQuery"
 import { Course, CourseQuery } from "../lib/types"
@@ -65,34 +66,12 @@ const Page = () => {
           videoRef={videoRef}
           setTimestamp={setTimestamp}
         />
-        {transcript.map((paragraph: any) => (
-          <Box key={paragraph.start} sx={{ my: 2 }}>
-            {paragraph.sentences.map((sentence: any) => (
-              <>
-                <Typography
-                  key={sentence.start}
-                  display="inline"
-                  onClick={() => seekTo(sentence.start)}
-                  sx={{
-                    cursor: "pointer",
-                    backgroundColor:
-                      sentence.start / 1000 < timestamp &&
-                      sentence.end / 1000 > timestamp
-                        ? "primary.light"
-                        : null,
-                    "&:hover": {
-                      backgroundColor: "secondary.light",
-                    },
-                  }}
-                >
-                  {sentence.text}
-                </Typography>
-                {/* Prevents styling being applied to space */}
-                <Typography display="inline"> </Typography>
-              </>
-            ))}
-          </Box>
-        ))}
+
+        <Transcript
+          transcript={transcript}
+          seekTo={seekTo}
+          timestamp={timestamp}
+        />
 
         <Container maxWidth="lg">
           <Typography variant="h4" sx={{ mt: 3 }}>

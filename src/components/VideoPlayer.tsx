@@ -1,7 +1,7 @@
-import ReactPlayer from "react-player/youtube"
-import Container from "@mui/material/Container"
 import Box from "@mui/material/Box"
-import { useRef, useState } from "react"
+import Container from "@mui/material/Container"
+import { useState } from "react"
+import ReactPlayer from "react-player/youtube"
 
 type Props = {
   url: string
@@ -31,7 +31,7 @@ const VideoPlayer = ({ url, videoRef, setTimestamp }: Props) => {
           width="100%"
           height="100%"
           pip={true}
-          volume={0}
+          volume={0.5}
           controls={true}
           ref={videoRef}
           onPlay={() => setPlaying(true)}
@@ -39,7 +39,6 @@ const VideoPlayer = ({ url, videoRef, setTimestamp }: Props) => {
           onProgress={(data) => setTimestamp(data.playedSeconds)}
         />
       </Box>
-      {/* <button onClick={onClick}>foo</button> */}
     </Container>
   )
 }
