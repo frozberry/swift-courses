@@ -52,6 +52,7 @@ const Page = () => {
   }
 
   const seekTo = (time: number) => {
+    setTimestamp(time / 1000)
     // @ts-ignore
     videoRef.current.seekTo(time / 1000)
   }
