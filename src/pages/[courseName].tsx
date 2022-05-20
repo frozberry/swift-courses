@@ -9,6 +9,7 @@ import LinkButton from "../components/LinkButton"
 import Transcript from "../components/Transcrip"
 import VideoPlayer from "../components/VideoPlayer"
 import useAuthQuery from "../hooks/useAuthQuery"
+import getNextLessonAndModule from "../lib/getNextLessonAndModule"
 import { Course, CourseQuery } from "../lib/types"
 
 const getCourse = async (course: string) => {
@@ -19,18 +20,18 @@ const getCourse = async (course: string) => {
 const Page = () => {
   const router = useRouter()
   const videoRef = useRef(null)
+  const [timestamp, setTimestamp] = useState(0)
   const { courseName, moduleId, lessonId } = router.query as CourseQuery
   const { data, escape, component } = useAuthQuery(courseName, () =>
     getCourse(courseName)
   )
-
-  const [showTranscript, setShowTranscript] = useState(false)
-  const [timestamp, setTimestamp] = useState(0)
   const course = data as Course
 
   if (!(courseName === "ff" || courseName === "pp" || courseName === "kotc"))
     return null
+
   if (escape) return component
+
   if (!moduleId || !lessonId) {
     router.replace(`/${courseName}?moduleId=1&lessonId=1`)
     return null
@@ -39,19 +40,11 @@ const Page = () => {
   const module = course.modules[Number(moduleId) - 1]
   const lesson = module.lessons[Number(lessonId) - 1]
 
-  let nextModule
-  let nextLesson
-
-  const isFinal =
-    module.id === course.modules.length && lesson.id === module.lessons.length
-
-  if (lesson.id !== module.lessons.length) {
-    nextLesson = lesson.id + 1
-    nextModule = module.id
-  } else {
-    nextModule = module.id + 1
-    nextLesson = 1
-  }
+  const { nextLesson, nextModule, isFinal } = getNextLessonAndModule(
+    lesson,
+    module,
+    course
+  )
 
   const seekTo = (time: number) => {
     setTimestamp(time / 1000)
