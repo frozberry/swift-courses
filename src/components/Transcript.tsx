@@ -1,7 +1,6 @@
 import { Typography, Container, Box } from "@mui/material"
-import transcript from "../../courses-data/transcripts/lesson1.json"
 
-const Transcript = ({ seekTo, timestamp }: any) => {
+const Transcript = ({ seekTo, timestamp, transcript }: any) => {
   return (
     <Container maxWidth="md">
       <Typography variant="h6">Transcript</Typography>

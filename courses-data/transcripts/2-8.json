@@ -1,0 +1,5832 @@
+[
+  {
+    "sentences": [
+      {
+        "text": "The final building block is a little more obscure.",
+        "start": 310,
+        "end": 2854,
+        "confidence": 0.99,
+        "words": [
+          {
+            "text": "The",
+            "start": 310,
+            "end": 438,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "final",
+            "start": 464,
+            "end": 726,
+            "confidence": 0.99983,
+            "speaker": null
+          },
+          {
+            "text": "building",
+            "start": 788,
+            "end": 1014,
+            "confidence": 0.99936,
+            "speaker": null
+          },
+          {
+            "text": "block",
+            "start": 1052,
+            "end": 1354,
+            "confidence": 0.54517,
+            "speaker": null
+          },
+          {
+            "text": "is",
+            "start": 1402,
+            "end": 1614,
+            "confidence": 0.99962,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 1652,
+            "end": 1818,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "little",
+            "start": 1844,
+            "end": 2070,
+            "confidence": 0.98361,
+            "speaker": null
+          },
+          {
+            "text": "more",
+            "start": 2120,
+            "end": 2262,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "obscure.",
+            "start": 2276,
+            "end": 2854,
+            "confidence": 0.94906,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "You won't get the chance to use it often in badminton, but I still call it a building block because it's one of the most effective ways of winning points.",
+        "start": 2962,
+        "end": 9102,
+        "confidence": 1,
+        "words": [
+          {
+            "text": "You",
+            "start": 2962,
+            "end": 3162,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "won't",
+            "start": 3176,
+            "end": 3382,
+            "confidence": 0.97325,
+            "speaker": null
+          },
+          {
+            "text": "get",
+            "start": 3406,
+            "end": 3486,
+            "confidence": 0.99974,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 3488,
+            "end": 3618,
+            "confidence": 0.64,
+            "speaker": null
+          },
+          {
+            "text": "chance",
+            "start": 3644,
+            "end": 3798,
+            "confidence": 0.99972,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 3824,
+            "end": 3942,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "use",
+            "start": 3956,
+            "end": 4062,
+            "confidence": 0.99877,
+            "speaker": null
+          },
+          {
+            "text": "it",
+            "start": 4076,
+            "end": 4182,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "often",
+            "start": 4196,
+            "end": 4374,
+            "confidence": 0.99802,
+            "speaker": null
+          },
+          {
+            "text": "in",
+            "start": 4412,
+            "end": 4542,
+            "confidence": 0.99838,
+            "speaker": null
+          },
+          {
+            "text": "badminton,",
+            "start": 4556,
+            "end": 5014,
+            "confidence": 0.02493,
+            "speaker": null
+          },
+          {
+            "text": "but",
+            "start": 5062,
+            "end": 5274,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "I",
+            "start": 5312,
+            "end": 5478,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "still",
+            "start": 5504,
+            "end": 5694,
+            "confidence": 0.9998,
+            "speaker": null
+          },
+          {
+            "text": "call",
+            "start": 5732,
+            "end": 5898,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "it",
+            "start": 5924,
+            "end": 6006,
+            "confidence": 0.95,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 6008,
+            "end": 6102,
+            "confidence": 0.98,
+            "speaker": null
+          },
+          {
+            "text": "building",
+            "start": 6116,
+            "end": 6330,
+            "confidence": 0.99947,
+            "speaker": null
+          },
+          {
+            "text": "block",
+            "start": 6380,
+            "end": 6658,
+            "confidence": 0.999,
+            "speaker": null
+          },
+          {
+            "text": "because",
+            "start": 6694,
+            "end": 6894,
+            "confidence": 0.99812,
+            "speaker": null
+          },
+          {
+            "text": "it's",
+            "start": 6932,
+            "end": 7102,
+            "confidence": 0.76901,
+            "speaker": null
+          },
+          {
+            "text": "one",
+            "start": 7126,
+            "end": 7242,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "of",
+            "start": 7256,
+            "end": 7326,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 7328,
+            "end": 7422,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "most",
+            "start": 7436,
+            "end": 7614,
+            "confidence": 0.99924,
+            "speaker": null
+          },
+          {
+            "text": "effective",
+            "start": 7652,
+            "end": 8134,
+            "confidence": 0.46079,
+            "speaker": null
+          },
+          {
+            "text": "ways",
+            "start": 8182,
+            "end": 8358,
+            "confidence": 0.99934,
+            "speaker": null
+          },
+          {
+            "text": "of",
+            "start": 8384,
+            "end": 8538,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "winning",
+            "start": 8564,
+            "end": 8782,
+            "confidence": 0.99869,
+            "speaker": null
+          },
+          {
+            "text": "points.",
+            "start": 8806,
+            "end": 9102,
+            "confidence": 0.99701,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "And even though it's quite simple, it's actually a fairly unique movement, so you need to dedicate some time to learning it.",
+        "start": 9176,
+        "end": 14022,
+        "confidence": 0.99,
+        "words": [
+          {
+            "text": "And",
+            "start": 9176,
+            "end": 9378,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "even",
+            "start": 9404,
+            "end": 9558,
+            "confidence": 0.99948,
+            "speaker": null
+          },
+          {
+            "text": "though",
+            "start": 9584,
+            "end": 9702,
+            "confidence": 0.99821,
+            "speaker": null
+          },
+          {
+            "text": "it's",
+            "start": 9716,
+            "end": 9862,
+            "confidence": 0.88951,
+            "speaker": null
+          },
+          {
+            "text": "quite",
+            "start": 9886,
+            "end": 10074,
+            "confidence": 0.99968,
+            "speaker": null
+          },
+          {
+            "text": "simple,",
+            "start": 10112,
+            "end": 10386,
+            "confidence": 0.99954,
+            "speaker": null
+          },
+          {
+            "text": "it's",
+            "start": 10448,
+            "end": 10642,
+            "confidence": 0.97902,
+            "speaker": null
+          },
+          {
+            "text": "actually",
+            "start": 10666,
+            "end": 10854,
+            "confidence": 0.99788,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 10892,
+            "end": 11022,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "fairly",
+            "start": 11036,
+            "end": 11278,
+            "confidence": 0.99856,
+            "speaker": null
+          },
+          {
+            "text": "unique",
+            "start": 11314,
+            "end": 11614,
+            "confidence": 0.85856,
+            "speaker": null
+          },
+          {
+            "text": "movement,",
+            "start": 11662,
+            "end": 12034,
+            "confidence": 0.91611,
+            "speaker": null
+          },
+          {
+            "text": "so",
+            "start": 12082,
+            "end": 12258,
+            "confidence": 0.99369,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 12284,
+            "end": 12402,
+            "confidence": 0.98,
+            "speaker": null
+          },
+          {
+            "text": "need",
+            "start": 12416,
+            "end": 12522,
+            "confidence": 0.88925,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 12536,
+            "end": 12678,
+            "confidence": 0.91,
+            "speaker": null
+          },
+          {
+            "text": "dedicate",
+            "start": 12704,
+            "end": 13042,
+            "confidence": 0.99154,
+            "speaker": null
+          },
+          {
+            "text": "some",
+            "start": 13066,
+            "end": 13218,
+            "confidence": 0.97133,
+            "speaker": null
+          },
+          {
+            "text": "time",
+            "start": 13244,
+            "end": 13398,
+            "confidence": 0.99948,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 13424,
+            "end": 13578,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "learning",
+            "start": 13604,
+            "end": 13830,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "it.",
+            "start": 13880,
+            "end": 14022,
+            "confidence": 1,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "I'm talking about the next jump, which is used for playing kills.",
+        "start": 14036,
+        "end": 16582,
+        "confidence": 0.72639,
+        "words": [
+          {
+            "text": "I'm",
+            "start": 14036,
+            "end": 14218,
+            "confidence": 0.72639,
+            "speaker": null
+          },
+          {
+            "text": "talking",
+            "start": 14254,
+            "end": 14454,
+            "confidence": 0.99854,
+            "speaker": null
+          },
+          {
+            "text": "about",
+            "start": 14492,
+            "end": 14658,
+            "confidence": 0.99264,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 14684,
+            "end": 14802,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "next",
+            "start": 14816,
+            "end": 14994,
+            "confidence": 0.96497,
+            "speaker": null
+          },
+          {
+            "text": "jump,",
+            "start": 15032,
+            "end": 15274,
+            "confidence": 0.92913,
+            "speaker": null
+          },
+          {
+            "text": "which",
+            "start": 15322,
+            "end": 15462,
+            "confidence": 0.99827,
+            "speaker": null
+          },
+          {
+            "text": "is",
+            "start": 15476,
+            "end": 15582,
+            "confidence": 0.99681,
+            "speaker": null
+          },
+          {
+            "text": "used",
+            "start": 15596,
+            "end": 15738,
+            "confidence": 0.98771,
+            "speaker": null
+          },
+          {
+            "text": "for",
+            "start": 15764,
+            "end": 15882,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "playing",
+            "start": 15896,
+            "end": 16102,
+            "confidence": 0.91103,
+            "speaker": null
+          },
+          {
+            "text": "kills.",
+            "start": 16126,
+            "end": 16582,
+            "confidence": 0.91142,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "You can think of it like pouncing onto the shuttle@the.net.",
+        "start": 16666,
+        "end": 19122,
+        "confidence": 1,
+        "words": [
+          {
+            "text": "You",
+            "start": 16666,
+            "end": 16878,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "can",
+            "start": 16904,
+            "end": 17022,
+            "confidence": 0.99752,
+            "speaker": null
+          },
+          {
+            "text": "think",
+            "start": 17036,
+            "end": 17178,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "of",
+            "start": 17204,
+            "end": 17322,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "it",
+            "start": 17336,
+            "end": 17442,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "like",
+            "start": 17456,
+            "end": 17670,
+            "confidence": 0.97303,
+            "speaker": null
+          },
+          {
+            "text": "pouncing",
+            "start": 17720,
+            "end": 18094,
+            "confidence": 0.8456,
+            "speaker": null
+          },
+          {
+            "text": "onto",
+            "start": 18142,
+            "end": 18346,
+            "confidence": 0.93604,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 18358,
+            "end": 18462,
+            "confidence": 0.98,
+            "speaker": null
+          },
+          {
+            "text": "shuttle@the.net.",
+            "start": 18476,
+            "end": 19122,
+            "confidence": 0.98,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "Net jumps are the fastest way of getting to the shuttle, since you're literally committing everything and leaping to it.",
+        "start": 19136,
+        "end": 24534,
+        "confidence": 0.83,
+        "words": [
+          {
+            "text": "Net",
+            "start": 19136,
+            "end": 19554,
+            "confidence": 0.83,
+            "speaker": null
+          },
+          {
+            "text": "jumps",
+            "start": 19592,
+            "end": 19822,
+            "confidence": 0.58777,
+            "speaker": null
+          },
+          {
+            "text": "are",
+            "start": 19846,
+            "end": 19998,
+            "confidence": 0.97597,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 20024,
+            "end": 20178,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "fastest",
+            "start": 20204,
+            "end": 20578,
+            "confidence": 0.99761,
+            "speaker": null
+          },
+          {
+            "text": "way",
+            "start": 20614,
+            "end": 20742,
+            "confidence": 0.99902,
+            "speaker": null
+          },
+          {
+            "text": "of",
+            "start": 20756,
+            "end": 20898,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "getting",
+            "start": 20924,
+            "end": 21114,
+            "confidence": 0.99783,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 21152,
+            "end": 21282,
+            "confidence": 0.66,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 21296,
+            "end": 21402,
+            "confidence": 0.86,
+            "speaker": null
+          },
+          {
+            "text": "shuttle,",
+            "start": 21416,
+            "end": 21754,
+            "confidence": 0.92,
+            "speaker": null
+          },
+          {
+            "text": "since",
+            "start": 21802,
+            "end": 22050,
+            "confidence": 0.99988,
+            "speaker": null
+          },
+          {
+            "text": "you're",
+            "start": 22100,
+            "end": 22318,
+            "confidence": 0.79919,
+            "speaker": null
+          },
+          {
+            "text": "literally",
+            "start": 22354,
+            "end": 22654,
+            "confidence": 0.74003,
+            "speaker": null
+          },
+          {
+            "text": "committing",
+            "start": 22702,
+            "end": 23074,
+            "confidence": 0.99766,
+            "speaker": null
+          },
+          {
+            "text": "everything",
+            "start": 23122,
+            "end": 23442,
+            "confidence": 0.99818,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 23516,
+            "end": 23754,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "leaping",
+            "start": 23792,
+            "end": 24178,
+            "confidence": 0.64532,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 24214,
+            "end": 24342,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "it.",
+            "start": 24356,
+            "end": 24534,
+            "confidence": 1,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "However, it also puts you in a position that's impossible to recover from.",
+        "start": 24572,
+        "end": 27666,
+        "confidence": 0.99923,
+        "words": [
+          {
+            "text": "However,",
+            "start": 24572,
+            "end": 24918,
+            "confidence": 0.99923,
+            "speaker": null
+          },
+          {
+            "text": "it",
+            "start": 25004,
+            "end": 25218,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "also",
+            "start": 25244,
+            "end": 25470,
+            "confidence": 0.99567,
+            "speaker": null
+          },
+          {
+            "text": "puts",
+            "start": 25520,
+            "end": 25702,
+            "confidence": 0.74234,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 25726,
+            "end": 25806,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "in",
+            "start": 25808,
+            "end": 25902,
+            "confidence": 0.98509,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 25916,
+            "end": 25986,
+            "confidence": 0.98,
+            "speaker": null
+          },
+          {
+            "text": "position",
+            "start": 25988,
+            "end": 26190,
+            "confidence": 0.99996,
+            "speaker": null
+          },
+          {
+            "text": "that's",
+            "start": 26240,
+            "end": 26482,
+            "confidence": 0.89715,
+            "speaker": null
+          },
+          {
+            "text": "impossible",
+            "start": 26506,
+            "end": 26938,
+            "confidence": 0.98952,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 26974,
+            "end": 27102,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "recover",
+            "start": 27116,
+            "end": 27358,
+            "confidence": 0.98657,
+            "speaker": null
+          },
+          {
+            "text": "from.",
+            "start": 27394,
+            "end": 27666,
+            "confidence": 0.99901,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "If I jump in like this and the neck shot goes to the back of the court, there is practically no way for me to get back there in time.",
+        "start": 27728,
+        "end": 33546,
+        "confidence": 1,
+        "words": [
+          {
+            "text": "If",
+            "start": 27728,
+            "end": 27882,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "I",
+            "start": 27896,
+            "end": 28038,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "jump",
+            "start": 28064,
+            "end": 28258,
+            "confidence": 0.99987,
+            "speaker": null
+          },
+          {
+            "text": "in",
+            "start": 28294,
+            "end": 28458,
+            "confidence": 0.99525,
+            "speaker": null
+          },
+          {
+            "text": "like",
+            "start": 28484,
+            "end": 28638,
+            "confidence": 0.99831,
+            "speaker": null
+          },
+          {
+            "text": "this",
+            "start": 28664,
+            "end": 28854,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 28892,
+            "end": 29022,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 29036,
+            "end": 29142,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "neck",
+            "start": 29156,
+            "end": 29302,
+            "confidence": 0.66166,
+            "speaker": null
+          },
+          {
+            "text": "shot",
+            "start": 29326,
+            "end": 29542,
+            "confidence": 0.95104,
+            "speaker": null
+          },
+          {
+            "text": "goes",
+            "start": 29566,
+            "end": 29754,
+            "confidence": 0.99831,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 29792,
+            "end": 29886,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 29888,
+            "end": 30018,
+            "confidence": 0.53,
+            "speaker": null
+          },
+          {
+            "text": "back",
+            "start": 30044,
+            "end": 30198,
+            "confidence": 0.99968,
+            "speaker": null
+          },
+          {
+            "text": "of",
+            "start": 30224,
+            "end": 30342,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 30356,
+            "end": 30462,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "court,",
+            "start": 30476,
+            "end": 30826,
+            "confidence": 0.75998,
+            "speaker": null
+          },
+          {
+            "text": "there",
+            "start": 30898,
+            "end": 31062,
+            "confidence": 0.99599,
+            "speaker": null
+          },
+          {
+            "text": "is",
+            "start": 31076,
+            "end": 31254,
+            "confidence": 0.52865,
+            "speaker": null
+          },
+          {
+            "text": "practically",
+            "start": 31292,
+            "end": 31666,
+            "confidence": 0.91657,
+            "speaker": null
+          },
+          {
+            "text": "no",
+            "start": 31738,
+            "end": 31974,
+            "confidence": 0.99796,
+            "speaker": null
+          },
+          {
+            "text": "way",
+            "start": 32012,
+            "end": 32178,
+            "confidence": 0.99958,
+            "speaker": null
+          },
+          {
+            "text": "for",
+            "start": 32204,
+            "end": 32286,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "me",
+            "start": 32288,
+            "end": 32418,
+            "confidence": 0.65,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 32444,
+            "end": 32562,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "get",
+            "start": 32576,
+            "end": 32718,
+            "confidence": 0.99961,
+            "speaker": null
+          },
+          {
+            "text": "back",
+            "start": 32744,
+            "end": 32934,
+            "confidence": 0.99983,
+            "speaker": null
+          },
+          {
+            "text": "there",
+            "start": 32972,
+            "end": 33102,
+            "confidence": 0.99049,
+            "speaker": null
+          },
+          {
+            "text": "in",
+            "start": 33116,
+            "end": 33258,
+            "confidence": 0.73885,
+            "speaker": null
+          },
+          {
+            "text": "time.",
+            "start": 33284,
+            "end": 33546,
+            "confidence": 0.99894,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "So the only time you should use the net jump is when you're in a position to end the rally.",
+        "start": 33608,
+        "end": 37078,
+        "confidence": 0.81533,
+        "words": [
+          {
+            "text": "So",
+            "start": 33608,
+            "end": 33798,
+            "confidence": 0.81533,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 33824,
+            "end": 33942,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "only",
+            "start": 33956,
+            "end": 34134,
+            "confidence": 0.63,
+            "speaker": null
+          },
+          {
+            "text": "time",
+            "start": 34172,
+            "end": 34338,
+            "confidence": 0.99959,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 34364,
+            "end": 34518,
+            "confidence": 0.54,
+            "speaker": null
+          },
+          {
+            "text": "should",
+            "start": 34544,
+            "end": 34662,
+            "confidence": 0.99706,
+            "speaker": null
+          },
+          {
+            "text": "use",
+            "start": 34676,
+            "end": 34818,
+            "confidence": 0.99923,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 34844,
+            "end": 34926,
+            "confidence": 0.93,
+            "speaker": null
+          },
+          {
+            "text": "net",
+            "start": 34928,
+            "end": 35094,
+            "confidence": 0.97,
+            "speaker": null
+          },
+          {
+            "text": "jump",
+            "start": 35132,
+            "end": 35302,
+            "confidence": 0.87453,
+            "speaker": null
+          },
+          {
+            "text": "is",
+            "start": 35326,
+            "end": 35478,
+            "confidence": 0.9969,
+            "speaker": null
+          },
+          {
+            "text": "when",
+            "start": 35504,
+            "end": 35622,
+            "confidence": 0.99971,
+            "speaker": null
+          },
+          {
+            "text": "you're",
+            "start": 35636,
+            "end": 35746,
+            "confidence": 0.91449,
+            "speaker": null
+          },
+          {
+            "text": "in",
+            "start": 35758,
+            "end": 35862,
+            "confidence": 0.99194,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 35876,
+            "end": 35982,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "position",
+            "start": 35996,
+            "end": 36210,
+            "confidence": 0.99995,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 36260,
+            "end": 36438,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "end",
+            "start": 36464,
+            "end": 36618,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 36644,
+            "end": 36762,
+            "confidence": 0.89,
+            "speaker": null
+          },
+          {
+            "text": "rally.",
+            "start": 36776,
+            "end": 37078,
+            "confidence": 0.97444,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "If you ever have the opportunity to play a kill, you should always take it.",
+        "start": 37114,
+        "end": 40326,
+        "confidence": 0.52,
+        "words": [
+          {
+            "text": "If",
+            "start": 37114,
+            "end": 37278,
+            "confidence": 0.52,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 37304,
+            "end": 37422,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "ever",
+            "start": 37436,
+            "end": 37578,
+            "confidence": 0.99899,
+            "speaker": null
+          },
+          {
+            "text": "have",
+            "start": 37604,
+            "end": 37722,
+            "confidence": 0.96789,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 37736,
+            "end": 37878,
+            "confidence": 0.95,
+            "speaker": null
+          },
+          {
+            "text": "opportunity",
+            "start": 37904,
+            "end": 38274,
+            "confidence": 0.99933,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 38372,
+            "end": 38598,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "play",
+            "start": 38624,
+            "end": 38778,
+            "confidence": 0.99968,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 38804,
+            "end": 38922,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "kill,",
+            "start": 38936,
+            "end": 39150,
+            "confidence": 0.99263,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 39200,
+            "end": 39342,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "should",
+            "start": 39356,
+            "end": 39498,
+            "confidence": 0.99967,
+            "speaker": null
+          },
+          {
+            "text": "always",
+            "start": 39524,
+            "end": 39750,
+            "confidence": 0.99196,
+            "speaker": null
+          },
+          {
+            "text": "take",
+            "start": 39800,
+            "end": 40014,
+            "confidence": 0.99402,
+            "speaker": null
+          },
+          {
+            "text": "it.",
+            "start": 40052,
+            "end": 40326,
+            "confidence": 1,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "A kill is the most effective shot, and it's the best way of ending a rally, but you only have a limited window of time to play the kill.",
+        "start": 40388,
+        "end": 46494,
+        "confidence": 0.99,
+        "words": [
+          {
+            "text": "A",
+            "start": 40388,
+            "end": 40542,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "kill",
+            "start": 40556,
+            "end": 40806,
+            "confidence": 0.54862,
+            "speaker": null
+          },
+          {
+            "text": "is",
+            "start": 40868,
+            "end": 41094,
+            "confidence": 0.9994,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 41132,
+            "end": 41262,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "most",
+            "start": 41276,
+            "end": 41454,
+            "confidence": 0.99989,
+            "speaker": null
+          },
+          {
+            "text": "effective",
+            "start": 41492,
+            "end": 41938,
+            "confidence": 0.99894,
+            "speaker": null
+          },
+          {
+            "text": "shot,",
+            "start": 41974,
+            "end": 42238,
+            "confidence": 0.99828,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 42274,
+            "end": 42402,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "it's",
+            "start": 42416,
+            "end": 42562,
+            "confidence": 0.93975,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 42586,
+            "end": 42702,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "best",
+            "start": 42716,
+            "end": 42858,
+            "confidence": 0.99995,
+            "speaker": null
+          },
+          {
+            "text": "way",
+            "start": 42884,
+            "end": 43002,
+            "confidence": 0.99893,
+            "speaker": null
+          },
+          {
+            "text": "of",
+            "start": 43016,
+            "end": 43122,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "ending",
+            "start": 43136,
+            "end": 43306,
+            "confidence": 0.99749,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 43318,
+            "end": 43422,
+            "confidence": 0.9,
+            "speaker": null
+          },
+          {
+            "text": "rally,",
+            "start": 43436,
+            "end": 43678,
+            "confidence": 0.97715,
+            "speaker": null
+          },
+          {
+            "text": "but",
+            "start": 43714,
+            "end": 43878,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 43904,
+            "end": 44022,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "only",
+            "start": 44036,
+            "end": 44178,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "have",
+            "start": 44204,
+            "end": 44322,
+            "confidence": 0.99927,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 44336,
+            "end": 44442,
+            "confidence": 0.53,
+            "speaker": null
+          },
+          {
+            "text": "limited",
+            "start": 44456,
+            "end": 44734,
+            "confidence": 0.98529,
+            "speaker": null
+          },
+          {
+            "text": "window",
+            "start": 44782,
+            "end": 45082,
+            "confidence": 0.99502,
+            "speaker": null
+          },
+          {
+            "text": "of",
+            "start": 45106,
+            "end": 45258,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "time",
+            "start": 45284,
+            "end": 45510,
+            "confidence": 0.99984,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 45560,
+            "end": 45738,
+            "confidence": 0.89,
+            "speaker": null
+          },
+          {
+            "text": "play",
+            "start": 45764,
+            "end": 45954,
+            "confidence": 0.99916,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 45992,
+            "end": 46122,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "kill.",
+            "start": 46136,
+            "end": 46494,
+            "confidence": 0.99749,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "Once the shuttle drops below the tape, it's gone.",
+        "start": 46592,
+        "end": 48834,
+        "confidence": 0.99921,
+        "words": [
+          {
+            "text": "Once",
+            "start": 46592,
+            "end": 46854,
+            "confidence": 0.99921,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 46892,
+            "end": 47022,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "shuttle",
+            "start": 47036,
+            "end": 47278,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "drops",
+            "start": 47314,
+            "end": 47554,
+            "confidence": 0.99276,
+            "speaker": null
+          },
+          {
+            "text": "below",
+            "start": 47602,
+            "end": 47814,
+            "confidence": 0.99988,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 47852,
+            "end": 47982,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "tape,",
+            "start": 47996,
+            "end": 48334,
+            "confidence": 0.73134,
+            "speaker": null
+          },
+          {
+            "text": "it's",
+            "start": 48382,
+            "end": 48622,
+            "confidence": 0.98077,
+            "speaker": null
+          },
+          {
+            "text": "gone.",
+            "start": 48646,
+            "end": 48834,
+            "confidence": 0.99973,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "The net jump is used to get to the shuttle while we can still kill it.",
+        "start": 48872,
+        "end": 51858,
+        "confidence": 0.99,
+        "words": [
+          {
+            "text": "The",
+            "start": 48872,
+            "end": 49002,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "net",
+            "start": 49016,
+            "end": 49158,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "jump",
+            "start": 49184,
+            "end": 49378,
+            "confidence": 0.76178,
+            "speaker": null
+          },
+          {
+            "text": "is",
+            "start": 49414,
+            "end": 49542,
+            "confidence": 0.95071,
+            "speaker": null
+          },
+          {
+            "text": "used",
+            "start": 49556,
+            "end": 49698,
+            "confidence": 0.99641,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 49724,
+            "end": 49878,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "get",
+            "start": 49904,
+            "end": 50022,
+            "confidence": 0.99778,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 50036,
+            "end": 50142,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 50156,
+            "end": 50262,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "shuttle",
+            "start": 50276,
+            "end": 50758,
+            "confidence": 0.98,
+            "speaker": null
+          },
+          {
+            "text": "while",
+            "start": 50854,
+            "end": 51078,
+            "confidence": 0.97264,
+            "speaker": null
+          },
+          {
+            "text": "we",
+            "start": 51104,
+            "end": 51222,
+            "confidence": 0.70804,
+            "speaker": null
+          },
+          {
+            "text": "can",
+            "start": 51236,
+            "end": 51342,
+            "confidence": 0.99591,
+            "speaker": null
+          },
+          {
+            "text": "still",
+            "start": 51356,
+            "end": 51534,
+            "confidence": 0.99867,
+            "speaker": null
+          },
+          {
+            "text": "kill",
+            "start": 51572,
+            "end": 51702,
+            "confidence": 0.99898,
+            "speaker": null
+          },
+          {
+            "text": "it.",
+            "start": 51716,
+            "end": 51858,
+            "confidence": 0.98,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "The movement itself is actually pretty intuitive.",
+        "start": 51884,
+        "end": 53914,
+        "confidence": 1,
+        "words": [
+          {
+            "text": "The",
+            "start": 51884,
+            "end": 52002,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "movement",
+            "start": 52016,
+            "end": 52258,
+            "confidence": 0.99888,
+            "speaker": null
+          },
+          {
+            "text": "itself",
+            "start": 52294,
+            "end": 52530,
+            "confidence": 0.99941,
+            "speaker": null
+          },
+          {
+            "text": "is",
+            "start": 52580,
+            "end": 52794,
+            "confidence": 0.99714,
+            "speaker": null
+          },
+          {
+            "text": "actually",
+            "start": 52832,
+            "end": 53070,
+            "confidence": 0.99251,
+            "speaker": null
+          },
+          {
+            "text": "pretty",
+            "start": 53120,
+            "end": 53298,
+            "confidence": 0.99957,
+            "speaker": null
+          },
+          {
+            "text": "intuitive.",
+            "start": 53324,
+            "end": 53914,
+            "confidence": 0.99979,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "Start off with your racket leg forwards.",
+        "start": 54022,
+        "end": 55714,
+        "confidence": 0.99899,
+        "words": [
+          {
+            "text": "Start",
+            "start": 54022,
+            "end": 54294,
+            "confidence": 0.99899,
+            "speaker": null
+          },
+          {
+            "text": "off",
+            "start": 54332,
+            "end": 54498,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "with",
+            "start": 54524,
+            "end": 54642,
+            "confidence": 0.99933,
+            "speaker": null
+          },
+          {
+            "text": "your",
+            "start": 54656,
+            "end": 54798,
+            "confidence": 0.997,
+            "speaker": null
+          },
+          {
+            "text": "racket",
+            "start": 54824,
+            "end": 55042,
+            "confidence": 0.51159,
+            "speaker": null
+          },
+          {
+            "text": "leg",
+            "start": 55066,
+            "end": 55254,
+            "confidence": 0.99222,
+            "speaker": null
+          },
+          {
+            "text": "forwards.",
+            "start": 55292,
+            "end": 55714,
+            "confidence": 0.9508,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "When you're at the net, this will generally be the stance that you're in, and we'll talk a bit more about that in module three.",
+        "start": 55762,
+        "end": 60222,
+        "confidence": 0.99975,
+        "words": [
+          {
+            "text": "When",
+            "start": 55762,
+            "end": 55902,
+            "confidence": 0.99975,
+            "speaker": null
+          },
+          {
+            "text": "you're",
+            "start": 55916,
+            "end": 56062,
+            "confidence": 0.95541,
+            "speaker": null
+          },
+          {
+            "text": "at",
+            "start": 56086,
+            "end": 56166,
+            "confidence": 0.97,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 56168,
+            "end": 56262,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "net,",
+            "start": 56276,
+            "end": 56418,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "this",
+            "start": 56444,
+            "end": 56598,
+            "confidence": 0.96,
+            "speaker": null
+          },
+          {
+            "text": "will",
+            "start": 56624,
+            "end": 56778,
+            "confidence": 0.94308,
+            "speaker": null
+          },
+          {
+            "text": "generally",
+            "start": 56804,
+            "end": 57118,
+            "confidence": 0.98013,
+            "speaker": null
+          },
+          {
+            "text": "be",
+            "start": 57154,
+            "end": 57282,
+            "confidence": 0.99838,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 57296,
+            "end": 57438,
+            "confidence": 0.98,
+            "speaker": null
+          },
+          {
+            "text": "stance",
+            "start": 57464,
+            "end": 57658,
+            "confidence": 0.96515,
+            "speaker": null
+          },
+          {
+            "text": "that",
+            "start": 57694,
+            "end": 57822,
+            "confidence": 0.73,
+            "speaker": null
+          },
+          {
+            "text": "you're",
+            "start": 57836,
+            "end": 58042,
+            "confidence": 0.74104,
+            "speaker": null
+          },
+          {
+            "text": "in,",
+            "start": 58066,
+            "end": 58218,
+            "confidence": 0.9981,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 58244,
+            "end": 58398,
+            "confidence": 0.98,
+            "speaker": null
+          },
+          {
+            "text": "we'll",
+            "start": 58424,
+            "end": 58582,
+            "confidence": 0.96233,
+            "speaker": null
+          },
+          {
+            "text": "talk",
+            "start": 58606,
+            "end": 58758,
+            "confidence": 0.99984,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 58784,
+            "end": 58866,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "bit",
+            "start": 58868,
+            "end": 58998,
+            "confidence": 0.99982,
+            "speaker": null
+          },
+          {
+            "text": "more",
+            "start": 59024,
+            "end": 59142,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "about",
+            "start": 59156,
+            "end": 59298,
+            "confidence": 0.99987,
+            "speaker": null
+          },
+          {
+            "text": "that",
+            "start": 59324,
+            "end": 59442,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "in",
+            "start": 59456,
+            "end": 59562,
+            "confidence": 0.99226,
+            "speaker": null
+          },
+          {
+            "text": "module",
+            "start": 59576,
+            "end": 59878,
+            "confidence": 0.99384,
+            "speaker": null
+          },
+          {
+            "text": "three.",
+            "start": 59914,
+            "end": 60222,
+            "confidence": 0.99,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "From this stance, as soon as you notice the shuttle is coming over the net high enough to kill, you need to decide if you're going to commit to the net jump or not.",
+        "start": 60296,
+        "end": 67566,
+        "confidence": 0.99939,
+        "words": [
+          {
+            "text": "From",
+            "start": 60296,
+            "end": 60498,
+            "confidence": 0.99939,
+            "speaker": null
+          },
+          {
+            "text": "this",
+            "start": 60524,
+            "end": 60678,
+            "confidence": 0.9,
+            "speaker": null
+          },
+          {
+            "text": "stance,",
+            "start": 60704,
+            "end": 61102,
+            "confidence": 0.51224,
+            "speaker": null
+          },
+          {
+            "text": "as",
+            "start": 61186,
+            "end": 61398,
+            "confidence": 0.99863,
+            "speaker": null
+          },
+          {
+            "text": "soon",
+            "start": 61424,
+            "end": 61578,
+            "confidence": 0.99994,
+            "speaker": null
+          },
+          {
+            "text": "as",
+            "start": 61604,
+            "end": 61722,
+            "confidence": 0.99768,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 61736,
+            "end": 61842,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "notice",
+            "start": 61856,
+            "end": 62134,
+            "confidence": 0.99506,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 62182,
+            "end": 62322,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "shuttle",
+            "start": 62336,
+            "end": 62638,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "is",
+            "start": 62674,
+            "end": 62802,
+            "confidence": 0.99697,
+            "speaker": null
+          },
+          {
+            "text": "coming",
+            "start": 62816,
+            "end": 63030,
+            "confidence": 0.70149,
+            "speaker": null
+          },
+          {
+            "text": "over",
+            "start": 63080,
+            "end": 63258,
+            "confidence": 0.61,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 63284,
+            "end": 63402,
+            "confidence": 0.96,
+            "speaker": null
+          },
+          {
+            "text": "net",
+            "start": 63416,
+            "end": 63630,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "high",
+            "start": 63680,
+            "end": 63822,
+            "confidence": 0.99959,
+            "speaker": null
+          },
+          {
+            "text": "enough",
+            "start": 63836,
+            "end": 64014,
+            "confidence": 0.89197,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 64052,
+            "end": 64218,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "kill,",
+            "start": 64244,
+            "end": 64578,
+            "confidence": 0.99917,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 64664,
+            "end": 64878,
+            "confidence": 0.94,
+            "speaker": null
+          },
+          {
+            "text": "need",
+            "start": 64904,
+            "end": 65022,
+            "confidence": 0.9969,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 65036,
+            "end": 65178,
+            "confidence": 0.82,
+            "speaker": null
+          },
+          {
+            "text": "decide",
+            "start": 65204,
+            "end": 65494,
+            "confidence": 0.95275,
+            "speaker": null
+          },
+          {
+            "text": "if",
+            "start": 65542,
+            "end": 65682,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "you're",
+            "start": 65696,
+            "end": 65842,
+            "confidence": 0.88067,
+            "speaker": null
+          },
+          {
+            "text": "going",
+            "start": 65866,
+            "end": 65982,
+            "confidence": 0.99437,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 65996,
+            "end": 66066,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "commit",
+            "start": 66068,
+            "end": 66322,
+            "confidence": 0.54606,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 66346,
+            "end": 66462,
+            "confidence": 0.98,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 66476,
+            "end": 66582,
+            "confidence": 0.98,
+            "speaker": null
+          },
+          {
+            "text": "net",
+            "start": 66596,
+            "end": 66774,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "jump",
+            "start": 66812,
+            "end": 66982,
+            "confidence": 0.9945,
+            "speaker": null
+          },
+          {
+            "text": "or",
+            "start": 67006,
+            "end": 67122,
+            "confidence": 0.99459,
+            "speaker": null
+          },
+          {
+            "text": "not.",
+            "start": 67136,
+            "end": 67566,
+            "confidence": 0.99946,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "If so, reach out with your racket and jump towards it.",
+        "start": 67688,
+        "end": 70818,
+        "confidence": 0.79,
+        "words": [
+          {
+            "text": "If",
+            "start": 67688,
+            "end": 67974,
+            "confidence": 0.79,
+            "speaker": null
+          },
+          {
+            "text": "so,",
+            "start": 68012,
+            "end": 68430,
+            "confidence": 0.99872,
+            "speaker": null
+          },
+          {
+            "text": "reach",
+            "start": 68540,
+            "end": 68814,
+            "confidence": 0.99995,
+            "speaker": null
+          },
+          {
+            "text": "out",
+            "start": 68852,
+            "end": 68982,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "with",
+            "start": 68996,
+            "end": 69102,
+            "confidence": 0.97877,
+            "speaker": null
+          },
+          {
+            "text": "your",
+            "start": 69116,
+            "end": 69258,
+            "confidence": 0.99497,
+            "speaker": null
+          },
+          {
+            "text": "racket",
+            "start": 69284,
+            "end": 69538,
+            "confidence": 0.45391,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 69574,
+            "end": 69774,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "jump",
+            "start": 69812,
+            "end": 70018,
+            "confidence": 0.99976,
+            "speaker": null
+          },
+          {
+            "text": "towards",
+            "start": 70054,
+            "end": 70362,
+            "confidence": 0.99682,
+            "speaker": null
+          },
+          {
+            "text": "it.",
+            "start": 70436,
+            "end": 70818,
+            "confidence": 1,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "You should take off and land with your racket leg.",
+        "start": 70904,
+        "end": 73074,
+        "confidence": 1,
+        "words": [
+          {
+            "text": "You",
+            "start": 70904,
+            "end": 71082,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "should",
+            "start": 71096,
+            "end": 71274,
+            "confidence": 0.51562,
+            "speaker": null
+          },
+          {
+            "text": "take",
+            "start": 71312,
+            "end": 71514,
+            "confidence": 0.99902,
+            "speaker": null
+          },
+          {
+            "text": "off",
+            "start": 71552,
+            "end": 71682,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 71696,
+            "end": 71838,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "land",
+            "start": 71864,
+            "end": 72054,
+            "confidence": 0.998,
+            "speaker": null
+          },
+          {
+            "text": "with",
+            "start": 72092,
+            "end": 72222,
+            "confidence": 0.99822,
+            "speaker": null
+          },
+          {
+            "text": "your",
+            "start": 72236,
+            "end": 72378,
+            "confidence": 0.99422,
+            "speaker": null
+          },
+          {
+            "text": "racket",
+            "start": 72404,
+            "end": 72658,
+            "confidence": 0.59527,
+            "speaker": null
+          },
+          {
+            "text": "leg.",
+            "start": 72694,
+            "end": 73074,
+            "confidence": 0.99478,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "See how I'm essentially leaping forwards, which means I have to land on just 1ft to balance yourself.",
+        "start": 73172,
+        "end": 78018,
+        "confidence": 0.99857,
+        "words": [
+          {
+            "text": "See",
+            "start": 73172,
+            "end": 73434,
+            "confidence": 0.99857,
+            "speaker": null
+          },
+          {
+            "text": "how",
+            "start": 73472,
+            "end": 73638,
+            "confidence": 0.99676,
+            "speaker": null
+          },
+          {
+            "text": "I'm",
+            "start": 73664,
+            "end": 73918,
+            "confidence": 0.93625,
+            "speaker": null
+          },
+          {
+            "text": "essentially",
+            "start": 73954,
+            "end": 74290,
+            "confidence": 0.99852,
+            "speaker": null
+          },
+          {
+            "text": "leaping",
+            "start": 74350,
+            "end": 74758,
+            "confidence": 0.65309,
+            "speaker": null
+          },
+          {
+            "text": "forwards,",
+            "start": 74794,
+            "end": 75214,
+            "confidence": 0.86044,
+            "speaker": null
+          },
+          {
+            "text": "which",
+            "start": 75262,
+            "end": 75474,
+            "confidence": 0.99745,
+            "speaker": null
+          },
+          {
+            "text": "means",
+            "start": 75512,
+            "end": 75678,
+            "confidence": 0.99651,
+            "speaker": null
+          },
+          {
+            "text": "I",
+            "start": 75704,
+            "end": 75858,
+            "confidence": 0.58,
+            "speaker": null
+          },
+          {
+            "text": "have",
+            "start": 75884,
+            "end": 76002,
+            "confidence": 0.96171,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 76016,
+            "end": 76158,
+            "confidence": 0.94,
+            "speaker": null
+          },
+          {
+            "text": "land",
+            "start": 76184,
+            "end": 76338,
+            "confidence": 0.99799,
+            "speaker": null
+          },
+          {
+            "text": "on",
+            "start": 76364,
+            "end": 76518,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "just",
+            "start": 76544,
+            "end": 76698,
+            "confidence": 0.98374,
+            "speaker": null
+          },
+          {
+            "text": "1ft",
+            "start": 76724,
+            "end": 77130,
+            "confidence": 0.85,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 77180,
+            "end": 77322,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "balance",
+            "start": 77336,
+            "end": 77614,
+            "confidence": 0.99602,
+            "speaker": null
+          },
+          {
+            "text": "yourself.",
+            "start": 77662,
+            "end": 78018,
+            "confidence": 0.98896,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "Keep your non racket arm behind.",
+        "start": 78104,
+        "end": 79518,
+        "confidence": 0.9993,
+        "words": [
+          {
+            "text": "Keep",
+            "start": 78104,
+            "end": 78318,
+            "confidence": 0.9993,
+            "speaker": null
+          },
+          {
+            "text": "your",
+            "start": 78344,
+            "end": 78462,
+            "confidence": 0.99581,
+            "speaker": null
+          },
+          {
+            "text": "non",
+            "start": 78476,
+            "end": 78682,
+            "confidence": 0.99522,
+            "speaker": null
+          },
+          {
+            "text": "racket",
+            "start": 78706,
+            "end": 78982,
+            "confidence": 0.55242,
+            "speaker": null
+          },
+          {
+            "text": "arm",
+            "start": 79006,
+            "end": 79162,
+            "confidence": 0.98954,
+            "speaker": null
+          },
+          {
+            "text": "behind.",
+            "start": 79186,
+            "end": 79518,
+            "confidence": 0.99987,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "In terms of technique, there really isn't much to it.",
+        "start": 79604,
+        "end": 81858,
+        "confidence": 0.99712,
+        "words": [
+          {
+            "text": "In",
+            "start": 79604,
+            "end": 79746,
+            "confidence": 0.99712,
+            "speaker": null
+          },
+          {
+            "text": "terms",
+            "start": 79748,
+            "end": 79914,
+            "confidence": 0.67631,
+            "speaker": null
+          },
+          {
+            "text": "of",
+            "start": 79952,
+            "end": 80118,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "technique,",
+            "start": 80144,
+            "end": 80458,
+            "confidence": 0.99917,
+            "speaker": null
+          },
+          {
+            "text": "there",
+            "start": 80494,
+            "end": 80802,
+            "confidence": 0.89725,
+            "speaker": null
+          },
+          {
+            "text": "really",
+            "start": 80876,
+            "end": 81078,
+            "confidence": 0.99805,
+            "speaker": null
+          },
+          {
+            "text": "isn't",
+            "start": 81104,
+            "end": 81298,
+            "confidence": 0.51812,
+            "speaker": null
+          },
+          {
+            "text": "much",
+            "start": 81334,
+            "end": 81534,
+            "confidence": 0.99993,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 81572,
+            "end": 81702,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "it.",
+            "start": 81716,
+            "end": 81858,
+            "confidence": 1,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "It's literally just a leap towards the net.",
+        "start": 81884,
+        "end": 83574,
+        "confidence": 0.94826,
+        "words": [
+          {
+            "text": "It's",
+            "start": 81884,
+            "end": 82042,
+            "confidence": 0.94826,
+            "speaker": null
+          },
+          {
+            "text": "literally",
+            "start": 82066,
+            "end": 82414,
+            "confidence": 0.99951,
+            "speaker": null
+          },
+          {
+            "text": "just",
+            "start": 82462,
+            "end": 82602,
+            "confidence": 0.99304,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 82616,
+            "end": 82722,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "leap",
+            "start": 82736,
+            "end": 82942,
+            "confidence": 0.99815,
+            "speaker": null
+          },
+          {
+            "text": "towards",
+            "start": 82966,
+            "end": 83190,
+            "confidence": 0.59855,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 83240,
+            "end": 83382,
+            "confidence": 0.82,
+            "speaker": null
+          },
+          {
+            "text": "net.",
+            "start": 83396,
+            "end": 83574,
+            "confidence": 0.99,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "But what's more important for this building block is your mindset.",
+        "start": 83612,
+        "end": 86194,
+        "confidence": 0.97,
+        "words": [
+          {
+            "text": "But",
+            "start": 83612,
+            "end": 83742,
+            "confidence": 0.97,
+            "speaker": null
+          },
+          {
+            "text": "what's",
+            "start": 83756,
+            "end": 83962,
+            "confidence": 0.78224,
+            "speaker": null
+          },
+          {
+            "text": "more",
+            "start": 83986,
+            "end": 84174,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "important",
+            "start": 84212,
+            "end": 84486,
+            "confidence": 0.99946,
+            "speaker": null
+          },
+          {
+            "text": "for",
+            "start": 84548,
+            "end": 84702,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "this",
+            "start": 84716,
+            "end": 84858,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "building",
+            "start": 84884,
+            "end": 85074,
+            "confidence": 0.99959,
+            "speaker": null
+          },
+          {
+            "text": "block",
+            "start": 85112,
+            "end": 85342,
+            "confidence": 0.99807,
+            "speaker": null
+          },
+          {
+            "text": "is",
+            "start": 85366,
+            "end": 85518,
+            "confidence": 0.88135,
+            "speaker": null
+          },
+          {
+            "text": "your",
+            "start": 85544,
+            "end": 85734,
+            "confidence": 0.99754,
+            "speaker": null
+          },
+          {
+            "text": "mindset.",
+            "start": 85772,
+            "end": 86194,
+            "confidence": 0.56009,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "If you're going to use the net jump, you have to commit to it 100%.",
+        "start": 86242,
+        "end": 89406,
+        "confidence": 1,
+        "words": [
+          {
+            "text": "If",
+            "start": 86242,
+            "end": 86382,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "you're",
+            "start": 86396,
+            "end": 86506,
+            "confidence": 0.95548,
+            "speaker": null
+          },
+          {
+            "text": "going",
+            "start": 86518,
+            "end": 86658,
+            "confidence": 0.99949,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 86684,
+            "end": 86802,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "use",
+            "start": 86816,
+            "end": 86922,
+            "confidence": 0.9996,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 86936,
+            "end": 87042,
+            "confidence": 0.59,
+            "speaker": null
+          },
+          {
+            "text": "net",
+            "start": 87056,
+            "end": 87234,
+            "confidence": 0.92,
+            "speaker": null
+          },
+          {
+            "text": "jump,",
+            "start": 87272,
+            "end": 87478,
+            "confidence": 0.96454,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 87514,
+            "end": 87678,
+            "confidence": 0.97,
+            "speaker": null
+          },
+          {
+            "text": "have",
+            "start": 87704,
+            "end": 87858,
+            "confidence": 0.99892,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 87884,
+            "end": 88038,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "commit",
+            "start": 88064,
+            "end": 88282,
+            "confidence": 0.99969,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 88306,
+            "end": 88422,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "it",
+            "start": 88436,
+            "end": 88542,
+            "confidence": 0.98,
+            "speaker": null
+          },
+          {
+            "text": "100%.",
+            "start": 88556,
+            "end": 89406,
+            "confidence": 0.94,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "If you're unsure or hesitant, don't do it.",
+        "start": 89528,
+        "end": 91554,
+        "confidence": 1,
+        "words": [
+          {
+            "text": "If",
+            "start": 89528,
+            "end": 89742,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "you're",
+            "start": 89756,
+            "end": 89902,
+            "confidence": 0.90839,
+            "speaker": null
+          },
+          {
+            "text": "unsure",
+            "start": 89926,
+            "end": 90202,
+            "confidence": 0.9697,
+            "speaker": null
+          },
+          {
+            "text": "or",
+            "start": 90226,
+            "end": 90342,
+            "confidence": 0.81065,
+            "speaker": null
+          },
+          {
+            "text": "hesitant,",
+            "start": 90356,
+            "end": 90826,
+            "confidence": 0.76777,
+            "speaker": null
+          },
+          {
+            "text": "don't",
+            "start": 90898,
+            "end": 91198,
+            "confidence": 0.69349,
+            "speaker": null
+          },
+          {
+            "text": "do",
+            "start": 91234,
+            "end": 91362,
+            "confidence": 0.99972,
+            "speaker": null
+          },
+          {
+            "text": "it.",
+            "start": 91376,
+            "end": 91554,
+            "confidence": 1,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "Just lunge in and play a safe shot.",
+        "start": 91592,
+        "end": 93238,
+        "confidence": 0.99432,
+        "words": [
+          {
+            "text": "Just",
+            "start": 91592,
+            "end": 91866,
+            "confidence": 0.99432,
+            "speaker": null
+          },
+          {
+            "text": "lunge",
+            "start": 91928,
+            "end": 92242,
+            "confidence": 0.66001,
+            "speaker": null
+          },
+          {
+            "text": "in",
+            "start": 92266,
+            "end": 92382,
+            "confidence": 0.80332,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 92396,
+            "end": 92502,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "play",
+            "start": 92516,
+            "end": 92658,
+            "confidence": 0.99472,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 92684,
+            "end": 92802,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "safe",
+            "start": 92816,
+            "end": 92998,
+            "confidence": 0.97604,
+            "speaker": null
+          },
+          {
+            "text": "shot.",
+            "start": 93034,
+            "end": 93238,
+            "confidence": 0.96744,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "The reason for this is if you're on the fence about the net jump, you get the worst of both worlds.",
+        "start": 93274,
+        "end": 97462,
+        "confidence": 1,
+        "words": [
+          {
+            "text": "The",
+            "start": 93274,
+            "end": 93438,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "reason",
+            "start": 93464,
+            "end": 93690,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "for",
+            "start": 93740,
+            "end": 93882,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "this",
+            "start": 93896,
+            "end": 94074,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "is",
+            "start": 94112,
+            "end": 94314,
+            "confidence": 0.99633,
+            "speaker": null
+          },
+          {
+            "text": "if",
+            "start": 94352,
+            "end": 94518,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "you're",
+            "start": 94544,
+            "end": 94702,
+            "confidence": 0.95221,
+            "speaker": null
+          },
+          {
+            "text": "on",
+            "start": 94726,
+            "end": 94842,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 94856,
+            "end": 94962,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "fence",
+            "start": 94976,
+            "end": 95182,
+            "confidence": 0.99697,
+            "speaker": null
+          },
+          {
+            "text": "about",
+            "start": 95206,
+            "end": 95358,
+            "confidence": 0.99912,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 95384,
+            "end": 95502,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "net",
+            "start": 95516,
+            "end": 95658,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "jump,",
+            "start": 95684,
+            "end": 95914,
+            "confidence": 0.97444,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 95962,
+            "end": 96102,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "get",
+            "start": 96116,
+            "end": 96222,
+            "confidence": 0.99826,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 96236,
+            "end": 96378,
+            "confidence": 0.81,
+            "speaker": null
+          },
+          {
+            "text": "worst",
+            "start": 96404,
+            "end": 96598,
+            "confidence": 0.90753,
+            "speaker": null
+          },
+          {
+            "text": "of",
+            "start": 96634,
+            "end": 96762,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "both",
+            "start": 96776,
+            "end": 96954,
+            "confidence": 0.99982,
+            "speaker": null
+          },
+          {
+            "text": "worlds.",
+            "start": 96992,
+            "end": 97462,
+            "confidence": 0.99506,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "You won't have the decisiveness to end the rally, but you'll still put yourself in a position that's impossible to recover from.",
+        "start": 97546,
+        "end": 102930,
+        "confidence": 0.51,
+        "words": [
+          {
+            "text": "You",
+            "start": 97546,
+            "end": 97758,
+            "confidence": 0.51,
+            "speaker": null
+          },
+          {
+            "text": "won't",
+            "start": 97784,
+            "end": 97942,
+            "confidence": 0.99483,
+            "speaker": null
+          },
+          {
+            "text": "have",
+            "start": 97966,
+            "end": 98118,
+            "confidence": 0.99979,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 98144,
+            "end": 98262,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "decisiveness",
+            "start": 98276,
+            "end": 98938,
+            "confidence": 0.997,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 98974,
+            "end": 99138,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "end",
+            "start": 99164,
+            "end": 99318,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 99344,
+            "end": 99462,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "rally,",
+            "start": 99476,
+            "end": 99886,
+            "confidence": 0.99452,
+            "speaker": null
+          },
+          {
+            "text": "but",
+            "start": 99958,
+            "end": 100122,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "you'll",
+            "start": 100136,
+            "end": 100342,
+            "confidence": 0.86873,
+            "speaker": null
+          },
+          {
+            "text": "still",
+            "start": 100366,
+            "end": 100518,
+            "confidence": 0.99899,
+            "speaker": null
+          },
+          {
+            "text": "put",
+            "start": 100544,
+            "end": 100662,
+            "confidence": 0.99952,
+            "speaker": null
+          },
+          {
+            "text": "yourself",
+            "start": 100676,
+            "end": 100926,
+            "confidence": 0.9869,
+            "speaker": null
+          },
+          {
+            "text": "in",
+            "start": 100988,
+            "end": 101106,
+            "confidence": 0.99707,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 101108,
+            "end": 101202,
+            "confidence": 0.97,
+            "speaker": null
+          },
+          {
+            "text": "position",
+            "start": 101216,
+            "end": 101466,
+            "confidence": 0.99997,
+            "speaker": null
+          },
+          {
+            "text": "that's",
+            "start": 101528,
+            "end": 101722,
+            "confidence": 0.62008,
+            "speaker": null
+          },
+          {
+            "text": "impossible",
+            "start": 101746,
+            "end": 102178,
+            "confidence": 0.99417,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 102214,
+            "end": 102342,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "recover",
+            "start": 102356,
+            "end": 102634,
+            "confidence": 0.93755,
+            "speaker": null
+          },
+          {
+            "text": "from.",
+            "start": 102682,
+            "end": 102930,
+            "confidence": 0.99989,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "When you go for a net jump, I want you to be thinking this exact statement in your head.",
+        "start": 102980,
+        "end": 106878,
+        "confidence": 0.99975,
+        "words": [
+          {
+            "text": "When",
+            "start": 102980,
+            "end": 103122,
+            "confidence": 0.99975,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 103136,
+            "end": 103242,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "go",
+            "start": 103256,
+            "end": 103398,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "for",
+            "start": 103424,
+            "end": 103542,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 103556,
+            "end": 103662,
+            "confidence": 0.93,
+            "speaker": null
+          },
+          {
+            "text": "net",
+            "start": 103676,
+            "end": 103818,
+            "confidence": 0.98,
+            "speaker": null
+          },
+          {
+            "text": "jump,",
+            "start": 103844,
+            "end": 104074,
+            "confidence": 0.95933,
+            "speaker": null
+          },
+          {
+            "text": "I",
+            "start": 104122,
+            "end": 104298,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "want",
+            "start": 104324,
+            "end": 104442,
+            "confidence": 0.99958,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 104456,
+            "end": 104562,
+            "confidence": 0.98,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 104576,
+            "end": 104682,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "be",
+            "start": 104696,
+            "end": 104802,
+            "confidence": 0.99631,
+            "speaker": null
+          },
+          {
+            "text": "thinking",
+            "start": 104816,
+            "end": 105030,
+            "confidence": 0.99856,
+            "speaker": null
+          },
+          {
+            "text": "this",
+            "start": 105080,
+            "end": 105294,
+            "confidence": 0.97,
+            "speaker": null
+          },
+          {
+            "text": "exact",
+            "start": 105332,
+            "end": 105606,
+            "confidence": 0.99931,
+            "speaker": null
+          },
+          {
+            "text": "statement",
+            "start": 105668,
+            "end": 106018,
+            "confidence": 0.9988,
+            "speaker": null
+          },
+          {
+            "text": "in",
+            "start": 106054,
+            "end": 106182,
+            "confidence": 0.99805,
+            "speaker": null
+          },
+          {
+            "text": "your",
+            "start": 106196,
+            "end": 106338,
+            "confidence": 0.99513,
+            "speaker": null
+          },
+          {
+            "text": "head.",
+            "start": 106364,
+            "end": 106878,
+            "confidence": 0.99942,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "I'm going to win the rally outright.",
+        "start": 107024,
+        "end": 108766,
+        "confidence": 0.57722,
+        "words": [
+          {
+            "text": "I'm",
+            "start": 107024,
+            "end": 107338,
+            "confidence": 0.57722,
+            "speaker": null
+          },
+          {
+            "text": "going",
+            "start": 107374,
+            "end": 107538,
+            "confidence": 0.99936,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 107564,
+            "end": 107682,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "win",
+            "start": 107696,
+            "end": 107838,
+            "confidence": 0.99936,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 107864,
+            "end": 107982,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "rally",
+            "start": 107996,
+            "end": 108274,
+            "confidence": 0.55163,
+            "speaker": null
+          },
+          {
+            "text": "outright.",
+            "start": 108322,
+            "end": 108766,
+            "confidence": 0.96743,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "I do not care what happens after this shot.",
+        "start": 108838,
+        "end": 111154,
+        "confidence": 0.62,
+        "words": [
+          {
+            "text": "I",
+            "start": 108838,
+            "end": 109038,
+            "confidence": 0.62,
+            "speaker": null
+          },
+          {
+            "text": "do",
+            "start": 109064,
+            "end": 109182,
+            "confidence": 0.99632,
+            "speaker": null
+          },
+          {
+            "text": "not",
+            "start": 109196,
+            "end": 109410,
+            "confidence": 0.7839,
+            "speaker": null
+          },
+          {
+            "text": "care",
+            "start": 109460,
+            "end": 109818,
+            "confidence": 0.99996,
+            "speaker": null
+          },
+          {
+            "text": "what",
+            "start": 109904,
+            "end": 110118,
+            "confidence": 0.99985,
+            "speaker": null
+          },
+          {
+            "text": "happens",
+            "start": 110144,
+            "end": 110370,
+            "confidence": 0.8582,
+            "speaker": null
+          },
+          {
+            "text": "after",
+            "start": 110420,
+            "end": 110670,
+            "confidence": 0.85982,
+            "speaker": null
+          },
+          {
+            "text": "this",
+            "start": 110720,
+            "end": 110862,
+            "confidence": 0.94,
+            "speaker": null
+          },
+          {
+            "text": "shot.",
+            "start": 110876,
+            "end": 111154,
+            "confidence": 0.99452,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "Here is Lee Jonwei demonstrating a net jump.",
+        "start": 111202,
+        "end": 113490,
+        "confidence": 1,
+        "words": [
+          {
+            "text": "Here",
+            "start": 111202,
+            "end": 111342,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "is",
+            "start": 111356,
+            "end": 111498,
+            "confidence": 0.97066,
+            "speaker": null
+          },
+          {
+            "text": "Lee",
+            "start": 111524,
+            "end": 111646,
+            "confidence": 0.70966,
+            "speaker": null
+          },
+          {
+            "text": "Jonwei",
+            "start": 111658,
+            "end": 112042,
+            "confidence": 0.00452,
+            "speaker": null
+          },
+          {
+            "text": "demonstrating",
+            "start": 112066,
+            "end": 112534,
+            "confidence": 0.98893,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 112582,
+            "end": 112686,
+            "confidence": 0.96,
+            "speaker": null
+          },
+          {
+            "text": "net",
+            "start": 112688,
+            "end": 112854,
+            "confidence": 0.86,
+            "speaker": null
+          },
+          {
+            "text": "jump.",
+            "start": 112892,
+            "end": 113490,
+            "confidence": 0.99357,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "He's positioned at the front of the net, waiting for the return and as you can see he's standing with his racket foot forward and his non racket foot directly behind.",
+        "start": 119130,
+        "end": 126730,
+        "confidence": 0.65037,
+        "words": [
+          {
+            "text": "He's",
+            "start": 119130,
+            "end": 119498,
+            "confidence": 0.65037,
+            "speaker": null
+          },
+          {
+            "text": "positioned",
+            "start": 119534,
+            "end": 119942,
+            "confidence": 0.99844,
+            "speaker": null
+          },
+          {
+            "text": "at",
+            "start": 119966,
+            "end": 120046,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 120048,
+            "end": 120178,
+            "confidence": 0.55,
+            "speaker": null
+          },
+          {
+            "text": "front",
+            "start": 120204,
+            "end": 120358,
+            "confidence": 0.99958,
+            "speaker": null
+          },
+          {
+            "text": "of",
+            "start": 120384,
+            "end": 120502,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 120516,
+            "end": 120622,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "net,",
+            "start": 120636,
+            "end": 120850,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "waiting",
+            "start": 120900,
+            "end": 121142,
+            "confidence": 0.99763,
+            "speaker": null
+          },
+          {
+            "text": "for",
+            "start": 121166,
+            "end": 121282,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 121296,
+            "end": 121402,
+            "confidence": 0.98,
+            "speaker": null
+          },
+          {
+            "text": "return",
+            "start": 121416,
+            "end": 121774,
+            "confidence": 0.99964,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 121872,
+            "end": 122134,
+            "confidence": 0.97,
+            "speaker": null
+          },
+          {
+            "text": "as",
+            "start": 122172,
+            "end": 122302,
+            "confidence": 0.99897,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 122316,
+            "end": 122422,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "can",
+            "start": 122436,
+            "end": 122578,
+            "confidence": 0.91562,
+            "speaker": null
+          },
+          {
+            "text": "see",
+            "start": 122604,
+            "end": 122758,
+            "confidence": 0.99968,
+            "speaker": null
+          },
+          {
+            "text": "he's",
+            "start": 122784,
+            "end": 123002,
+            "confidence": 0.93022,
+            "speaker": null
+          },
+          {
+            "text": "standing",
+            "start": 123026,
+            "end": 123338,
+            "confidence": 0.84721,
+            "speaker": null
+          },
+          {
+            "text": "with",
+            "start": 123374,
+            "end": 123538,
+            "confidence": 0.99906,
+            "speaker": null
+          },
+          {
+            "text": "his",
+            "start": 123564,
+            "end": 123718,
+            "confidence": 0.99781,
+            "speaker": null
+          },
+          {
+            "text": "racket",
+            "start": 123744,
+            "end": 124022,
+            "confidence": 0.58258,
+            "speaker": null
+          },
+          {
+            "text": "foot",
+            "start": 124046,
+            "end": 124234,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "forward",
+            "start": 124272,
+            "end": 124654,
+            "confidence": 0.9992,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 124752,
+            "end": 124978,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "his",
+            "start": 125004,
+            "end": 125122,
+            "confidence": 0.85341,
+            "speaker": null
+          },
+          {
+            "text": "non",
+            "start": 125136,
+            "end": 125282,
+            "confidence": 0.53254,
+            "speaker": null
+          },
+          {
+            "text": "racket",
+            "start": 125306,
+            "end": 125582,
+            "confidence": 0.56149,
+            "speaker": null
+          },
+          {
+            "text": "foot",
+            "start": 125606,
+            "end": 125830,
+            "confidence": 0.86,
+            "speaker": null
+          },
+          {
+            "text": "directly",
+            "start": 125880,
+            "end": 126278,
+            "confidence": 0.99915,
+            "speaker": null
+          },
+          {
+            "text": "behind.",
+            "start": 126314,
+            "end": 126730,
+            "confidence": 0.99984,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "When his opponent returns the shuttle he notices that he can kill it so he instantly jumps forward and goes for the kill.",
+        "start": 126840,
+        "end": 132706,
+        "confidence": 0.99975,
+        "words": [
+          {
+            "text": "When",
+            "start": 126840,
+            "end": 127042,
+            "confidence": 0.99975,
+            "speaker": null
+          },
+          {
+            "text": "his",
+            "start": 127056,
+            "end": 127198,
+            "confidence": 0.99144,
+            "speaker": null
+          },
+          {
+            "text": "opponent",
+            "start": 127224,
+            "end": 127538,
+            "confidence": 0.99979,
+            "speaker": null
+          },
+          {
+            "text": "returns",
+            "start": 127574,
+            "end": 127886,
+            "confidence": 0.9906,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 127898,
+            "end": 128002,
+            "confidence": 0.7,
+            "speaker": null
+          },
+          {
+            "text": "shuttle",
+            "start": 128016,
+            "end": 128354,
+            "confidence": 0.97,
+            "speaker": null
+          },
+          {
+            "text": "he",
+            "start": 128402,
+            "end": 128578,
+            "confidence": 0.99878,
+            "speaker": null
+          },
+          {
+            "text": "notices",
+            "start": 128604,
+            "end": 128966,
+            "confidence": 0.99523,
+            "speaker": null
+          },
+          {
+            "text": "that",
+            "start": 129038,
+            "end": 129202,
+            "confidence": 0.98,
+            "speaker": null
+          },
+          {
+            "text": "he",
+            "start": 129216,
+            "end": 129322,
+            "confidence": 0.99759,
+            "speaker": null
+          },
+          {
+            "text": "can",
+            "start": 129336,
+            "end": 129478,
+            "confidence": 0.9594,
+            "speaker": null
+          },
+          {
+            "text": "kill",
+            "start": 129504,
+            "end": 129658,
+            "confidence": 0.99941,
+            "speaker": null
+          },
+          {
+            "text": "it",
+            "start": 129684,
+            "end": 129982,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "so",
+            "start": 130056,
+            "end": 130258,
+            "confidence": 0.89222,
+            "speaker": null
+          },
+          {
+            "text": "he",
+            "start": 130284,
+            "end": 130438,
+            "confidence": 0.99658,
+            "speaker": null
+          },
+          {
+            "text": "instantly",
+            "start": 130464,
+            "end": 130898,
+            "confidence": 0.7515,
+            "speaker": null
+          },
+          {
+            "text": "jumps",
+            "start": 130934,
+            "end": 131258,
+            "confidence": 0.839,
+            "speaker": null
+          },
+          {
+            "text": "forward",
+            "start": 131294,
+            "end": 131530,
+            "confidence": 0.99998,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 131580,
+            "end": 131794,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "goes",
+            "start": 131832,
+            "end": 131998,
+            "confidence": 0.99525,
+            "speaker": null
+          },
+          {
+            "text": "for",
+            "start": 132024,
+            "end": 132142,
+            "confidence": 0.98,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 132156,
+            "end": 132262,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "kill.",
+            "start": 132276,
+            "end": 132706,
+            "confidence": 0.99681,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "Look how fast he is here.",
+        "start": 132828,
+        "end": 134074,
+        "confidence": 1,
+        "words": [
+          {
+            "text": "Look",
+            "start": 132828,
+            "end": 133078,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "how",
+            "start": 133104,
+            "end": 133294,
+            "confidence": 0.77375,
+            "speaker": null
+          },
+          {
+            "text": "fast",
+            "start": 133332,
+            "end": 133534,
+            "confidence": 0.99947,
+            "speaker": null
+          },
+          {
+            "text": "he",
+            "start": 133572,
+            "end": 133738,
+            "confidence": 0.5908,
+            "speaker": null
+          },
+          {
+            "text": "is",
+            "start": 133764,
+            "end": 133882,
+            "confidence": 0.85612,
+            "speaker": null
+          },
+          {
+            "text": "here.",
+            "start": 133896,
+            "end": 134074,
+            "confidence": 0.99,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "He's completely committed.",
+        "start": 134112,
+        "end": 135446,
+        "confidence": 0.92118,
+        "words": [
+          {
+            "text": "He's",
+            "start": 134112,
+            "end": 134378,
+            "confidence": 0.92118,
+            "speaker": null
+          },
+          {
+            "text": "completely",
+            "start": 134414,
+            "end": 134758,
+            "confidence": 0.99883,
+            "speaker": null
+          },
+          {
+            "text": "committed.",
+            "start": 134844,
+            "end": 135446,
+            "confidence": 0.59718,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "That's the same attitude I want you to have from this position.",
+        "start": 135518,
+        "end": 138814,
+        "confidence": 0.95805,
+        "words": [
+          {
+            "text": "That's",
+            "start": 135518,
+            "end": 135782,
+            "confidence": 0.95805,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 135806,
+            "end": 135958,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "same",
+            "start": 135984,
+            "end": 136210,
+            "confidence": 0.99962,
+            "speaker": null
+          },
+          {
+            "text": "attitude",
+            "start": 136260,
+            "end": 136682,
+            "confidence": 0.88555,
+            "speaker": null
+          },
+          {
+            "text": "I",
+            "start": 136706,
+            "end": 136858,
+            "confidence": 0.98,
+            "speaker": null
+          },
+          {
+            "text": "want",
+            "start": 136884,
+            "end": 137002,
+            "confidence": 0.99935,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 137016,
+            "end": 137158,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 137184,
+            "end": 137302,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "have",
+            "start": 137316,
+            "end": 137782,
+            "confidence": 0.99962,
+            "speaker": null
+          },
+          {
+            "text": "from",
+            "start": 137916,
+            "end": 138214,
+            "confidence": 0.9982,
+            "speaker": null
+          },
+          {
+            "text": "this",
+            "start": 138252,
+            "end": 138418,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "position.",
+            "start": 138444,
+            "end": 138814,
+            "confidence": 0.99979,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "He leaps forwards primarily pushing off his right foot and also landing on it.",
+        "start": 138912,
+        "end": 143158,
+        "confidence": 0.99892,
+        "words": [
+          {
+            "text": "He",
+            "start": 138912,
+            "end": 139210,
+            "confidence": 0.99892,
+            "speaker": null
+          },
+          {
+            "text": "leaps",
+            "start": 139260,
+            "end": 139478,
+            "confidence": 0.47404,
+            "speaker": null
+          },
+          {
+            "text": "forwards",
+            "start": 139514,
+            "end": 140078,
+            "confidence": 0.94316,
+            "speaker": null
+          },
+          {
+            "text": "primarily",
+            "start": 140174,
+            "end": 140714,
+            "confidence": 0.99919,
+            "speaker": null
+          },
+          {
+            "text": "pushing",
+            "start": 140762,
+            "end": 141062,
+            "confidence": 0.99908,
+            "speaker": null
+          },
+          {
+            "text": "off",
+            "start": 141086,
+            "end": 141202,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "his",
+            "start": 141216,
+            "end": 141358,
+            "confidence": 0.99765,
+            "speaker": null
+          },
+          {
+            "text": "right",
+            "start": 141384,
+            "end": 141538,
+            "confidence": 0.99924,
+            "speaker": null
+          },
+          {
+            "text": "foot",
+            "start": 141564,
+            "end": 141790,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 141840,
+            "end": 142018,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "also",
+            "start": 142044,
+            "end": 142270,
+            "confidence": 0.99443,
+            "speaker": null
+          },
+          {
+            "text": "landing",
+            "start": 142320,
+            "end": 142682,
+            "confidence": 0.5812,
+            "speaker": null
+          },
+          {
+            "text": "on",
+            "start": 142706,
+            "end": 142822,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "it.",
+            "start": 142836,
+            "end": 143158,
+            "confidence": 0.75,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "He brings his racket into position straight away so no time is wasted when playing the shot.",
+        "start": 143244,
+        "end": 147494,
+        "confidence": 0.9976,
+        "words": [
+          {
+            "text": "He",
+            "start": 143244,
+            "end": 143458,
+            "confidence": 0.9976,
+            "speaker": null
+          },
+          {
+            "text": "brings",
+            "start": 143484,
+            "end": 143702,
+            "confidence": 0.97845,
+            "speaker": null
+          },
+          {
+            "text": "his",
+            "start": 143726,
+            "end": 143842,
+            "confidence": 0.9742,
+            "speaker": null
+          },
+          {
+            "text": "racket",
+            "start": 143856,
+            "end": 144122,
+            "confidence": 0.70944,
+            "speaker": null
+          },
+          {
+            "text": "into",
+            "start": 144146,
+            "end": 144298,
+            "confidence": 0.99467,
+            "speaker": null
+          },
+          {
+            "text": "position",
+            "start": 144324,
+            "end": 144586,
+            "confidence": 0.9998,
+            "speaker": null
+          },
+          {
+            "text": "straight",
+            "start": 144648,
+            "end": 144938,
+            "confidence": 0.50217,
+            "speaker": null
+          },
+          {
+            "text": "away",
+            "start": 144974,
+            "end": 145246,
+            "confidence": 0.82,
+            "speaker": null
+          },
+          {
+            "text": "so",
+            "start": 145308,
+            "end": 145534,
+            "confidence": 0.99617,
+            "speaker": null
+          },
+          {
+            "text": "no",
+            "start": 145572,
+            "end": 145738,
+            "confidence": 0.99925,
+            "speaker": null
+          },
+          {
+            "text": "time",
+            "start": 145764,
+            "end": 145918,
+            "confidence": 0.99914,
+            "speaker": null
+          },
+          {
+            "text": "is",
+            "start": 145944,
+            "end": 146098,
+            "confidence": 0.98931,
+            "speaker": null
+          },
+          {
+            "text": "wasted",
+            "start": 146124,
+            "end": 146438,
+            "confidence": 0.99695,
+            "speaker": null
+          },
+          {
+            "text": "when",
+            "start": 146474,
+            "end": 146602,
+            "confidence": 0.99168,
+            "speaker": null
+          },
+          {
+            "text": "playing",
+            "start": 146616,
+            "end": 146822,
+            "confidence": 0.54698,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 146846,
+            "end": 146998,
+            "confidence": 0.6,
+            "speaker": null
+          },
+          {
+            "text": "shot.",
+            "start": 147024,
+            "end": 147494,
+            "confidence": 0.63405,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "Your assignment is to learn how to do this.",
+        "start": 147602,
+        "end": 149566,
+        "confidence": 0.99565,
+        "words": [
+          {
+            "text": "Your",
+            "start": 147602,
+            "end": 147838,
+            "confidence": 0.99565,
+            "speaker": null
+          },
+          {
+            "text": "assignment",
+            "start": 147864,
+            "end": 148238,
+            "confidence": 0.99954,
+            "speaker": null
+          },
+          {
+            "text": "is",
+            "start": 148274,
+            "end": 148402,
+            "confidence": 0.99864,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 148416,
+            "end": 148522,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "learn",
+            "start": 148536,
+            "end": 148714,
+            "confidence": 0.9998,
+            "speaker": null
+          },
+          {
+            "text": "how",
+            "start": 148752,
+            "end": 148918,
+            "confidence": 0.52437,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 148944,
+            "end": 149098,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "do",
+            "start": 149124,
+            "end": 149278,
+            "confidence": 0.99844,
+            "speaker": null
+          },
+          {
+            "text": "this.",
+            "start": 149304,
+            "end": 149566,
+            "confidence": 1,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "Since there isn't as much technique involved as the other building blocks, it shouldn't take as long.",
+        "start": 149628,
+        "end": 153526,
+        "confidence": 0.61993,
+        "words": [
+          {
+            "text": "Since",
+            "start": 149628,
+            "end": 149890,
+            "confidence": 0.61993,
+            "speaker": null
+          },
+          {
+            "text": "there",
+            "start": 149940,
+            "end": 150082,
+            "confidence": 0.99904,
+            "speaker": null
+          },
+          {
+            "text": "isn't",
+            "start": 150096,
+            "end": 150338,
+            "confidence": 0.78693,
+            "speaker": null
+          },
+          {
+            "text": "as",
+            "start": 150374,
+            "end": 150502,
+            "confidence": 0.99406,
+            "speaker": null
+          },
+          {
+            "text": "much",
+            "start": 150516,
+            "end": 150694,
+            "confidence": 0.99983,
+            "speaker": null
+          },
+          {
+            "text": "technique",
+            "start": 150732,
+            "end": 151058,
+            "confidence": 0.99657,
+            "speaker": null
+          },
+          {
+            "text": "involved",
+            "start": 151094,
+            "end": 151418,
+            "confidence": 0.9987,
+            "speaker": null
+          },
+          {
+            "text": "as",
+            "start": 151454,
+            "end": 151618,
+            "confidence": 0.99721,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 151644,
+            "end": 151762,
+            "confidence": 0.98,
+            "speaker": null
+          },
+          {
+            "text": "other",
+            "start": 151776,
+            "end": 151918,
+            "confidence": 0.99452,
+            "speaker": null
+          },
+          {
+            "text": "building",
+            "start": 151944,
+            "end": 152170,
+            "confidence": 0.99989,
+            "speaker": null
+          },
+          {
+            "text": "blocks,",
+            "start": 152220,
+            "end": 152522,
+            "confidence": 0.83806,
+            "speaker": null
+          },
+          {
+            "text": "it",
+            "start": 152546,
+            "end": 152698,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "shouldn't",
+            "start": 152724,
+            "end": 152942,
+            "confidence": 0.98997,
+            "speaker": null
+          },
+          {
+            "text": "take",
+            "start": 152966,
+            "end": 153118,
+            "confidence": 0.99974,
+            "speaker": null
+          },
+          {
+            "text": "as",
+            "start": 153144,
+            "end": 153262,
+            "confidence": 0.98264,
+            "speaker": null
+          },
+          {
+            "text": "long.",
+            "start": 153276,
+            "end": 153526,
+            "confidence": 0.98101,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "Spend some time shadowing and practising this movement on your own and then go on court with a feeder.",
+        "start": 153588,
+        "end": 157934,
+        "confidence": 0.98984,
+        "words": [
+          {
+            "text": "Spend",
+            "start": 153588,
+            "end": 153778,
+            "confidence": 0.98984,
+            "speaker": null
+          },
+          {
+            "text": "some",
+            "start": 153804,
+            "end": 153958,
+            "confidence": 0.57972,
+            "speaker": null
+          },
+          {
+            "text": "time",
+            "start": 153984,
+            "end": 154210,
+            "confidence": 0.74186,
+            "speaker": null
+          },
+          {
+            "text": "shadowing",
+            "start": 154260,
+            "end": 154718,
+            "confidence": 0.9739,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 154754,
+            "end": 154918,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "practising",
+            "start": 154944,
+            "end": 155342,
+            "confidence": 0.98618,
+            "speaker": null
+          },
+          {
+            "text": "this",
+            "start": 155366,
+            "end": 155518,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "movement",
+            "start": 155544,
+            "end": 155798,
+            "confidence": 0.99598,
+            "speaker": null
+          },
+          {
+            "text": "on",
+            "start": 155834,
+            "end": 155962,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "your",
+            "start": 155976,
+            "end": 156082,
+            "confidence": 0.99748,
+            "speaker": null
+          },
+          {
+            "text": "own",
+            "start": 156096,
+            "end": 156310,
+            "confidence": 0.99981,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 156360,
+            "end": 156538,
+            "confidence": 0.95,
+            "speaker": null
+          },
+          {
+            "text": "then",
+            "start": 156564,
+            "end": 156754,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "go",
+            "start": 156792,
+            "end": 156958,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "on",
+            "start": 156984,
+            "end": 157102,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "court",
+            "start": 157116,
+            "end": 157322,
+            "confidence": 0.97744,
+            "speaker": null
+          },
+          {
+            "text": "with",
+            "start": 157346,
+            "end": 157462,
+            "confidence": 0.99884,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 157476,
+            "end": 157546,
+            "confidence": 0.79,
+            "speaker": null
+          },
+          {
+            "text": "feeder.",
+            "start": 157548,
+            "end": 157934,
+            "confidence": 0.96961,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "Position yourself at the front of the net roughly around the service line.",
+        "start": 157982,
+        "end": 161062,
+        "confidence": 0.99993,
+        "words": [
+          {
+            "text": "Position",
+            "start": 157982,
+            "end": 158266,
+            "confidence": 0.99993,
+            "speaker": null
+          },
+          {
+            "text": "yourself",
+            "start": 158328,
+            "end": 158626,
+            "confidence": 0.99941,
+            "speaker": null
+          },
+          {
+            "text": "at",
+            "start": 158688,
+            "end": 158806,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 158808,
+            "end": 158938,
+            "confidence": 0.79,
+            "speaker": null
+          },
+          {
+            "text": "front",
+            "start": 158964,
+            "end": 159118,
+            "confidence": 0.99975,
+            "speaker": null
+          },
+          {
+            "text": "of",
+            "start": 159144,
+            "end": 159226,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 159228,
+            "end": 159322,
+            "confidence": 0.97,
+            "speaker": null
+          },
+          {
+            "text": "net",
+            "start": 159336,
+            "end": 159586,
+            "confidence": 0.97,
+            "speaker": null
+          },
+          {
+            "text": "roughly",
+            "start": 159648,
+            "end": 159998,
+            "confidence": 0.96898,
+            "speaker": null
+          },
+          {
+            "text": "around",
+            "start": 160034,
+            "end": 160234,
+            "confidence": 0.99953,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 160272,
+            "end": 160402,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "service",
+            "start": 160416,
+            "end": 160666,
+            "confidence": 0.9,
+            "speaker": null
+          },
+          {
+            "text": "line.",
+            "start": 160728,
+            "end": 161062,
+            "confidence": 0.99502,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "Stand sideways with your racket foot forwards.",
+        "start": 161136,
+        "end": 163190,
+        "confidence": 0.99797,
+        "words": [
+          {
+            "text": "Stand",
+            "start": 161136,
+            "end": 161410,
+            "confidence": 0.99797,
+            "speaker": null
+          },
+          {
+            "text": "sideways",
+            "start": 161460,
+            "end": 161894,
+            "confidence": 0.99021,
+            "speaker": null
+          },
+          {
+            "text": "with",
+            "start": 161942,
+            "end": 162082,
+            "confidence": 0.9953,
+            "speaker": null
+          },
+          {
+            "text": "your",
+            "start": 162096,
+            "end": 162238,
+            "confidence": 0.98733,
+            "speaker": null
+          },
+          {
+            "text": "racket",
+            "start": 162264,
+            "end": 162518,
+            "confidence": 0.58174,
+            "speaker": null
+          },
+          {
+            "text": "foot",
+            "start": 162554,
+            "end": 162718,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "forwards.",
+            "start": 162744,
+            "end": 163190,
+            "confidence": 0.86207,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "Get your feeders to throw an underarm shot while making sure it's high enough to kill.",
+        "start": 163250,
+        "end": 166762,
+        "confidence": 0.99917,
+        "words": [
+          {
+            "text": "Get",
+            "start": 163250,
+            "end": 163438,
+            "confidence": 0.99917,
+            "speaker": null
+          },
+          {
+            "text": "your",
+            "start": 163464,
+            "end": 163618,
+            "confidence": 0.99707,
+            "speaker": null
+          },
+          {
+            "text": "feeders",
+            "start": 163644,
+            "end": 163982,
+            "confidence": 0.24066,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 164006,
+            "end": 164086,
+            "confidence": 0.69,
+            "speaker": null
+          },
+          {
+            "text": "throw",
+            "start": 164088,
+            "end": 164318,
+            "confidence": 0.81177,
+            "speaker": null
+          },
+          {
+            "text": "an",
+            "start": 164354,
+            "end": 164518,
+            "confidence": 0.98766,
+            "speaker": null
+          },
+          {
+            "text": "underarm",
+            "start": 164544,
+            "end": 164942,
+            "confidence": 0.81502,
+            "speaker": null
+          },
+          {
+            "text": "shot",
+            "start": 164966,
+            "end": 165182,
+            "confidence": 0.99833,
+            "speaker": null
+          },
+          {
+            "text": "while",
+            "start": 165206,
+            "end": 165358,
+            "confidence": 0.99761,
+            "speaker": null
+          },
+          {
+            "text": "making",
+            "start": 165384,
+            "end": 165574,
+            "confidence": 0.99969,
+            "speaker": null
+          },
+          {
+            "text": "sure",
+            "start": 165612,
+            "end": 165742,
+            "confidence": 0.99966,
+            "speaker": null
+          },
+          {
+            "text": "it's",
+            "start": 165756,
+            "end": 165962,
+            "confidence": 0.69501,
+            "speaker": null
+          },
+          {
+            "text": "high",
+            "start": 165986,
+            "end": 166102,
+            "confidence": 0.99927,
+            "speaker": null
+          },
+          {
+            "text": "enough",
+            "start": 166116,
+            "end": 166294,
+            "confidence": 0.8641,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 166332,
+            "end": 166462,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "kill.",
+            "start": 166476,
+            "end": 166762,
+            "confidence": 0.998,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "Practise this shot ten times, record yourself and run it through the Swift checklist.",
+        "start": 166836,
+        "end": 170870,
+        "confidence": 0.99013,
+        "words": [
+          {
+            "text": "Practise",
+            "start": 166836,
+            "end": 167198,
+            "confidence": 0.99013,
+            "speaker": null
+          },
+          {
+            "text": "this",
+            "start": 167234,
+            "end": 167398,
+            "confidence": 0.73,
+            "speaker": null
+          },
+          {
+            "text": "shot",
+            "start": 167424,
+            "end": 167618,
+            "confidence": 0.99646,
+            "speaker": null
+          },
+          {
+            "text": "ten",
+            "start": 167654,
+            "end": 167854,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "times,",
+            "start": 167892,
+            "end": 168274,
+            "confidence": 0.99854,
+            "speaker": null
+          },
+          {
+            "text": "record",
+            "start": 168372,
+            "end": 168706,
+            "confidence": 0.99652,
+            "speaker": null
+          },
+          {
+            "text": "yourself",
+            "start": 168768,
+            "end": 169138,
+            "confidence": 0.99904,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 169224,
+            "end": 169402,
+            "confidence": 0.96,
+            "speaker": null
+          },
+          {
+            "text": "run",
+            "start": 169416,
+            "end": 169558,
+            "confidence": 0.96086,
+            "speaker": null
+          },
+          {
+            "text": "it",
+            "start": 169584,
+            "end": 169702,
+            "confidence": 0.87,
+            "speaker": null
+          },
+          {
+            "text": "through",
+            "start": 169716,
+            "end": 169894,
+            "confidence": 0.99958,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 169932,
+            "end": 170062,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "Swift",
+            "start": 170076,
+            "end": 170318,
+            "confidence": 0.99075,
+            "speaker": null
+          },
+          {
+            "text": "checklist.",
+            "start": 170354,
+            "end": 170870,
+            "confidence": 0.95733,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "If you've passed this assignment as well as the others, Congratulations, you've now mastered all the building blocks of footwork.",
+        "start": 170930,
+        "end": 176834,
+        "confidence": 1,
+        "words": [
+          {
+            "text": "If",
+            "start": 170930,
+            "end": 171118,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "you've",
+            "start": 171144,
+            "end": 171302,
+            "confidence": 0.73652,
+            "speaker": null
+          },
+          {
+            "text": "passed",
+            "start": 171326,
+            "end": 171542,
+            "confidence": 0.82577,
+            "speaker": null
+          },
+          {
+            "text": "this",
+            "start": 171566,
+            "end": 171754,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "assignment",
+            "start": 171792,
+            "end": 172178,
+            "confidence": 0.99923,
+            "speaker": null
+          },
+          {
+            "text": "as",
+            "start": 172214,
+            "end": 172342,
+            "confidence": 0.99889,
+            "speaker": null
+          },
+          {
+            "text": "well",
+            "start": 172356,
+            "end": 172462,
+            "confidence": 0.99923,
+            "speaker": null
+          },
+          {
+            "text": "as",
+            "start": 172476,
+            "end": 172582,
+            "confidence": 0.99822,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 172596,
+            "end": 172702,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "others,",
+            "start": 172716,
+            "end": 173038,
+            "confidence": 0.99678,
+            "speaker": null
+          },
+          {
+            "text": "Congratulations,",
+            "start": 173124,
+            "end": 174050,
+            "confidence": 0.99946,
+            "speaker": null
+          },
+          {
+            "text": "you've",
+            "start": 174170,
+            "end": 174458,
+            "confidence": 0.5993,
+            "speaker": null
+          },
+          {
+            "text": "now",
+            "start": 174494,
+            "end": 174658,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "mastered",
+            "start": 174684,
+            "end": 175190,
+            "confidence": 0.92312,
+            "speaker": null
+          },
+          {
+            "text": "all",
+            "start": 175250,
+            "end": 175438,
+            "confidence": 0.99883,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 175464,
+            "end": 175618,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "building",
+            "start": 175644,
+            "end": 175870,
+            "confidence": 0.99986,
+            "speaker": null
+          },
+          {
+            "text": "blocks",
+            "start": 175920,
+            "end": 176186,
+            "confidence": 0.98115,
+            "speaker": null
+          },
+          {
+            "text": "of",
+            "start": 176198,
+            "end": 176302,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "footwork.",
+            "start": 176316,
+            "end": 176834,
+            "confidence": 0.98527,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "Pretty cool, right?",
+        "start": 176942,
+        "end": 177670,
+        "confidence": 0.99973,
+        "words": [
+          {
+            "text": "Pretty",
+            "start": 176942,
+            "end": 177178,
+            "confidence": 0.99973,
+            "speaker": null
+          },
+          {
+            "text": "cool,",
+            "start": 177204,
+            "end": 177394,
+            "confidence": 0.99038,
+            "speaker": null
+          },
+          {
+            "text": "right?",
+            "start": 177432,
+            "end": 177670,
+            "confidence": 0.96482,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "If not just repeat the same process, take on the feedback and you'll be there in no time.",
+        "start": 177720,
+        "end": 181630,
+        "confidence": 1,
+        "words": [
+          {
+            "text": "If",
+            "start": 177720,
+            "end": 177898,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "not",
+            "start": 177924,
+            "end": 178186,
+            "confidence": 0.99947,
+            "speaker": null
+          },
+          {
+            "text": "just",
+            "start": 178248,
+            "end": 178474,
+            "confidence": 0.99473,
+            "speaker": null
+          },
+          {
+            "text": "repeat",
+            "start": 178512,
+            "end": 178766,
+            "confidence": 0.99807,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 178778,
+            "end": 178882,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "same",
+            "start": 178896,
+            "end": 179074,
+            "confidence": 0.99974,
+            "speaker": null
+          },
+          {
+            "text": "process,",
+            "start": 179112,
+            "end": 179458,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "take",
+            "start": 179544,
+            "end": 179758,
+            "confidence": 0.99587,
+            "speaker": null
+          },
+          {
+            "text": "on",
+            "start": 179784,
+            "end": 179902,
+            "confidence": 0.88,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 179916,
+            "end": 180022,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "feedback",
+            "start": 180036,
+            "end": 180398,
+            "confidence": 0.95,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 180434,
+            "end": 180562,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "you'll",
+            "start": 180576,
+            "end": 180686,
+            "confidence": 0.97024,
+            "speaker": null
+          },
+          {
+            "text": "be",
+            "start": 180698,
+            "end": 180838,
+            "confidence": 0.99839,
+            "speaker": null
+          },
+          {
+            "text": "there",
+            "start": 180864,
+            "end": 181018,
+            "confidence": 0.99973,
+            "speaker": null
+          },
+          {
+            "text": "in",
+            "start": 181044,
+            "end": 181162,
+            "confidence": 0.99786,
+            "speaker": null
+          },
+          {
+            "text": "no",
+            "start": 181176,
+            "end": 181354,
+            "confidence": 0.99809,
+            "speaker": null
+          },
+          {
+            "text": "time.",
+            "start": 181392,
+            "end": 181630,
+            "confidence": 0.99947,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "We're getting pretty close to module three where we'll start to put everything everything together but first a quick debrief.",
+        "start": 181680,
+        "end": 186530,
+        "confidence": 0.94225,
+        "words": [
+          {
+            "text": "We're",
+            "start": 181680,
+            "end": 181862,
+            "confidence": 0.94225,
+            "speaker": null
+          },
+          {
+            "text": "getting",
+            "start": 181886,
+            "end": 182074,
+            "confidence": 0.99929,
+            "speaker": null
+          },
+          {
+            "text": "pretty",
+            "start": 182112,
+            "end": 182314,
+            "confidence": 0.99833,
+            "speaker": null
+          },
+          {
+            "text": "close",
+            "start": 182352,
+            "end": 182518,
+            "confidence": 0.99973,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 182544,
+            "end": 182698,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "module",
+            "start": 182724,
+            "end": 182978,
+            "confidence": 0.96972,
+            "speaker": null
+          },
+          {
+            "text": "three",
+            "start": 183014,
+            "end": 183250,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "where",
+            "start": 183300,
+            "end": 183478,
+            "confidence": 0.9965,
+            "speaker": null
+          },
+          {
+            "text": "we'll",
+            "start": 183504,
+            "end": 183662,
+            "confidence": 0.77718,
+            "speaker": null
+          },
+          {
+            "text": "start",
+            "start": 183686,
+            "end": 183838,
+            "confidence": 0.99417,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 183864,
+            "end": 183982,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "put",
+            "start": 183996,
+            "end": 184102,
+            "confidence": 0.99032,
+            "speaker": null
+          },
+          {
+            "text": "everything",
+            "start": 184116,
+            "end": 184258,
+            "confidence": 0.63498,
+            "speaker": null
+          },
+          {
+            "text": "everything",
+            "start": 184284,
+            "end": 184510,
+            "confidence": 0.95119,
+            "speaker": null
+          },
+          {
+            "text": "together",
+            "start": 184560,
+            "end": 184990,
+            "confidence": 0.99982,
+            "speaker": null
+          },
+          {
+            "text": "but",
+            "start": 185100,
+            "end": 185374,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "first",
+            "start": 185412,
+            "end": 185722,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 185796,
+            "end": 185962,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "quick",
+            "start": 185976,
+            "end": 186154,
+            "confidence": 0.99973,
+            "speaker": null
+          },
+          {
+            "text": "debrief.",
+            "start": 186192,
+            "end": 186530,
+            "confidence": 0.93192,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      }
+    ]
+  }
+]

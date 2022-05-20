@@ -1,0 +1,1687 @@
+[
+  {
+    "sentences": [
+      {
+        "text": "We're going to start off this module by learning all the ways of moving to the front of the chord.",
+        "start": 130,
+        "end": 4114,
+        "confidence": 0.87382,
+        "words": [
+          {
+            "text": "We're",
+            "start": 130,
+            "end": 262,
+            "confidence": 0.87382,
+            "speaker": null
+          },
+          {
+            "text": "going",
+            "start": 286,
+            "end": 402,
+            "confidence": 0.99696,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 416,
+            "end": 558,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "start",
+            "start": 584,
+            "end": 774,
+            "confidence": 0.99969,
+            "speaker": null
+          },
+          {
+            "text": "off",
+            "start": 812,
+            "end": 942,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "this",
+            "start": 956,
+            "end": 1098,
+            "confidence": 0.4879,
+            "speaker": null
+          },
+          {
+            "text": "module",
+            "start": 1124,
+            "end": 1414,
+            "confidence": 0.86103,
+            "speaker": null
+          },
+          {
+            "text": "by",
+            "start": 1462,
+            "end": 1638,
+            "confidence": 0.99901,
+            "speaker": null
+          },
+          {
+            "text": "learning",
+            "start": 1664,
+            "end": 1962,
+            "confidence": 0.99889,
+            "speaker": null
+          },
+          {
+            "text": "all",
+            "start": 2036,
+            "end": 2202,
+            "confidence": 0.99585,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 2216,
+            "end": 2322,
+            "confidence": 0.98,
+            "speaker": null
+          },
+          {
+            "text": "ways",
+            "start": 2336,
+            "end": 2514,
+            "confidence": 0.9673,
+            "speaker": null
+          },
+          {
+            "text": "of",
+            "start": 2552,
+            "end": 2718,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "moving",
+            "start": 2744,
+            "end": 2934,
+            "confidence": 0.9994,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 2972,
+            "end": 3102,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 3116,
+            "end": 3258,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "front",
+            "start": 3284,
+            "end": 3438,
+            "confidence": 0.99946,
+            "speaker": null
+          },
+          {
+            "text": "of",
+            "start": 3464,
+            "end": 3582,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 3596,
+            "end": 3702,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "chord.",
+            "start": 3716,
+            "end": 4114,
+            "confidence": 0.43389,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "The lessons are going to be split up into the forehand and backhand side, and by the end of it, you should be comfortable with all of them.",
+        "start": 4222,
+        "end": 10098,
+        "confidence": 1,
+        "words": [
+          {
+            "text": "The",
+            "start": 4222,
+            "end": 4422,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "lessons",
+            "start": 4436,
+            "end": 4774,
+            "confidence": 0.61745,
+            "speaker": null
+          },
+          {
+            "text": "are",
+            "start": 4822,
+            "end": 4962,
+            "confidence": 0.9981,
+            "speaker": null
+          },
+          {
+            "text": "going",
+            "start": 4976,
+            "end": 5118,
+            "confidence": 0.99597,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 5144,
+            "end": 5262,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "be",
+            "start": 5276,
+            "end": 5382,
+            "confidence": 0.99618,
+            "speaker": null
+          },
+          {
+            "text": "split",
+            "start": 5396,
+            "end": 5638,
+            "confidence": 0.92395,
+            "speaker": null
+          },
+          {
+            "text": "up",
+            "start": 5674,
+            "end": 5802,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "into",
+            "start": 5816,
+            "end": 5958,
+            "confidence": 0.99696,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 5984,
+            "end": 6138,
+            "confidence": 0.98,
+            "speaker": null
+          },
+          {
+            "text": "forehand",
+            "start": 6164,
+            "end": 6538,
+            "confidence": 0.52558,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 6574,
+            "end": 6738,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "backhand",
+            "start": 6764,
+            "end": 7174,
+            "confidence": 0.84569,
+            "speaker": null
+          },
+          {
+            "text": "side,",
+            "start": 7222,
+            "end": 7506,
+            "confidence": 0.99966,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 7568,
+            "end": 7758,
+            "confidence": 0.98,
+            "speaker": null
+          },
+          {
+            "text": "by",
+            "start": 7784,
+            "end": 7902,
+            "confidence": 0.99873,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 7916,
+            "end": 8022,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "end",
+            "start": 8036,
+            "end": 8142,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "of",
+            "start": 8156,
+            "end": 8262,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "it,",
+            "start": 8276,
+            "end": 8454,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 8492,
+            "end": 8622,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "should",
+            "start": 8636,
+            "end": 8742,
+            "confidence": 0.99858,
+            "speaker": null
+          },
+          {
+            "text": "be",
+            "start": 8756,
+            "end": 8862,
+            "confidence": 0.99617,
+            "speaker": null
+          },
+          {
+            "text": "comfortable",
+            "start": 8876,
+            "end": 9310,
+            "confidence": 0.93289,
+            "speaker": null
+          },
+          {
+            "text": "with",
+            "start": 9370,
+            "end": 9594,
+            "confidence": 0.99338,
+            "speaker": null
+          },
+          {
+            "text": "all",
+            "start": 9632,
+            "end": 9798,
+            "confidence": 0.99675,
+            "speaker": null
+          },
+          {
+            "text": "of",
+            "start": 9824,
+            "end": 9942,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "them.",
+            "start": 9956,
+            "end": 10098,
+            "confidence": 0.99901,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "What's interesting is that even though the forehand and backhand sides are different, the three movement options generally tend to parallel each other.",
+        "start": 10124,
+        "end": 17154,
+        "confidence": 0.97098,
+        "words": [
+          {
+            "text": "What's",
+            "start": 10124,
+            "end": 10342,
+            "confidence": 0.97098,
+            "speaker": null
+          },
+          {
+            "text": "interesting",
+            "start": 10366,
+            "end": 10734,
+            "confidence": 0.99992,
+            "speaker": null
+          },
+          {
+            "text": "is",
+            "start": 10832,
+            "end": 11058,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "that",
+            "start": 11084,
+            "end": 11346,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "even",
+            "start": 11408,
+            "end": 11598,
+            "confidence": 0.99918,
+            "speaker": null
+          },
+          {
+            "text": "though",
+            "start": 11624,
+            "end": 11778,
+            "confidence": 0.99169,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 11804,
+            "end": 11922,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "forehand",
+            "start": 11936,
+            "end": 12298,
+            "confidence": 0.51052,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 12334,
+            "end": 12498,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "backhand",
+            "start": 12524,
+            "end": 12838,
+            "confidence": 0.86576,
+            "speaker": null
+          },
+          {
+            "text": "sides",
+            "start": 12874,
+            "end": 13162,
+            "confidence": 0.91581,
+            "speaker": null
+          },
+          {
+            "text": "are",
+            "start": 13186,
+            "end": 13374,
+            "confidence": 0.99868,
+            "speaker": null
+          },
+          {
+            "text": "different,",
+            "start": 13412,
+            "end": 13866,
+            "confidence": 0.99961,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 13988,
+            "end": 14238,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "three",
+            "start": 14264,
+            "end": 14490,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "movement",
+            "start": 14540,
+            "end": 14926,
+            "confidence": 0.72973,
+            "speaker": null
+          },
+          {
+            "text": "options",
+            "start": 14998,
+            "end": 15450,
+            "confidence": 0.99684,
+            "speaker": null
+          },
+          {
+            "text": "generally",
+            "start": 15560,
+            "end": 16018,
+            "confidence": 0.98462,
+            "speaker": null
+          },
+          {
+            "text": "tend",
+            "start": 16054,
+            "end": 16246,
+            "confidence": 0.99767,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 16258,
+            "end": 16362,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "parallel",
+            "start": 16376,
+            "end": 16798,
+            "confidence": 0.99774,
+            "speaker": null
+          },
+          {
+            "text": "each",
+            "start": 16834,
+            "end": 16962,
+            "confidence": 0.99972,
+            "speaker": null
+          },
+          {
+            "text": "other.",
+            "start": 16976,
+            "end": 17154,
+            "confidence": 0.99942,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "When we have a long distance to cover, we use running steps.",
+        "start": 17192,
+        "end": 20190,
+        "confidence": 0.99913,
+        "words": [
+          {
+            "text": "When",
+            "start": 17192,
+            "end": 17358,
+            "confidence": 0.99913,
+            "speaker": null
+          },
+          {
+            "text": "we",
+            "start": 17384,
+            "end": 17502,
+            "confidence": 0.9985,
+            "speaker": null
+          },
+          {
+            "text": "have",
+            "start": 17516,
+            "end": 17658,
+            "confidence": 0.99797,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 17684,
+            "end": 17802,
+            "confidence": 0.91,
+            "speaker": null
+          },
+          {
+            "text": "long",
+            "start": 17816,
+            "end": 17958,
+            "confidence": 0.9993,
+            "speaker": null
+          },
+          {
+            "text": "distance",
+            "start": 17984,
+            "end": 18274,
+            "confidence": 0.95683,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 18322,
+            "end": 18462,
+            "confidence": 0.98,
+            "speaker": null
+          },
+          {
+            "text": "cover,",
+            "start": 18476,
+            "end": 18690,
+            "confidence": 0.99988,
+            "speaker": null
+          },
+          {
+            "text": "we",
+            "start": 18740,
+            "end": 18918,
+            "confidence": 0.99896,
+            "speaker": null
+          },
+          {
+            "text": "use",
+            "start": 18944,
+            "end": 19134,
+            "confidence": 0.96815,
+            "speaker": null
+          },
+          {
+            "text": "running",
+            "start": 19172,
+            "end": 19410,
+            "confidence": 0.99864,
+            "speaker": null
+          },
+          {
+            "text": "steps.",
+            "start": 19460,
+            "end": 20190,
+            "confidence": 0.99611,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "When we have a short distance, we use chassis steps.",
+        "start": 20510,
+        "end": 22798,
+        "confidence": 0.99762,
+        "words": [
+          {
+            "text": "When",
+            "start": 20510,
+            "end": 20838,
+            "confidence": 0.99762,
+            "speaker": null
+          },
+          {
+            "text": "we",
+            "start": 20864,
+            "end": 20982,
+            "confidence": 0.99773,
+            "speaker": null
+          },
+          {
+            "text": "have",
+            "start": 20996,
+            "end": 21102,
+            "confidence": 0.99786,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 21116,
+            "end": 21222,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "short",
+            "start": 21236,
+            "end": 21414,
+            "confidence": 0.99969,
+            "speaker": null
+          },
+          {
+            "text": "distance,",
+            "start": 21452,
+            "end": 21754,
+            "confidence": 0.99951,
+            "speaker": null
+          },
+          {
+            "text": "we",
+            "start": 21802,
+            "end": 21978,
+            "confidence": 0.99485,
+            "speaker": null
+          },
+          {
+            "text": "use",
+            "start": 22004,
+            "end": 22158,
+            "confidence": 0.95942,
+            "speaker": null
+          },
+          {
+            "text": "chassis",
+            "start": 22184,
+            "end": 22498,
+            "confidence": 0.22095,
+            "speaker": null
+          },
+          {
+            "text": "steps.",
+            "start": 22534,
+            "end": 22798,
+            "confidence": 0.93983,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "And when the shuttle is high enough to kill, we use the net jump.",
+        "start": 22834,
+        "end": 25726,
+        "confidence": 0.89,
+        "words": [
+          {
+            "text": "And",
+            "start": 22834,
+            "end": 22962,
+            "confidence": 0.89,
+            "speaker": null
+          },
+          {
+            "text": "when",
+            "start": 22976,
+            "end": 23082,
+            "confidence": 0.99826,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 23096,
+            "end": 23202,
+            "confidence": 0.94,
+            "speaker": null
+          },
+          {
+            "text": "shuttle",
+            "start": 23216,
+            "end": 23518,
+            "confidence": 0.9756,
+            "speaker": null
+          },
+          {
+            "text": "is",
+            "start": 23554,
+            "end": 23682,
+            "confidence": 0.97,
+            "speaker": null
+          },
+          {
+            "text": "high",
+            "start": 23696,
+            "end": 23802,
+            "confidence": 0.99832,
+            "speaker": null
+          },
+          {
+            "text": "enough",
+            "start": 23816,
+            "end": 23994,
+            "confidence": 0.99882,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 24032,
+            "end": 24162,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "kill,",
+            "start": 24176,
+            "end": 24498,
+            "confidence": 0.58063,
+            "speaker": null
+          },
+          {
+            "text": "we",
+            "start": 24584,
+            "end": 24798,
+            "confidence": 0.99887,
+            "speaker": null
+          },
+          {
+            "text": "use",
+            "start": 24824,
+            "end": 25014,
+            "confidence": 0.9302,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 25052,
+            "end": 25182,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "net",
+            "start": 25196,
+            "end": 25374,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "jump.",
+            "start": 25412,
+            "end": 25726,
+            "confidence": 0.9207,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "Of course, there's much more to it than that, and that's what we're going to cover in the next few lessons.",
+        "start": 25798,
+        "end": 30034,
+        "confidence": 0.99,
+        "words": [
+          {
+            "text": "Of",
+            "start": 25798,
+            "end": 25998,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "course,",
+            "start": 26024,
+            "end": 26214,
+            "confidence": 0.99991,
+            "speaker": null
+          },
+          {
+            "text": "there's",
+            "start": 26252,
+            "end": 26422,
+            "confidence": 0.93442,
+            "speaker": null
+          },
+          {
+            "text": "much",
+            "start": 26446,
+            "end": 26598,
+            "confidence": 0.99901,
+            "speaker": null
+          },
+          {
+            "text": "more",
+            "start": 26624,
+            "end": 26778,
+            "confidence": 0.98,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 26804,
+            "end": 26922,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "it",
+            "start": 26936,
+            "end": 27078,
+            "confidence": 0.56,
+            "speaker": null
+          },
+          {
+            "text": "than",
+            "start": 27104,
+            "end": 27258,
+            "confidence": 0.99827,
+            "speaker": null
+          },
+          {
+            "text": "that,",
+            "start": 27284,
+            "end": 27474,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 27512,
+            "end": 27714,
+            "confidence": 0.86,
+            "speaker": null
+          },
+          {
+            "text": "that's",
+            "start": 27752,
+            "end": 27982,
+            "confidence": 0.94244,
+            "speaker": null
+          },
+          {
+            "text": "what",
+            "start": 28006,
+            "end": 28122,
+            "confidence": 0.9984,
+            "speaker": null
+          },
+          {
+            "text": "we're",
+            "start": 28136,
+            "end": 28282,
+            "confidence": 0.57239,
+            "speaker": null
+          },
+          {
+            "text": "going",
+            "start": 28306,
+            "end": 28422,
+            "confidence": 0.9992,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 28436,
+            "end": 28578,
+            "confidence": 0.85,
+            "speaker": null
+          },
+          {
+            "text": "cover",
+            "start": 28604,
+            "end": 28794,
+            "confidence": 0.99958,
+            "speaker": null
+          },
+          {
+            "text": "in",
+            "start": 28832,
+            "end": 28998,
+            "confidence": 0.82402,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 29024,
+            "end": 29142,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "next",
+            "start": 29156,
+            "end": 29334,
+            "confidence": 0.99985,
+            "speaker": null
+          },
+          {
+            "text": "few",
+            "start": 29372,
+            "end": 29538,
+            "confidence": 0.99973,
+            "speaker": null
+          },
+          {
+            "text": "lessons.",
+            "start": 29564,
+            "end": 30034,
+            "confidence": 0.92426,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "But I just wanted to give you a brief overview to see what we're going to learn.",
+        "start": 30142,
+        "end": 33522,
+        "confidence": 0.77526,
+        "words": [
+          {
+            "text": "But",
+            "start": 30142,
+            "end": 30378,
+            "confidence": 0.77526,
+            "speaker": null
+          },
+          {
+            "text": "I",
+            "start": 30404,
+            "end": 30558,
+            "confidence": 0.72,
+            "speaker": null
+          },
+          {
+            "text": "just",
+            "start": 30584,
+            "end": 30702,
+            "confidence": 0.98269,
+            "speaker": null
+          },
+          {
+            "text": "wanted",
+            "start": 30716,
+            "end": 30858,
+            "confidence": 0.9448,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 30884,
+            "end": 31002,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "give",
+            "start": 31016,
+            "end": 31122,
+            "confidence": 0.99974,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 31136,
+            "end": 31242,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 31256,
+            "end": 31398,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "brief",
+            "start": 31424,
+            "end": 31654,
+            "confidence": 0.60687,
+            "speaker": null
+          },
+          {
+            "text": "overview",
+            "start": 31702,
+            "end": 32074,
+            "confidence": 0.99961,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 32122,
+            "end": 32262,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "see",
+            "start": 32276,
+            "end": 32454,
+            "confidence": 0.99961,
+            "speaker": null
+          },
+          {
+            "text": "what",
+            "start": 32492,
+            "end": 32622,
+            "confidence": 0.99978,
+            "speaker": null
+          },
+          {
+            "text": "we're",
+            "start": 32636,
+            "end": 32782,
+            "confidence": 0.86675,
+            "speaker": null
+          },
+          {
+            "text": "going",
+            "start": 32806,
+            "end": 32922,
+            "confidence": 0.9976,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 32936,
+            "end": 33042,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "learn.",
+            "start": 33056,
+            "end": 33522,
+            "confidence": 0.85407,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "Can you now understand why there's so much conflicting information?",
+        "start": 33656,
+        "end": 36654,
+        "confidence": 0.99787,
+        "words": [
+          {
+            "text": "Can",
+            "start": 33656,
+            "end": 33918,
+            "confidence": 0.99787,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 33944,
+            "end": 34062,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "now",
+            "start": 34076,
+            "end": 34218,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "understand",
+            "start": 34244,
+            "end": 34578,
+            "confidence": 0.99346,
+            "speaker": null
+          },
+          {
+            "text": "why",
+            "start": 34664,
+            "end": 34914,
+            "confidence": 0.99939,
+            "speaker": null
+          },
+          {
+            "text": "there's",
+            "start": 34952,
+            "end": 35182,
+            "confidence": 0.41906,
+            "speaker": null
+          },
+          {
+            "text": "so",
+            "start": 35206,
+            "end": 35322,
+            "confidence": 0.99712,
+            "speaker": null
+          },
+          {
+            "text": "much",
+            "start": 35336,
+            "end": 35514,
+            "confidence": 0.99887,
+            "speaker": null
+          },
+          {
+            "text": "conflicting",
+            "start": 35552,
+            "end": 36034,
+            "confidence": 0.99972,
+            "speaker": null
+          },
+          {
+            "text": "information?",
+            "start": 36082,
+            "end": 36654,
+            "confidence": 0.99916,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "Even though these are just two corners of the court, that's a total of six different ways of moving to them.",
+        "start": 36812,
+        "end": 41454,
+        "confidence": 0.99618,
+        "words": [
+          {
+            "text": "Even",
+            "start": 36812,
+            "end": 37170,
+            "confidence": 0.99618,
+            "speaker": null
+          },
+          {
+            "text": "though",
+            "start": 37220,
+            "end": 37542,
+            "confidence": 0.99923,
+            "speaker": null
+          },
+          {
+            "text": "these",
+            "start": 37616,
+            "end": 37818,
+            "confidence": 0.99772,
+            "speaker": null
+          },
+          {
+            "text": "are",
+            "start": 37844,
+            "end": 37962,
+            "confidence": 0.99581,
+            "speaker": null
+          },
+          {
+            "text": "just",
+            "start": 37976,
+            "end": 38118,
+            "confidence": 0.98867,
+            "speaker": null
+          },
+          {
+            "text": "two",
+            "start": 38144,
+            "end": 38298,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "corners",
+            "start": 38324,
+            "end": 38626,
+            "confidence": 0.9007,
+            "speaker": null
+          },
+          {
+            "text": "of",
+            "start": 38638,
+            "end": 38706,
+            "confidence": 0.95,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 38708,
+            "end": 38802,
+            "confidence": 0.79,
+            "speaker": null
+          },
+          {
+            "text": "court,",
+            "start": 38816,
+            "end": 39058,
+            "confidence": 0.08622,
+            "speaker": null
+          },
+          {
+            "text": "that's",
+            "start": 39094,
+            "end": 39262,
+            "confidence": 0.5973,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 39286,
+            "end": 39402,
+            "confidence": 0.97,
+            "speaker": null
+          },
+          {
+            "text": "total",
+            "start": 39416,
+            "end": 39630,
+            "confidence": 0.99984,
+            "speaker": null
+          },
+          {
+            "text": "of",
+            "start": 39680,
+            "end": 39858,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "six",
+            "start": 39884,
+            "end": 40110,
+            "confidence": 0.9,
+            "speaker": null
+          },
+          {
+            "text": "different",
+            "start": 40160,
+            "end": 40410,
+            "confidence": 0.99455,
+            "speaker": null
+          },
+          {
+            "text": "ways",
+            "start": 40460,
+            "end": 40674,
+            "confidence": 0.99987,
+            "speaker": null
+          },
+          {
+            "text": "of",
+            "start": 40712,
+            "end": 40878,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "moving",
+            "start": 40904,
+            "end": 41094,
+            "confidence": 0.99839,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 41132,
+            "end": 41262,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "them.",
+            "start": 41276,
+            "end": 41454,
+            "confidence": 0.99972,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "In fact, there are also many variations among the six options I just showed you.",
+        "start": 41492,
+        "end": 45006,
+        "confidence": 0.99442,
+        "words": [
+          {
+            "text": "In",
+            "start": 41492,
+            "end": 41622,
+            "confidence": 0.99442,
+            "speaker": null
+          },
+          {
+            "text": "fact,",
+            "start": 41636,
+            "end": 41850,
+            "confidence": 0.99329,
+            "speaker": null
+          },
+          {
+            "text": "there",
+            "start": 41900,
+            "end": 42042,
+            "confidence": 0.51953,
+            "speaker": null
+          },
+          {
+            "text": "are",
+            "start": 42056,
+            "end": 42162,
+            "confidence": 0.16592,
+            "speaker": null
+          },
+          {
+            "text": "also",
+            "start": 42176,
+            "end": 42354,
+            "confidence": 0.98575,
+            "speaker": null
+          },
+          {
+            "text": "many",
+            "start": 42392,
+            "end": 42630,
+            "confidence": 0.99976,
+            "speaker": null
+          },
+          {
+            "text": "variations",
+            "start": 42680,
+            "end": 43186,
+            "confidence": 0.9603,
+            "speaker": null
+          },
+          {
+            "text": "among",
+            "start": 43258,
+            "end": 43558,
+            "confidence": 0.99742,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 43594,
+            "end": 43722,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "six",
+            "start": 43736,
+            "end": 43950,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "options",
+            "start": 44000,
+            "end": 44214,
+            "confidence": 0.99209,
+            "speaker": null
+          },
+          {
+            "text": "I",
+            "start": 44252,
+            "end": 44382,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "just",
+            "start": 44396,
+            "end": 44538,
+            "confidence": 0.99187,
+            "speaker": null
+          },
+          {
+            "text": "showed",
+            "start": 44564,
+            "end": 44746,
+            "confidence": 0.9988,
+            "speaker": null
+          },
+          {
+            "text": "you.",
+            "start": 44758,
+            "end": 45006,
+            "confidence": 1,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "Don't worry, though.",
+        "start": 45068,
+        "end": 45870,
+        "confidence": 0.93524,
+        "words": [
+          {
+            "text": "Don't",
+            "start": 45068,
+            "end": 45286,
+            "confidence": 0.93524,
+            "speaker": null
+          },
+          {
+            "text": "worry,",
+            "start": 45298,
+            "end": 45574,
+            "confidence": 0.74264,
+            "speaker": null
+          },
+          {
+            "text": "though.",
+            "start": 45622,
+            "end": 45870,
+            "confidence": 0.98548,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "I'm going to teach you everything you need to know, which will put you so far ahead of the competition.",
+        "start": 45920,
+        "end": 49942,
+        "confidence": 0.6005,
+        "words": [
+          {
+            "text": "I'm",
+            "start": 45920,
+            "end": 46102,
+            "confidence": 0.6005,
+            "speaker": null
+          },
+          {
+            "text": "going",
+            "start": 46126,
+            "end": 46206,
+            "confidence": 0.78203,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 46208,
+            "end": 46302,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "teach",
+            "start": 46316,
+            "end": 46458,
+            "confidence": 0.99951,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 46484,
+            "end": 46674,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "everything",
+            "start": 46712,
+            "end": 46950,
+            "confidence": 0.99962,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 47000,
+            "end": 47178,
+            "confidence": 0.52,
+            "speaker": null
+          },
+          {
+            "text": "need",
+            "start": 47204,
+            "end": 47322,
+            "confidence": 0.99935,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 47336,
+            "end": 47442,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "know,",
+            "start": 47456,
+            "end": 47706,
+            "confidence": 0.68387,
+            "speaker": null
+          },
+          {
+            "text": "which",
+            "start": 47768,
+            "end": 47922,
+            "confidence": 0.99096,
+            "speaker": null
+          },
+          {
+            "text": "will",
+            "start": 47936,
+            "end": 48042,
+            "confidence": 0.95538,
+            "speaker": null
+          },
+          {
+            "text": "put",
+            "start": 48056,
+            "end": 48198,
+            "confidence": 0.88198,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 48224,
+            "end": 48414,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "so",
+            "start": 48452,
+            "end": 48618,
+            "confidence": 0.99729,
+            "speaker": null
+          },
+          {
+            "text": "far",
+            "start": 48644,
+            "end": 48798,
+            "confidence": 0.99953,
+            "speaker": null
+          },
+          {
+            "text": "ahead",
+            "start": 48824,
+            "end": 48978,
+            "confidence": 0.99654,
+            "speaker": null
+          },
+          {
+            "text": "of",
+            "start": 49004,
+            "end": 49122,
+            "confidence": 0.74,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 49136,
+            "end": 49242,
+            "confidence": 0.84,
+            "speaker": null
+          },
+          {
+            "text": "competition.",
+            "start": 49256,
+            "end": 49942,
+            "confidence": 0.98575,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "Let's start off on the forehand side.",
+        "start": 50086,
+        "end": 51540,
+        "confidence": 0.72001,
+        "words": [
+          {
+            "text": "Let's",
+            "start": 50086,
+            "end": 50386,
+            "confidence": 0.72001,
+            "speaker": null
+          },
+          {
+            "text": "start",
+            "start": 50398,
+            "end": 50574,
+            "confidence": 0.74865,
+            "speaker": null
+          },
+          {
+            "text": "off",
+            "start": 50612,
+            "end": 50778,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "on",
+            "start": 50804,
+            "end": 50922,
+            "confidence": 0.9887,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 50936,
+            "end": 51042,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "forehand",
+            "start": 51056,
+            "end": 51418,
+            "confidence": 0.34669,
+            "speaker": null
+          },
+          {
+            "text": "side.",
+            "start": 51454,
+            "end": 51540,
+            "confidence": 0.99108,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,4179 @@
+[
+  {
+    "sentences": [
+      {
+        "text": "Hopefully at this point you understand why footwork is so important.",
+        "start": 130,
+        "end": 3414,
+        "confidence": 0.99899,
+        "words": [
+          {
+            "text": "Hopefully",
+            "start": 130,
+            "end": 454,
+            "confidence": 0.99899,
+            "speaker": null
+          },
+          {
+            "text": "at",
+            "start": 502,
+            "end": 642,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "this",
+            "start": 656,
+            "end": 798,
+            "confidence": 0.99926,
+            "speaker": null
+          },
+          {
+            "text": "point",
+            "start": 824,
+            "end": 1050,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 1100,
+            "end": 1278,
+            "confidence": 0.99912,
+            "speaker": null
+          },
+          {
+            "text": "understand",
+            "start": 1304,
+            "end": 1674,
+            "confidence": 0.99976,
+            "speaker": null
+          },
+          {
+            "text": "why",
+            "start": 1772,
+            "end": 2070,
+            "confidence": 0.99968,
+            "speaker": null
+          },
+          {
+            "text": "footwork",
+            "start": 2120,
+            "end": 2458,
+            "confidence": 0.98045,
+            "speaker": null
+          },
+          {
+            "text": "is",
+            "start": 2494,
+            "end": 2658,
+            "confidence": 0.9983,
+            "speaker": null
+          },
+          {
+            "text": "so",
+            "start": 2684,
+            "end": 2838,
+            "confidence": 0.9983,
+            "speaker": null
+          },
+          {
+            "text": "important.",
+            "start": 2864,
+            "end": 3414,
+            "confidence": 0.99992,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "Every other part of your game builds off your movement.",
+        "start": 3572,
+        "end": 6202,
+        "confidence": 0.99976,
+        "words": [
+          {
+            "text": "Every",
+            "start": 3572,
+            "end": 3930,
+            "confidence": 0.99976,
+            "speaker": null
+          },
+          {
+            "text": "other",
+            "start": 3980,
+            "end": 4230,
+            "confidence": 0.99867,
+            "speaker": null
+          },
+          {
+            "text": "part",
+            "start": 4280,
+            "end": 4458,
+            "confidence": 0.99887,
+            "speaker": null
+          },
+          {
+            "text": "of",
+            "start": 4484,
+            "end": 4602,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "your",
+            "start": 4616,
+            "end": 4722,
+            "confidence": 0.98921,
+            "speaker": null
+          },
+          {
+            "text": "game",
+            "start": 4736,
+            "end": 4986,
+            "confidence": 0.99864,
+            "speaker": null
+          },
+          {
+            "text": "builds",
+            "start": 5048,
+            "end": 5422,
+            "confidence": 0.44953,
+            "speaker": null
+          },
+          {
+            "text": "off",
+            "start": 5446,
+            "end": 5562,
+            "confidence": 0.91838,
+            "speaker": null
+          },
+          {
+            "text": "your",
+            "start": 5576,
+            "end": 5718,
+            "confidence": 0.7886,
+            "speaker": null
+          },
+          {
+            "text": "movement.",
+            "start": 5744,
+            "end": 6202,
+            "confidence": 0.51756,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "So I found that developing a player's footwork is the quickest way to accelerate their boundaries and skills.",
+        "start": 6286,
+        "end": 11014,
+        "confidence": 0.99139,
+        "words": [
+          {
+            "text": "So",
+            "start": 6286,
+            "end": 6498,
+            "confidence": 0.99139,
+            "speaker": null
+          },
+          {
+            "text": "I",
+            "start": 6524,
+            "end": 6678,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "found",
+            "start": 6704,
+            "end": 6894,
+            "confidence": 0.99925,
+            "speaker": null
+          },
+          {
+            "text": "that",
+            "start": 6932,
+            "end": 7098,
+            "confidence": 0.99362,
+            "speaker": null
+          },
+          {
+            "text": "developing",
+            "start": 7124,
+            "end": 7558,
+            "confidence": 0.94648,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 7594,
+            "end": 7722,
+            "confidence": 0.98,
+            "speaker": null
+          },
+          {
+            "text": "player's",
+            "start": 7736,
+            "end": 8002,
+            "confidence": 0.94976,
+            "speaker": null
+          },
+          {
+            "text": "footwork",
+            "start": 8026,
+            "end": 8410,
+            "confidence": 0.98668,
+            "speaker": null
+          },
+          {
+            "text": "is",
+            "start": 8470,
+            "end": 8622,
+            "confidence": 0.9984,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 8636,
+            "end": 8778,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "quickest",
+            "start": 8804,
+            "end": 9118,
+            "confidence": 0.99868,
+            "speaker": null
+          },
+          {
+            "text": "way",
+            "start": 9154,
+            "end": 9318,
+            "confidence": 0.99908,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 9344,
+            "end": 9498,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "accelerate",
+            "start": 9524,
+            "end": 9958,
+            "confidence": 0.98462,
+            "speaker": null
+          },
+          {
+            "text": "their",
+            "start": 9994,
+            "end": 10122,
+            "confidence": 0.824,
+            "speaker": null
+          },
+          {
+            "text": "boundaries",
+            "start": 10136,
+            "end": 10462,
+            "confidence": 0.13372,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 10486,
+            "end": 10638,
+            "confidence": 0.96,
+            "speaker": null
+          },
+          {
+            "text": "skills.",
+            "start": 10664,
+            "end": 11014,
+            "confidence": 0.99102,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "In this module, I'm going to teach you the eight building blocks of footwork are distinct elements that you need to learn.",
+        "start": 11062,
+        "end": 16950,
+        "confidence": 0.64349,
+        "words": [
+          {
+            "text": "In",
+            "start": 11062,
+            "end": 11238,
+            "confidence": 0.64349,
+            "speaker": null
+          },
+          {
+            "text": "this",
+            "start": 11264,
+            "end": 11418,
+            "confidence": 0.99934,
+            "speaker": null
+          },
+          {
+            "text": "module,",
+            "start": 11444,
+            "end": 11830,
+            "confidence": 0.99983,
+            "speaker": null
+          },
+          {
+            "text": "I'm",
+            "start": 11890,
+            "end": 12142,
+            "confidence": 0.82071,
+            "speaker": null
+          },
+          {
+            "text": "going",
+            "start": 12166,
+            "end": 12246,
+            "confidence": 0.77398,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 12248,
+            "end": 12378,
+            "confidence": 0.79,
+            "speaker": null
+          },
+          {
+            "text": "teach",
+            "start": 12404,
+            "end": 12558,
+            "confidence": 0.99945,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 12584,
+            "end": 12702,
+            "confidence": 0.99379,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 12716,
+            "end": 12858,
+            "confidence": 0.94,
+            "speaker": null
+          },
+          {
+            "text": "eight",
+            "start": 12884,
+            "end": 13146,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "building",
+            "start": 13208,
+            "end": 13506,
+            "confidence": 0.99989,
+            "speaker": null
+          },
+          {
+            "text": "blocks",
+            "start": 13568,
+            "end": 13846,
+            "confidence": 0.81493,
+            "speaker": null
+          },
+          {
+            "text": "of",
+            "start": 13858,
+            "end": 13962,
+            "confidence": 0.96,
+            "speaker": null
+          },
+          {
+            "text": "footwork",
+            "start": 13976,
+            "end": 14698,
+            "confidence": 0.98702,
+            "speaker": null
+          },
+          {
+            "text": "are",
+            "start": 14854,
+            "end": 15102,
+            "confidence": 0.72656,
+            "speaker": null
+          },
+          {
+            "text": "distinct",
+            "start": 15116,
+            "end": 15538,
+            "confidence": 0.99947,
+            "speaker": null
+          },
+          {
+            "text": "elements",
+            "start": 15574,
+            "end": 15910,
+            "confidence": 0.92915,
+            "speaker": null
+          },
+          {
+            "text": "that",
+            "start": 15970,
+            "end": 16122,
+            "confidence": 0.99486,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 16136,
+            "end": 16242,
+            "confidence": 0.99867,
+            "speaker": null
+          },
+          {
+            "text": "need",
+            "start": 16256,
+            "end": 16362,
+            "confidence": 0.99967,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 16376,
+            "end": 16518,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "learn.",
+            "start": 16544,
+            "end": 16950,
+            "confidence": 0.99973,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "They're called building blocks because you learn them individually and then put them together like bricks in a building.",
+        "start": 17060,
+        "end": 22398,
+        "confidence": 0.83136,
+        "words": [
+          {
+            "text": "They're",
+            "start": 17060,
+            "end": 17302,
+            "confidence": 0.83136,
+            "speaker": null
+          },
+          {
+            "text": "called",
+            "start": 17326,
+            "end": 17514,
+            "confidence": 0.99936,
+            "speaker": null
+          },
+          {
+            "text": "building",
+            "start": 17552,
+            "end": 17790,
+            "confidence": 0.99625,
+            "speaker": null
+          },
+          {
+            "text": "blocks",
+            "start": 17840,
+            "end": 18202,
+            "confidence": 0.71912,
+            "speaker": null
+          },
+          {
+            "text": "because",
+            "start": 18226,
+            "end": 18522,
+            "confidence": 0.99832,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 18596,
+            "end": 18798,
+            "confidence": 0.99878,
+            "speaker": null
+          },
+          {
+            "text": "learn",
+            "start": 18824,
+            "end": 18978,
+            "confidence": 0.99954,
+            "speaker": null
+          },
+          {
+            "text": "them",
+            "start": 19004,
+            "end": 19194,
+            "confidence": 0.99833,
+            "speaker": null
+          },
+          {
+            "text": "individually",
+            "start": 19232,
+            "end": 19834,
+            "confidence": 0.99835,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 19882,
+            "end": 20058,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "then",
+            "start": 20084,
+            "end": 20274,
+            "confidence": 0.98294,
+            "speaker": null
+          },
+          {
+            "text": "put",
+            "start": 20312,
+            "end": 20478,
+            "confidence": 0.99899,
+            "speaker": null
+          },
+          {
+            "text": "them",
+            "start": 20504,
+            "end": 20658,
+            "confidence": 0.99934,
+            "speaker": null
+          },
+          {
+            "text": "together",
+            "start": 20684,
+            "end": 21090,
+            "confidence": 0.99995,
+            "speaker": null
+          },
+          {
+            "text": "like",
+            "start": 21200,
+            "end": 21474,
+            "confidence": 0.99435,
+            "speaker": null
+          },
+          {
+            "text": "bricks",
+            "start": 21512,
+            "end": 21802,
+            "confidence": 0.87614,
+            "speaker": null
+          },
+          {
+            "text": "in",
+            "start": 21826,
+            "end": 21942,
+            "confidence": 0.99775,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 21956,
+            "end": 22062,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "building.",
+            "start": 22076,
+            "end": 22398,
+            "confidence": 0.99984,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "These are the foundations that we're going to build your footwork on.",
+        "start": 22484,
+        "end": 25134,
+        "confidence": 0.99662,
+        "words": [
+          {
+            "text": "These",
+            "start": 22484,
+            "end": 22698,
+            "confidence": 0.99662,
+            "speaker": null
+          },
+          {
+            "text": "are",
+            "start": 22724,
+            "end": 22806,
+            "confidence": 0.9986,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 22808,
+            "end": 22938,
+            "confidence": 0.82,
+            "speaker": null
+          },
+          {
+            "text": "foundations",
+            "start": 22964,
+            "end": 23482,
+            "confidence": 0.59668,
+            "speaker": null
+          },
+          {
+            "text": "that",
+            "start": 23566,
+            "end": 23742,
+            "confidence": 0.99304,
+            "speaker": null
+          },
+          {
+            "text": "we're",
+            "start": 23756,
+            "end": 23902,
+            "confidence": 0.6133,
+            "speaker": null
+          },
+          {
+            "text": "going",
+            "start": 23926,
+            "end": 24078,
+            "confidence": 0.99847,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 24104,
+            "end": 24222,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "build",
+            "start": 24236,
+            "end": 24378,
+            "confidence": 0.99936,
+            "speaker": null
+          },
+          {
+            "text": "your",
+            "start": 24404,
+            "end": 24558,
+            "confidence": 0.98494,
+            "speaker": null
+          },
+          {
+            "text": "footwork",
+            "start": 24584,
+            "end": 24898,
+            "confidence": 0.94792,
+            "speaker": null
+          },
+          {
+            "text": "on.",
+            "start": 24934,
+            "end": 25134,
+            "confidence": 0.99698,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "The first two building blocks are the stance and the split step.",
+        "start": 25172,
+        "end": 27798,
+        "confidence": 1,
+        "words": [
+          {
+            "text": "The",
+            "start": 25172,
+            "end": 25338,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "first",
+            "start": 25364,
+            "end": 25554,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "two",
+            "start": 25592,
+            "end": 25758,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "building",
+            "start": 25784,
+            "end": 25974,
+            "confidence": 0.99977,
+            "speaker": null
+          },
+          {
+            "text": "blocks",
+            "start": 26012,
+            "end": 26302,
+            "confidence": 0.8573,
+            "speaker": null
+          },
+          {
+            "text": "are",
+            "start": 26326,
+            "end": 26406,
+            "confidence": 0.96414,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 26408,
+            "end": 26574,
+            "confidence": 0.81,
+            "speaker": null
+          },
+          {
+            "text": "stance",
+            "start": 26612,
+            "end": 26914,
+            "confidence": 0.93525,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 26962,
+            "end": 27066,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 27068,
+            "end": 27162,
+            "confidence": 0.8,
+            "speaker": null
+          },
+          {
+            "text": "split",
+            "start": 27176,
+            "end": 27442,
+            "confidence": 0.69021,
+            "speaker": null
+          },
+          {
+            "text": "step.",
+            "start": 27466,
+            "end": 27798,
+            "confidence": 0.98373,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "These are positional building blocks.",
+        "start": 27884,
+        "end": 29590,
+        "confidence": 0.9956,
+        "words": [
+          {
+            "text": "These",
+            "start": 27884,
+            "end": 28134,
+            "confidence": 0.9956,
+            "speaker": null
+          },
+          {
+            "text": "are",
+            "start": 28172,
+            "end": 28338,
+            "confidence": 0.99921,
+            "speaker": null
+          },
+          {
+            "text": "positional",
+            "start": 28364,
+            "end": 28858,
+            "confidence": 0.99914,
+            "speaker": null
+          },
+          {
+            "text": "building",
+            "start": 28894,
+            "end": 29094,
+            "confidence": 0.99982,
+            "speaker": null
+          },
+          {
+            "text": "blocks.",
+            "start": 29132,
+            "end": 29590,
+            "confidence": 0.64227,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "Next we have running steps and chassis steps.",
+        "start": 29650,
+        "end": 32122,
+        "confidence": 0.99981,
+        "words": [
+          {
+            "text": "Next",
+            "start": 29650,
+            "end": 29982,
+            "confidence": 0.99981,
+            "speaker": null
+          },
+          {
+            "text": "we",
+            "start": 30056,
+            "end": 30258,
+            "confidence": 0.93386,
+            "speaker": null
+          },
+          {
+            "text": "have",
+            "start": 30284,
+            "end": 30438,
+            "confidence": 0.99861,
+            "speaker": null
+          },
+          {
+            "text": "running",
+            "start": 30464,
+            "end": 30726,
+            "confidence": 0.99833,
+            "speaker": null
+          },
+          {
+            "text": "steps",
+            "start": 30788,
+            "end": 31102,
+            "confidence": 0.99817,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 31126,
+            "end": 31242,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "chassis",
+            "start": 31256,
+            "end": 31618,
+            "confidence": 0.53071,
+            "speaker": null
+          },
+          {
+            "text": "steps.",
+            "start": 31654,
+            "end": 32122,
+            "confidence": 0.84877,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "These are movement building blocks.",
+        "start": 32206,
+        "end": 34138,
+        "confidence": 0.99787,
+        "words": [
+          {
+            "text": "These",
+            "start": 32206,
+            "end": 32490,
+            "confidence": 0.99787,
+            "speaker": null
+          },
+          {
+            "text": "are",
+            "start": 32540,
+            "end": 32790,
+            "confidence": 0.99892,
+            "speaker": null
+          },
+          {
+            "text": "movement",
+            "start": 32840,
+            "end": 33214,
+            "confidence": 0.99796,
+            "speaker": null
+          },
+          {
+            "text": "building",
+            "start": 33262,
+            "end": 33510,
+            "confidence": 0.99983,
+            "speaker": null
+          },
+          {
+            "text": "blocks.",
+            "start": 33560,
+            "end": 34138,
+            "confidence": 0.99618,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "And finally we have the Lunge Physic, China Jump and Net Jump.",
+        "start": 34234,
+        "end": 39034,
+        "confidence": 0.83,
+        "words": [
+          {
+            "text": "And",
+            "start": 34234,
+            "end": 34494,
+            "confidence": 0.83,
+            "speaker": null
+          },
+          {
+            "text": "finally",
+            "start": 34532,
+            "end": 34878,
+            "confidence": 0.99935,
+            "speaker": null
+          },
+          {
+            "text": "we",
+            "start": 34964,
+            "end": 35178,
+            "confidence": 0.99872,
+            "speaker": null
+          },
+          {
+            "text": "have",
+            "start": 35204,
+            "end": 35394,
+            "confidence": 0.9985,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 35432,
+            "end": 35598,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "Lunge",
+            "start": 35624,
+            "end": 36226,
+            "confidence": 0.66605,
+            "speaker": null
+          },
+          {
+            "text": "Physic,",
+            "start": 36358,
+            "end": 37234,
+            "confidence": 0.43983,
+            "speaker": null
+          },
+          {
+            "text": "China",
+            "start": 37402,
+            "end": 37810,
+            "confidence": 0.97302,
+            "speaker": null
+          },
+          {
+            "text": "Jump",
+            "start": 37870,
+            "end": 38134,
+            "confidence": 0.99911,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 38182,
+            "end": 38358,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "Net",
+            "start": 38384,
+            "end": 38574,
+            "confidence": 0.99276,
+            "speaker": null
+          },
+          {
+            "text": "Jump.",
+            "start": 38612,
+            "end": 39034,
+            "confidence": 0.85736,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "These are finishing building blocks.",
+        "start": 39142,
+        "end": 41170,
+        "confidence": 0.99797,
+        "words": [
+          {
+            "text": "These",
+            "start": 39142,
+            "end": 39414,
+            "confidence": 0.99797,
+            "speaker": null
+          },
+          {
+            "text": "are",
+            "start": 39452,
+            "end": 39690,
+            "confidence": 0.99871,
+            "speaker": null
+          },
+          {
+            "text": "finishing",
+            "start": 39740,
+            "end": 40318,
+            "confidence": 0.99506,
+            "speaker": null
+          },
+          {
+            "text": "building",
+            "start": 40414,
+            "end": 40710,
+            "confidence": 0.99954,
+            "speaker": null
+          },
+          {
+            "text": "blocks.",
+            "start": 40760,
+            "end": 41170,
+            "confidence": 0.71228,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "We're going to spend an entire lesson on each of these because they're incredibly important.",
+        "start": 41230,
+        "end": 45138,
+        "confidence": 0.91451,
+        "words": [
+          {
+            "text": "We're",
+            "start": 41230,
+            "end": 41446,
+            "confidence": 0.91451,
+            "speaker": null
+          },
+          {
+            "text": "going",
+            "start": 41458,
+            "end": 41598,
+            "confidence": 0.99867,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 41624,
+            "end": 41742,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "spend",
+            "start": 41756,
+            "end": 41934,
+            "confidence": 0.62076,
+            "speaker": null
+          },
+          {
+            "text": "an",
+            "start": 41972,
+            "end": 42138,
+            "confidence": 0.98983,
+            "speaker": null
+          },
+          {
+            "text": "entire",
+            "start": 42164,
+            "end": 42426,
+            "confidence": 0.99997,
+            "speaker": null
+          },
+          {
+            "text": "lesson",
+            "start": 42488,
+            "end": 42778,
+            "confidence": 0.99949,
+            "speaker": null
+          },
+          {
+            "text": "on",
+            "start": 42814,
+            "end": 42978,
+            "confidence": 0.99825,
+            "speaker": null
+          },
+          {
+            "text": "each",
+            "start": 43004,
+            "end": 43158,
+            "confidence": 0.9999,
+            "speaker": null
+          },
+          {
+            "text": "of",
+            "start": 43184,
+            "end": 43302,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "these",
+            "start": 43316,
+            "end": 43530,
+            "confidence": 0.99842,
+            "speaker": null
+          },
+          {
+            "text": "because",
+            "start": 43580,
+            "end": 43830,
+            "confidence": 0.99851,
+            "speaker": null
+          },
+          {
+            "text": "they're",
+            "start": 43880,
+            "end": 44122,
+            "confidence": 0.85665,
+            "speaker": null
+          },
+          {
+            "text": "incredibly",
+            "start": 44146,
+            "end": 44554,
+            "confidence": 0.98735,
+            "speaker": null
+          },
+          {
+            "text": "important.",
+            "start": 44602,
+            "end": 45138,
+            "confidence": 0.99991,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "I'm going to teach you how to build them from the ground up and then give you assignments to practise and make sure you're doing them correctly.",
+        "start": 45284,
+        "end": 51190,
+        "confidence": 0.47836,
+        "words": [
+          {
+            "text": "I'm",
+            "start": 45284,
+            "end": 45622,
+            "confidence": 0.47836,
+            "speaker": null
+          },
+          {
+            "text": "going",
+            "start": 45646,
+            "end": 45798,
+            "confidence": 0.99065,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 45824,
+            "end": 45978,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "teach",
+            "start": 46004,
+            "end": 46230,
+            "confidence": 0.99995,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 46280,
+            "end": 46530,
+            "confidence": 0.99662,
+            "speaker": null
+          },
+          {
+            "text": "how",
+            "start": 46580,
+            "end": 46758,
+            "confidence": 0.99987,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 46784,
+            "end": 46902,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "build",
+            "start": 46916,
+            "end": 47058,
+            "confidence": 0.99953,
+            "speaker": null
+          },
+          {
+            "text": "them",
+            "start": 47084,
+            "end": 47202,
+            "confidence": 0.99571,
+            "speaker": null
+          },
+          {
+            "text": "from",
+            "start": 47216,
+            "end": 47322,
+            "confidence": 0.99917,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 47336,
+            "end": 47442,
+            "confidence": 0.84,
+            "speaker": null
+          },
+          {
+            "text": "ground",
+            "start": 47456,
+            "end": 47734,
+            "confidence": 0.47172,
+            "speaker": null
+          },
+          {
+            "text": "up",
+            "start": 47782,
+            "end": 47994,
+            "confidence": 0.99885,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 48032,
+            "end": 48162,
+            "confidence": 0.98,
+            "speaker": null
+          },
+          {
+            "text": "then",
+            "start": 48176,
+            "end": 48318,
+            "confidence": 0.97868,
+            "speaker": null
+          },
+          {
+            "text": "give",
+            "start": 48344,
+            "end": 48498,
+            "confidence": 0.99902,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 48524,
+            "end": 48642,
+            "confidence": 0.98589,
+            "speaker": null
+          },
+          {
+            "text": "assignments",
+            "start": 48656,
+            "end": 49054,
+            "confidence": 0.5674,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 49102,
+            "end": 49314,
+            "confidence": 0.75,
+            "speaker": null
+          },
+          {
+            "text": "practise",
+            "start": 49352,
+            "end": 49750,
+            "confidence": 0.95416,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 49810,
+            "end": 49998,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "make",
+            "start": 50024,
+            "end": 50142,
+            "confidence": 0.99706,
+            "speaker": null
+          },
+          {
+            "text": "sure",
+            "start": 50156,
+            "end": 50262,
+            "confidence": 0.99958,
+            "speaker": null
+          },
+          {
+            "text": "you're",
+            "start": 50276,
+            "end": 50422,
+            "confidence": 0.81088,
+            "speaker": null
+          },
+          {
+            "text": "doing",
+            "start": 50446,
+            "end": 50562,
+            "confidence": 0.99915,
+            "speaker": null
+          },
+          {
+            "text": "them",
+            "start": 50576,
+            "end": 50754,
+            "confidence": 0.99511,
+            "speaker": null
+          },
+          {
+            "text": "correctly.",
+            "start": 50792,
+            "end": 51190,
+            "confidence": 0.99877,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "In my experience playing and coaching Bamboost for over ten years, I've noticed that a lot of players have picked up really bad habits that they aren't even aware of.",
+        "start": 51250,
+        "end": 58614,
+        "confidence": 0.9964,
+        "words": [
+          {
+            "text": "In",
+            "start": 51250,
+            "end": 51402,
+            "confidence": 0.9964,
+            "speaker": null
+          },
+          {
+            "text": "my",
+            "start": 51416,
+            "end": 51558,
+            "confidence": 0.99984,
+            "speaker": null
+          },
+          {
+            "text": "experience",
+            "start": 51584,
+            "end": 51918,
+            "confidence": 0.99978,
+            "speaker": null
+          },
+          {
+            "text": "playing",
+            "start": 52004,
+            "end": 52378,
+            "confidence": 0.99921,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 52414,
+            "end": 52542,
+            "confidence": 0.96,
+            "speaker": null
+          },
+          {
+            "text": "coaching",
+            "start": 52556,
+            "end": 52882,
+            "confidence": 0.99496,
+            "speaker": null
+          },
+          {
+            "text": "Bamboost",
+            "start": 52906,
+            "end": 53326,
+            "confidence": 0.09007,
+            "speaker": null
+          },
+          {
+            "text": "for",
+            "start": 53338,
+            "end": 53478,
+            "confidence": 0.99132,
+            "speaker": null
+          },
+          {
+            "text": "over",
+            "start": 53504,
+            "end": 53694,
+            "confidence": 0.9994,
+            "speaker": null
+          },
+          {
+            "text": "ten",
+            "start": 53732,
+            "end": 53934,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "years,",
+            "start": 53972,
+            "end": 54318,
+            "confidence": 0.99993,
+            "speaker": null
+          },
+          {
+            "text": "I've",
+            "start": 54404,
+            "end": 54682,
+            "confidence": 0.97729,
+            "speaker": null
+          },
+          {
+            "text": "noticed",
+            "start": 54706,
+            "end": 54982,
+            "confidence": 0.76497,
+            "speaker": null
+          },
+          {
+            "text": "that",
+            "start": 55006,
+            "end": 55122,
+            "confidence": 0.9867,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 55136,
+            "end": 55242,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "lot",
+            "start": 55256,
+            "end": 55362,
+            "confidence": 0.99954,
+            "speaker": null
+          },
+          {
+            "text": "of",
+            "start": 55376,
+            "end": 55518,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "players",
+            "start": 55544,
+            "end": 55798,
+            "confidence": 0.99914,
+            "speaker": null
+          },
+          {
+            "text": "have",
+            "start": 55834,
+            "end": 55962,
+            "confidence": 0.99399,
+            "speaker": null
+          },
+          {
+            "text": "picked",
+            "start": 55976,
+            "end": 56182,
+            "confidence": 0.96406,
+            "speaker": null
+          },
+          {
+            "text": "up",
+            "start": 56206,
+            "end": 56358,
+            "confidence": 0.99819,
+            "speaker": null
+          },
+          {
+            "text": "really",
+            "start": 56384,
+            "end": 56574,
+            "confidence": 0.99923,
+            "speaker": null
+          },
+          {
+            "text": "bad",
+            "start": 56612,
+            "end": 56850,
+            "confidence": 0.99995,
+            "speaker": null
+          },
+          {
+            "text": "habits",
+            "start": 56900,
+            "end": 57214,
+            "confidence": 0.97773,
+            "speaker": null
+          },
+          {
+            "text": "that",
+            "start": 57262,
+            "end": 57474,
+            "confidence": 0.98428,
+            "speaker": null
+          },
+          {
+            "text": "they",
+            "start": 57512,
+            "end": 57678,
+            "confidence": 0.99818,
+            "speaker": null
+          },
+          {
+            "text": "aren't",
+            "start": 57704,
+            "end": 57898,
+            "confidence": 0.83425,
+            "speaker": null
+          },
+          {
+            "text": "even",
+            "start": 57934,
+            "end": 58098,
+            "confidence": 0.99909,
+            "speaker": null
+          },
+          {
+            "text": "aware",
+            "start": 58124,
+            "end": 58378,
+            "confidence": 0.98614,
+            "speaker": null
+          },
+          {
+            "text": "of.",
+            "start": 58414,
+            "end": 58614,
+            "confidence": 0.99,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "So for that reason, I want you to forget everything you've learned going through this module and build everything with me from the ground up.",
+        "start": 58652,
+        "end": 64290,
+        "confidence": 0.79465,
+        "words": [
+          {
+            "text": "So",
+            "start": 58652,
+            "end": 58818,
+            "confidence": 0.79465,
+            "speaker": null
+          },
+          {
+            "text": "for",
+            "start": 58844,
+            "end": 58962,
+            "confidence": 0.99901,
+            "speaker": null
+          },
+          {
+            "text": "that",
+            "start": 58976,
+            "end": 59154,
+            "confidence": 0.99957,
+            "speaker": null
+          },
+          {
+            "text": "reason,",
+            "start": 59192,
+            "end": 59502,
+            "confidence": 0.99999,
+            "speaker": null
+          },
+          {
+            "text": "I",
+            "start": 59576,
+            "end": 59778,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "want",
+            "start": 59804,
+            "end": 59922,
+            "confidence": 0.99705,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 59936,
+            "end": 60078,
+            "confidence": 0.63423,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 60104,
+            "end": 60222,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "forget",
+            "start": 60236,
+            "end": 60526,
+            "confidence": 0.9888,
+            "speaker": null
+          },
+          {
+            "text": "everything",
+            "start": 60598,
+            "end": 60870,
+            "confidence": 0.99974,
+            "speaker": null
+          },
+          {
+            "text": "you've",
+            "start": 60920,
+            "end": 61102,
+            "confidence": 0.54026,
+            "speaker": null
+          },
+          {
+            "text": "learned",
+            "start": 61126,
+            "end": 61342,
+            "confidence": 0.79113,
+            "speaker": null
+          },
+          {
+            "text": "going",
+            "start": 61366,
+            "end": 61554,
+            "confidence": 0.9934,
+            "speaker": null
+          },
+          {
+            "text": "through",
+            "start": 61592,
+            "end": 61722,
+            "confidence": 0.36229,
+            "speaker": null
+          },
+          {
+            "text": "this",
+            "start": 61736,
+            "end": 61914,
+            "confidence": 0.96669,
+            "speaker": null
+          },
+          {
+            "text": "module",
+            "start": 61952,
+            "end": 62254,
+            "confidence": 0.99905,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 62302,
+            "end": 62550,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "build",
+            "start": 62600,
+            "end": 62814,
+            "confidence": 0.99136,
+            "speaker": null
+          },
+          {
+            "text": "everything",
+            "start": 62852,
+            "end": 63126,
+            "confidence": 0.99973,
+            "speaker": null
+          },
+          {
+            "text": "with",
+            "start": 63188,
+            "end": 63378,
+            "confidence": 0.98857,
+            "speaker": null
+          },
+          {
+            "text": "me",
+            "start": 63404,
+            "end": 63522,
+            "confidence": 0.9666,
+            "speaker": null
+          },
+          {
+            "text": "from",
+            "start": 63536,
+            "end": 63642,
+            "confidence": 0.99957,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 63656,
+            "end": 63798,
+            "confidence": 0.54,
+            "speaker": null
+          },
+          {
+            "text": "ground",
+            "start": 63824,
+            "end": 64042,
+            "confidence": 0.99981,
+            "speaker": null
+          },
+          {
+            "text": "up.",
+            "start": 64066,
+            "end": 64290,
+            "confidence": 0.59221,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "If you think that these building blocks are really basic and you can already do them, then that's even more of a reason to pay attention to this module, since you may be making mistakes that you aren't even aware of.",
+        "start": 64340,
+        "end": 73470,
+        "confidence": 0.99832,
+        "words": [
+          {
+            "text": "If",
+            "start": 64340,
+            "end": 64482,
+            "confidence": 0.99832,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 64496,
+            "end": 64602,
+            "confidence": 0.93314,
+            "speaker": null
+          },
+          {
+            "text": "think",
+            "start": 64616,
+            "end": 64758,
+            "confidence": 0.99832,
+            "speaker": null
+          },
+          {
+            "text": "that",
+            "start": 64784,
+            "end": 64938,
+            "confidence": 0.97882,
+            "speaker": null
+          },
+          {
+            "text": "these",
+            "start": 64964,
+            "end": 65118,
+            "confidence": 0.98856,
+            "speaker": null
+          },
+          {
+            "text": "building",
+            "start": 65144,
+            "end": 65370,
+            "confidence": 0.99952,
+            "speaker": null
+          },
+          {
+            "text": "blocks",
+            "start": 65420,
+            "end": 65758,
+            "confidence": 0.99127,
+            "speaker": null
+          },
+          {
+            "text": "are",
+            "start": 65794,
+            "end": 65994,
+            "confidence": 0.99758,
+            "speaker": null
+          },
+          {
+            "text": "really",
+            "start": 66032,
+            "end": 66270,
+            "confidence": 0.99321,
+            "speaker": null
+          },
+          {
+            "text": "basic",
+            "start": 66320,
+            "end": 66658,
+            "confidence": 0.99966,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 66694,
+            "end": 66858,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 66884,
+            "end": 66966,
+            "confidence": 0.99335,
+            "speaker": null
+          },
+          {
+            "text": "can",
+            "start": 66968,
+            "end": 67098,
+            "confidence": 0.99569,
+            "speaker": null
+          },
+          {
+            "text": "already",
+            "start": 67124,
+            "end": 67350,
+            "confidence": 0.99583,
+            "speaker": null
+          },
+          {
+            "text": "do",
+            "start": 67400,
+            "end": 67578,
+            "confidence": 0.99955,
+            "speaker": null
+          },
+          {
+            "text": "them,",
+            "start": 67604,
+            "end": 67830,
+            "confidence": 0.99908,
+            "speaker": null
+          },
+          {
+            "text": "then",
+            "start": 67880,
+            "end": 68166,
+            "confidence": 0.91763,
+            "speaker": null
+          },
+          {
+            "text": "that's",
+            "start": 68228,
+            "end": 68518,
+            "confidence": 0.96963,
+            "speaker": null
+          },
+          {
+            "text": "even",
+            "start": 68554,
+            "end": 68754,
+            "confidence": 0.99868,
+            "speaker": null
+          },
+          {
+            "text": "more",
+            "start": 68792,
+            "end": 68922,
+            "confidence": 0.99988,
+            "speaker": null
+          },
+          {
+            "text": "of",
+            "start": 68936,
+            "end": 69042,
+            "confidence": 0.64,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 69056,
+            "end": 69162,
+            "confidence": 0.94,
+            "speaker": null
+          },
+          {
+            "text": "reason",
+            "start": 69176,
+            "end": 69354,
+            "confidence": 0.99997,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 69392,
+            "end": 69522,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "pay",
+            "start": 69536,
+            "end": 69642,
+            "confidence": 0.99983,
+            "speaker": null
+          },
+          {
+            "text": "attention",
+            "start": 69656,
+            "end": 69934,
+            "confidence": 0.45351,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 69982,
+            "end": 70086,
+            "confidence": 0.58,
+            "speaker": null
+          },
+          {
+            "text": "this",
+            "start": 70088,
+            "end": 70218,
+            "confidence": 0.97743,
+            "speaker": null
+          },
+          {
+            "text": "module,",
+            "start": 70244,
+            "end": 70534,
+            "confidence": 0.99642,
+            "speaker": null
+          },
+          {
+            "text": "since",
+            "start": 70582,
+            "end": 70830,
+            "confidence": 0.99814,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 70880,
+            "end": 71058,
+            "confidence": 0.99843,
+            "speaker": null
+          },
+          {
+            "text": "may",
+            "start": 71084,
+            "end": 71202,
+            "confidence": 0.97,
+            "speaker": null
+          },
+          {
+            "text": "be",
+            "start": 71216,
+            "end": 71358,
+            "confidence": 0.99906,
+            "speaker": null
+          },
+          {
+            "text": "making",
+            "start": 71384,
+            "end": 71574,
+            "confidence": 0.99954,
+            "speaker": null
+          },
+          {
+            "text": "mistakes",
+            "start": 71612,
+            "end": 72118,
+            "confidence": 0.92699,
+            "speaker": null
+          },
+          {
+            "text": "that",
+            "start": 72154,
+            "end": 72282,
+            "confidence": 0.99844,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 72296,
+            "end": 72438,
+            "confidence": 0.9974,
+            "speaker": null
+          },
+          {
+            "text": "aren't",
+            "start": 72464,
+            "end": 72682,
+            "confidence": 0.93634,
+            "speaker": null
+          },
+          {
+            "text": "even",
+            "start": 72706,
+            "end": 72894,
+            "confidence": 0.9963,
+            "speaker": null
+          },
+          {
+            "text": "aware",
+            "start": 72932,
+            "end": 73198,
+            "confidence": 0.99885,
+            "speaker": null
+          },
+          {
+            "text": "of.",
+            "start": 73234,
+            "end": 73470,
+            "confidence": 1,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "Even though I know there's a temptation to jump right into the fun stuff, mastering the eight building blocks is essential.",
+        "start": 73520,
+        "end": 79102,
+        "confidence": 0.99864,
+        "words": [
+          {
+            "text": "Even",
+            "start": 73520,
+            "end": 73734,
+            "confidence": 0.99864,
+            "speaker": null
+          },
+          {
+            "text": "though",
+            "start": 73772,
+            "end": 73902,
+            "confidence": 0.99912,
+            "speaker": null
+          },
+          {
+            "text": "I",
+            "start": 73916,
+            "end": 74022,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "know",
+            "start": 74036,
+            "end": 74178,
+            "confidence": 0.98045,
+            "speaker": null
+          },
+          {
+            "text": "there's",
+            "start": 74204,
+            "end": 74362,
+            "confidence": 0.55175,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 74386,
+            "end": 74502,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "temptation",
+            "start": 74516,
+            "end": 74986,
+            "confidence": 0.99794,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 75058,
+            "end": 75222,
+            "confidence": 0.62,
+            "speaker": null
+          },
+          {
+            "text": "jump",
+            "start": 75236,
+            "end": 75382,
+            "confidence": 0.99909,
+            "speaker": null
+          },
+          {
+            "text": "right",
+            "start": 75406,
+            "end": 75558,
+            "confidence": 0.99931,
+            "speaker": null
+          },
+          {
+            "text": "into",
+            "start": 75584,
+            "end": 75738,
+            "confidence": 0.9965,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 75764,
+            "end": 75882,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "fun",
+            "start": 75896,
+            "end": 76074,
+            "confidence": 0.99038,
+            "speaker": null
+          },
+          {
+            "text": "stuff,",
+            "start": 76112,
+            "end": 76566,
+            "confidence": 0.99913,
+            "speaker": null
+          },
+          {
+            "text": "mastering",
+            "start": 76688,
+            "end": 77206,
+            "confidence": 0.98595,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 77218,
+            "end": 77322,
+            "confidence": 0.96,
+            "speaker": null
+          },
+          {
+            "text": "eight",
+            "start": 77336,
+            "end": 77514,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "building",
+            "start": 77552,
+            "end": 77754,
+            "confidence": 0.99989,
+            "speaker": null
+          },
+          {
+            "text": "blocks",
+            "start": 77792,
+            "end": 78154,
+            "confidence": 0.69476,
+            "speaker": null
+          },
+          {
+            "text": "is",
+            "start": 78202,
+            "end": 78522,
+            "confidence": 0.99773,
+            "speaker": null
+          },
+          {
+            "text": "essential.",
+            "start": 78596,
+            "end": 79102,
+            "confidence": 0.99904,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "If you are building a house, you need to first spend some time making sure that all the bricks were up to standard.",
+        "start": 79186,
+        "end": 84282,
+        "confidence": 0.99892,
+        "words": [
+          {
+            "text": "If",
+            "start": 79186,
+            "end": 79362,
+            "confidence": 0.99892,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 79376,
+            "end": 79482,
+            "confidence": 0.99275,
+            "speaker": null
+          },
+          {
+            "text": "are",
+            "start": 79496,
+            "end": 79638,
+            "confidence": 0.72033,
+            "speaker": null
+          },
+          {
+            "text": "building",
+            "start": 79664,
+            "end": 79854,
+            "confidence": 0.99962,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 79892,
+            "end": 80058,
+            "confidence": 0.81,
+            "speaker": null
+          },
+          {
+            "text": "house,",
+            "start": 80084,
+            "end": 80382,
+            "confidence": 0.99993,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 80456,
+            "end": 80622,
+            "confidence": 0.9977,
+            "speaker": null
+          },
+          {
+            "text": "need",
+            "start": 80636,
+            "end": 80778,
+            "confidence": 0.94727,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 80804,
+            "end": 80958,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "first",
+            "start": 80984,
+            "end": 81138,
+            "confidence": 0.98,
+            "speaker": null
+          },
+          {
+            "text": "spend",
+            "start": 81164,
+            "end": 81354,
+            "confidence": 0.95062,
+            "speaker": null
+          },
+          {
+            "text": "some",
+            "start": 81392,
+            "end": 81594,
+            "confidence": 0.99632,
+            "speaker": null
+          },
+          {
+            "text": "time",
+            "start": 81632,
+            "end": 81942,
+            "confidence": 0.9999,
+            "speaker": null
+          },
+          {
+            "text": "making",
+            "start": 82016,
+            "end": 82290,
+            "confidence": 0.99957,
+            "speaker": null
+          },
+          {
+            "text": "sure",
+            "start": 82340,
+            "end": 82518,
+            "confidence": 0.9999,
+            "speaker": null
+          },
+          {
+            "text": "that",
+            "start": 82544,
+            "end": 82698,
+            "confidence": 0.79784,
+            "speaker": null
+          },
+          {
+            "text": "all",
+            "start": 82724,
+            "end": 82842,
+            "confidence": 0.993,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 82856,
+            "end": 82998,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "bricks",
+            "start": 83024,
+            "end": 83302,
+            "confidence": 0.90286,
+            "speaker": null
+          },
+          {
+            "text": "were",
+            "start": 83326,
+            "end": 83478,
+            "confidence": 0.74185,
+            "speaker": null
+          },
+          {
+            "text": "up",
+            "start": 83504,
+            "end": 83622,
+            "confidence": 0.98952,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 83636,
+            "end": 83778,
+            "confidence": 0.75,
+            "speaker": null
+          },
+          {
+            "text": "standard.",
+            "start": 83804,
+            "end": 84282,
+            "confidence": 0.99816,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "If you didn't and build a house with crumbly bricks, the whole building would just collapse.",
+        "start": 84416,
+        "end": 88810,
+        "confidence": 0.99854,
+        "words": [
+          {
+            "text": "If",
+            "start": 84416,
+            "end": 84678,
+            "confidence": 0.99854,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 84704,
+            "end": 84822,
+            "confidence": 0.99844,
+            "speaker": null
+          },
+          {
+            "text": "didn't",
+            "start": 84836,
+            "end": 85078,
+            "confidence": 0.91716,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 85114,
+            "end": 85278,
+            "confidence": 0.98,
+            "speaker": null
+          },
+          {
+            "text": "build",
+            "start": 85304,
+            "end": 85494,
+            "confidence": 0.45218,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 85532,
+            "end": 85698,
+            "confidence": 0.47,
+            "speaker": null
+          },
+          {
+            "text": "house",
+            "start": 85724,
+            "end": 85914,
+            "confidence": 0.99991,
+            "speaker": null
+          },
+          {
+            "text": "with",
+            "start": 85952,
+            "end": 86154,
+            "confidence": 0.99854,
+            "speaker": null
+          },
+          {
+            "text": "crumbly",
+            "start": 86192,
+            "end": 86542,
+            "confidence": 0.77187,
+            "speaker": null
+          },
+          {
+            "text": "bricks,",
+            "start": 86566,
+            "end": 87082,
+            "confidence": 0.99669,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 87166,
+            "end": 87378,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "whole",
+            "start": 87404,
+            "end": 87558,
+            "confidence": 0.99977,
+            "speaker": null
+          },
+          {
+            "text": "building",
+            "start": 87584,
+            "end": 87774,
+            "confidence": 0.99974,
+            "speaker": null
+          },
+          {
+            "text": "would",
+            "start": 87812,
+            "end": 87978,
+            "confidence": 0.68649,
+            "speaker": null
+          },
+          {
+            "text": "just",
+            "start": 88004,
+            "end": 88158,
+            "confidence": 0.99237,
+            "speaker": null
+          },
+          {
+            "text": "collapse.",
+            "start": 88184,
+            "end": 88810,
+            "confidence": 0.96782,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "So sure, if you jump right into footwork, you might get a small head start.",
+        "start": 88930,
+        "end": 92850,
+        "confidence": 0.78472,
+        "words": [
+          {
+            "text": "So",
+            "start": 88930,
+            "end": 89214,
+            "confidence": 0.78472,
+            "speaker": null
+          },
+          {
+            "text": "sure,",
+            "start": 89252,
+            "end": 89598,
+            "confidence": 0.97954,
+            "speaker": null
+          },
+          {
+            "text": "if",
+            "start": 89684,
+            "end": 89898,
+            "confidence": 0.99962,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 89924,
+            "end": 90042,
+            "confidence": 0.99911,
+            "speaker": null
+          },
+          {
+            "text": "jump",
+            "start": 90056,
+            "end": 90238,
+            "confidence": 0.99817,
+            "speaker": null
+          },
+          {
+            "text": "right",
+            "start": 90274,
+            "end": 90474,
+            "confidence": 0.99924,
+            "speaker": null
+          },
+          {
+            "text": "into",
+            "start": 90512,
+            "end": 90714,
+            "confidence": 0.99678,
+            "speaker": null
+          },
+          {
+            "text": "footwork,",
+            "start": 90752,
+            "end": 91222,
+            "confidence": 0.97817,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 91306,
+            "end": 91482,
+            "confidence": 0.99915,
+            "speaker": null
+          },
+          {
+            "text": "might",
+            "start": 91496,
+            "end": 91638,
+            "confidence": 0.99944,
+            "speaker": null
+          },
+          {
+            "text": "get",
+            "start": 91664,
+            "end": 91854,
+            "confidence": 0.99951,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 91892,
+            "end": 92022,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "small",
+            "start": 92036,
+            "end": 92250,
+            "confidence": 0.99883,
+            "speaker": null
+          },
+          {
+            "text": "head",
+            "start": 92300,
+            "end": 92442,
+            "confidence": 0.99941,
+            "speaker": null
+          },
+          {
+            "text": "start.",
+            "start": 92456,
+            "end": 92850,
+            "confidence": 0.58861,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "But eventually that's going to catch up with you down the line and you'll have to start from square one.",
+        "start": 92960,
+        "end": 96810,
+        "confidence": 0.94498,
+        "words": [
+          {
+            "text": "But",
+            "start": 92960,
+            "end": 93198,
+            "confidence": 0.94498,
+            "speaker": null
+          },
+          {
+            "text": "eventually",
+            "start": 93224,
+            "end": 93610,
+            "confidence": 0.80618,
+            "speaker": null
+          },
+          {
+            "text": "that's",
+            "start": 93670,
+            "end": 93922,
+            "confidence": 0.93892,
+            "speaker": null
+          },
+          {
+            "text": "going",
+            "start": 93946,
+            "end": 94026,
+            "confidence": 0.99751,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 94028,
+            "end": 94122,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "catch",
+            "start": 94136,
+            "end": 94342,
+            "confidence": 0.99443,
+            "speaker": null
+          },
+          {
+            "text": "up",
+            "start": 94366,
+            "end": 94482,
+            "confidence": 0.99927,
+            "speaker": null
+          },
+          {
+            "text": "with",
+            "start": 94496,
+            "end": 94602,
+            "confidence": 0.99562,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 94616,
+            "end": 94722,
+            "confidence": 0.99784,
+            "speaker": null
+          },
+          {
+            "text": "down",
+            "start": 94736,
+            "end": 94878,
+            "confidence": 0.99978,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 94904,
+            "end": 95022,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "line",
+            "start": 95036,
+            "end": 95322,
+            "confidence": 0.99984,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 95396,
+            "end": 95562,
+            "confidence": 0.98,
+            "speaker": null
+          },
+          {
+            "text": "you'll",
+            "start": 95576,
+            "end": 95686,
+            "confidence": 0.7839,
+            "speaker": null
+          },
+          {
+            "text": "have",
+            "start": 95698,
+            "end": 95802,
+            "confidence": 0.99292,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 95816,
+            "end": 95922,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "start",
+            "start": 95936,
+            "end": 96114,
+            "confidence": 0.99824,
+            "speaker": null
+          },
+          {
+            "text": "from",
+            "start": 96152,
+            "end": 96282,
+            "confidence": 0.99773,
+            "speaker": null
+          },
+          {
+            "text": "square",
+            "start": 96296,
+            "end": 96510,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "one.",
+            "start": 96560,
+            "end": 96810,
+            "confidence": 0.99,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "Imagine a complex gymnastics routine, the one with the tight leotards, breathtaking backflips and death defying formations.",
+        "start": 96860,
+        "end": 103678,
+        "confidence": 0.99949,
+        "words": [
+          {
+            "text": "Imagine",
+            "start": 96860,
+            "end": 97222,
+            "confidence": 0.99949,
+            "speaker": null
+          },
+          {
+            "text": "a",
+            "start": 97246,
+            "end": 97434,
+            "confidence": 0.5,
+            "speaker": null
+          },
+          {
+            "text": "complex",
+            "start": 97472,
+            "end": 97774,
+            "confidence": 0.98625,
+            "speaker": null
+          },
+          {
+            "text": "gymnastics",
+            "start": 97822,
+            "end": 98338,
+            "confidence": 0.94301,
+            "speaker": null
+          },
+          {
+            "text": "routine,",
+            "start": 98374,
+            "end": 98986,
+            "confidence": 0.99454,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 99118,
+            "end": 99378,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "one",
+            "start": 99404,
+            "end": 99558,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "with",
+            "start": 99584,
+            "end": 99738,
+            "confidence": 0.99691,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 99764,
+            "end": 99918,
+            "confidence": 0.97,
+            "speaker": null
+          },
+          {
+            "text": "tight",
+            "start": 99944,
+            "end": 100174,
+            "confidence": 0.72251,
+            "speaker": null
+          },
+          {
+            "text": "leotards,",
+            "start": 100222,
+            "end": 101038,
+            "confidence": 0.45249,
+            "speaker": null
+          },
+          {
+            "text": "breathtaking",
+            "start": 101134,
+            "end": 101734,
+            "confidence": 0.69155,
+            "speaker": null
+          },
+          {
+            "text": "backflips",
+            "start": 101782,
+            "end": 102298,
+            "confidence": 0.63397,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 102334,
+            "end": 102498,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "death",
+            "start": 102524,
+            "end": 102718,
+            "confidence": 0.87259,
+            "speaker": null
+          },
+          {
+            "text": "defying",
+            "start": 102754,
+            "end": 103102,
+            "confidence": 0.43311,
+            "speaker": null
+          },
+          {
+            "text": "formations.",
+            "start": 103126,
+            "end": 103678,
+            "confidence": 0.99432,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "Now imagine if you wanted to try out gymnastics and went to your local club for the first time.",
+        "start": 103774,
+        "end": 108366,
+        "confidence": 0.93674,
+        "words": [
+          {
+            "text": "Now",
+            "start": 103774,
+            "end": 104106,
+            "confidence": 0.93674,
+            "speaker": null
+          },
+          {
+            "text": "imagine",
+            "start": 104168,
+            "end": 104554,
+            "confidence": 0.78418,
+            "speaker": null
+          },
+          {
+            "text": "if",
+            "start": 104602,
+            "end": 104742,
+            "confidence": 0.99861,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 104756,
+            "end": 104898,
+            "confidence": 0.99805,
+            "speaker": null
+          },
+          {
+            "text": "wanted",
+            "start": 104924,
+            "end": 105150,
+            "confidence": 0.99277,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 105200,
+            "end": 105342,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "try",
+            "start": 105356,
+            "end": 105498,
+            "confidence": 0.99962,
+            "speaker": null
+          },
+          {
+            "text": "out",
+            "start": 105524,
+            "end": 105678,
+            "confidence": 0.98358,
+            "speaker": null
+          },
+          {
+            "text": "gymnastics",
+            "start": 105704,
+            "end": 106270,
+            "confidence": 0.81603,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 106330,
+            "end": 106590,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "went",
+            "start": 106640,
+            "end": 106818,
+            "confidence": 0.99759,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 106844,
+            "end": 106962,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "your",
+            "start": 106976,
+            "end": 107082,
+            "confidence": 0.99809,
+            "speaker": null
+          },
+          {
+            "text": "local",
+            "start": 107096,
+            "end": 107310,
+            "confidence": 0.53004,
+            "speaker": null
+          },
+          {
+            "text": "club",
+            "start": 107360,
+            "end": 107542,
+            "confidence": 0.99496,
+            "speaker": null
+          },
+          {
+            "text": "for",
+            "start": 107566,
+            "end": 107682,
+            "confidence": 0.96907,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 107696,
+            "end": 107838,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "first",
+            "start": 107864,
+            "end": 108054,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "time.",
+            "start": 108092,
+            "end": 108366,
+            "confidence": 0.99992,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "I certainly would walk straight back out the door if the coach told me I had to try this on my first session.",
+        "start": 108428,
+        "end": 113550,
+        "confidence": 1,
+        "words": [
+          {
+            "text": "I",
+            "start": 108428,
+            "end": 108654,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "certainly",
+            "start": 108692,
+            "end": 108966,
+            "confidence": 0.99698,
+            "speaker": null
+          },
+          {
+            "text": "would",
+            "start": 109028,
+            "end": 109254,
+            "confidence": 0.9008,
+            "speaker": null
+          },
+          {
+            "text": "walk",
+            "start": 109292,
+            "end": 109494,
+            "confidence": 0.99521,
+            "speaker": null
+          },
+          {
+            "text": "straight",
+            "start": 109532,
+            "end": 109834,
+            "confidence": 0.84088,
+            "speaker": null
+          },
+          {
+            "text": "back",
+            "start": 109882,
+            "end": 110058,
+            "confidence": 0.99945,
+            "speaker": null
+          },
+          {
+            "text": "out",
+            "start": 110084,
+            "end": 110202,
+            "confidence": 0.99449,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 110216,
+            "end": 110322,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "door",
+            "start": 110336,
+            "end": 110578,
+            "confidence": 0.99906,
+            "speaker": null
+          },
+          {
+            "text": "if",
+            "start": 110614,
+            "end": 110778,
+            "confidence": 0.99863,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 110804,
+            "end": 110922,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "coach",
+            "start": 110936,
+            "end": 111178,
+            "confidence": 0.9997,
+            "speaker": null
+          },
+          {
+            "text": "told",
+            "start": 111214,
+            "end": 111378,
+            "confidence": 0.99914,
+            "speaker": null
+          },
+          {
+            "text": "me",
+            "start": 111404,
+            "end": 111558,
+            "confidence": 0.99932,
+            "speaker": null
+          },
+          {
+            "text": "I",
+            "start": 111584,
+            "end": 111702,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "had",
+            "start": 111716,
+            "end": 111822,
+            "confidence": 0.67084,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 111836,
+            "end": 111942,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "try",
+            "start": 111956,
+            "end": 112134,
+            "confidence": 0.99963,
+            "speaker": null
+          },
+          {
+            "text": "this",
+            "start": 112172,
+            "end": 112338,
+            "confidence": 0.99894,
+            "speaker": null
+          },
+          {
+            "text": "on",
+            "start": 112364,
+            "end": 112482,
+            "confidence": 0.94385,
+            "speaker": null
+          },
+          {
+            "text": "my",
+            "start": 112496,
+            "end": 112638,
+            "confidence": 0.99131,
+            "speaker": null
+          },
+          {
+            "text": "first",
+            "start": 112664,
+            "end": 112854,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "session.",
+            "start": 112892,
+            "end": 113550,
+            "confidence": 0.99619,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "And that makes sense.",
+        "start": 114950,
+        "end": 116178,
+        "confidence": 0.45,
+        "words": [
+          {
+            "text": "And",
+            "start": 114950,
+            "end": 115350,
+            "confidence": 0.45,
+            "speaker": null
+          },
+          {
+            "text": "that",
+            "start": 115400,
+            "end": 115614,
+            "confidence": 0.59227,
+            "speaker": null
+          },
+          {
+            "text": "makes",
+            "start": 115652,
+            "end": 115818,
+            "confidence": 0.97157,
+            "speaker": null
+          },
+          {
+            "text": "sense.",
+            "start": 115844,
+            "end": 116178,
+            "confidence": 0.99983,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "Every single gymnast in this video started off learning simple techniques like planks, push ups and pull ups.",
+        "start": 116264,
+        "end": 121954,
+        "confidence": 0.72748,
+        "words": [
+          {
+            "text": "Every",
+            "start": 116264,
+            "end": 116550,
+            "confidence": 0.72748,
+            "speaker": null
+          },
+          {
+            "text": "single",
+            "start": 116600,
+            "end": 116850,
+            "confidence": 0.99982,
+            "speaker": null
+          },
+          {
+            "text": "gymnast",
+            "start": 116900,
+            "end": 117322,
+            "confidence": 0.84828,
+            "speaker": null
+          },
+          {
+            "text": "in",
+            "start": 117346,
+            "end": 117462,
+            "confidence": 0.99738,
+            "speaker": null
+          },
+          {
+            "text": "this",
+            "start": 117476,
+            "end": 117618,
+            "confidence": 0.99855,
+            "speaker": null
+          },
+          {
+            "text": "video",
+            "start": 117644,
+            "end": 117978,
+            "confidence": 0.99956,
+            "speaker": null
+          },
+          {
+            "text": "started",
+            "start": 118064,
+            "end": 118386,
+            "confidence": 0.98937,
+            "speaker": null
+          },
+          {
+            "text": "off",
+            "start": 118448,
+            "end": 118638,
+            "confidence": 0.9953,
+            "speaker": null
+          },
+          {
+            "text": "learning",
+            "start": 118664,
+            "end": 118926,
+            "confidence": 0.99776,
+            "speaker": null
+          },
+          {
+            "text": "simple",
+            "start": 118988,
+            "end": 119286,
+            "confidence": 0.99973,
+            "speaker": null
+          },
+          {
+            "text": "techniques",
+            "start": 119348,
+            "end": 119758,
+            "confidence": 0.66033,
+            "speaker": null
+          },
+          {
+            "text": "like",
+            "start": 119794,
+            "end": 120030,
+            "confidence": 0.99842,
+            "speaker": null
+          },
+          {
+            "text": "planks,",
+            "start": 120080,
+            "end": 120562,
+            "confidence": 0.68137,
+            "speaker": null
+          },
+          {
+            "text": "push",
+            "start": 120646,
+            "end": 120898,
+            "confidence": 0.99872,
+            "speaker": null
+          },
+          {
+            "text": "ups",
+            "start": 120934,
+            "end": 121162,
+            "confidence": 0.44447,
+            "speaker": null
+          },
+          {
+            "text": "and",
+            "start": 121186,
+            "end": 121302,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "pull",
+            "start": 121316,
+            "end": 121458,
+            "confidence": 0.99978,
+            "speaker": null
+          },
+          {
+            "text": "ups.",
+            "start": 121484,
+            "end": 121954,
+            "confidence": 0.78786,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "So why should Bambin be any different?",
+        "start": 122062,
+        "end": 123834,
+        "confidence": 0.82986,
+        "words": [
+          {
+            "text": "So",
+            "start": 122062,
+            "end": 122406,
+            "confidence": 0.82986,
+            "speaker": null
+          },
+          {
+            "text": "why",
+            "start": 122468,
+            "end": 122658,
+            "confidence": 0.99915,
+            "speaker": null
+          },
+          {
+            "text": "should",
+            "start": 122684,
+            "end": 122874,
+            "confidence": 0.83888,
+            "speaker": null
+          },
+          {
+            "text": "Bambin",
+            "start": 122912,
+            "end": 123286,
+            "confidence": 0.03267,
+            "speaker": null
+          },
+          {
+            "text": "be",
+            "start": 123298,
+            "end": 123438,
+            "confidence": 0.97603,
+            "speaker": null
+          },
+          {
+            "text": "any",
+            "start": 123464,
+            "end": 123618,
+            "confidence": 0.99828,
+            "speaker": null
+          },
+          {
+            "text": "different?",
+            "start": 123644,
+            "end": 123834,
+            "confidence": 0.99745,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "You can't jump into the more advanced stuff until you master the basics.",
+        "start": 123872,
+        "end": 127042,
+        "confidence": 0.94909,
+        "words": [
+          {
+            "text": "You",
+            "start": 123872,
+            "end": 124038,
+            "confidence": 0.94909,
+            "speaker": null
+          },
+          {
+            "text": "can't",
+            "start": 124064,
+            "end": 124258,
+            "confidence": 0.95771,
+            "speaker": null
+          },
+          {
+            "text": "jump",
+            "start": 124294,
+            "end": 124498,
+            "confidence": 0.9996,
+            "speaker": null
+          },
+          {
+            "text": "into",
+            "start": 124534,
+            "end": 124698,
+            "confidence": 0.99566,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 124724,
+            "end": 124842,
+            "confidence": 0.98,
+            "speaker": null
+          },
+          {
+            "text": "more",
+            "start": 124856,
+            "end": 124998,
+            "confidence": 0.99526,
+            "speaker": null
+          },
+          {
+            "text": "advanced",
+            "start": 125024,
+            "end": 125362,
+            "confidence": 0.99233,
+            "speaker": null
+          },
+          {
+            "text": "stuff",
+            "start": 125386,
+            "end": 125610,
+            "confidence": 0.99432,
+            "speaker": null
+          },
+          {
+            "text": "until",
+            "start": 125660,
+            "end": 125874,
+            "confidence": 0.65169,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 125912,
+            "end": 126078,
+            "confidence": 0.81931,
+            "speaker": null
+          },
+          {
+            "text": "master",
+            "start": 126104,
+            "end": 126334,
+            "confidence": 0.99758,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 126382,
+            "end": 126558,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "basics.",
+            "start": 126584,
+            "end": 127042,
+            "confidence": 0.93753,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "If you're serious about improving Abomination, I want you to pay attention to this module.",
+        "start": 127126,
+        "end": 130798,
+        "confidence": 0.99945,
+        "words": [
+          {
+            "text": "If",
+            "start": 127126,
+            "end": 127302,
+            "confidence": 0.99945,
+            "speaker": null
+          },
+          {
+            "text": "you're",
+            "start": 127316,
+            "end": 127462,
+            "confidence": 0.95982,
+            "speaker": null
+          },
+          {
+            "text": "serious",
+            "start": 127486,
+            "end": 127762,
+            "confidence": 0.99852,
+            "speaker": null
+          },
+          {
+            "text": "about",
+            "start": 127786,
+            "end": 127974,
+            "confidence": 0.90998,
+            "speaker": null
+          },
+          {
+            "text": "improving",
+            "start": 128012,
+            "end": 128374,
+            "confidence": 0.99941,
+            "speaker": null
+          },
+          {
+            "text": "Abomination,",
+            "start": 128422,
+            "end": 128938,
+            "confidence": 0.0227,
+            "speaker": null
+          },
+          {
+            "text": "I",
+            "start": 128974,
+            "end": 129138,
+            "confidence": 0.59,
+            "speaker": null
+          },
+          {
+            "text": "want",
+            "start": 129164,
+            "end": 129318,
+            "confidence": 0.99855,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 129344,
+            "end": 129462,
+            "confidence": 0.99815,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 129476,
+            "end": 129582,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "pay",
+            "start": 129596,
+            "end": 129702,
+            "confidence": 0.99982,
+            "speaker": null
+          },
+          {
+            "text": "attention",
+            "start": 129716,
+            "end": 130018,
+            "confidence": 0.89572,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 130054,
+            "end": 130182,
+            "confidence": 0.66,
+            "speaker": null
+          },
+          {
+            "text": "this",
+            "start": 130196,
+            "end": 130338,
+            "confidence": 0.99621,
+            "speaker": null
+          },
+          {
+            "text": "module.",
+            "start": 130364,
+            "end": 130798,
+            "confidence": 0.99615,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "This could be the most important thing you learn.",
+        "start": 130894,
+        "end": 133146,
+        "confidence": 0.99791,
+        "words": [
+          {
+            "text": "This",
+            "start": 130894,
+            "end": 131118,
+            "confidence": 0.99791,
+            "speaker": null
+          },
+          {
+            "text": "could",
+            "start": 131144,
+            "end": 131298,
+            "confidence": 0.52069,
+            "speaker": null
+          },
+          {
+            "text": "be",
+            "start": 131324,
+            "end": 131442,
+            "confidence": 0.99843,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 131456,
+            "end": 131598,
+            "confidence": 0.79,
+            "speaker": null
+          },
+          {
+            "text": "most",
+            "start": 131624,
+            "end": 131814,
+            "confidence": 0.99995,
+            "speaker": null
+          },
+          {
+            "text": "important",
+            "start": 131852,
+            "end": 132270,
+            "confidence": 0.99954,
+            "speaker": null
+          },
+          {
+            "text": "thing",
+            "start": 132380,
+            "end": 132654,
+            "confidence": 0.9979,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 132692,
+            "end": 132858,
+            "confidence": 0.99838,
+            "speaker": null
+          },
+          {
+            "text": "learn.",
+            "start": 132884,
+            "end": 133146,
+            "confidence": 0.99944,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "In the next module, you'll be learning how to combine these to start travelling effectively to all corners of the badminton court.",
+        "start": 133208,
+        "end": 139222,
+        "confidence": 0.6011,
+        "words": [
+          {
+            "text": "In",
+            "start": 133208,
+            "end": 133362,
+            "confidence": 0.6011,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 133376,
+            "end": 133518,
+            "confidence": 0.86,
+            "speaker": null
+          },
+          {
+            "text": "next",
+            "start": 133544,
+            "end": 133734,
+            "confidence": 0.99981,
+            "speaker": null
+          },
+          {
+            "text": "module,",
+            "start": 133772,
+            "end": 134074,
+            "confidence": 0.99914,
+            "speaker": null
+          },
+          {
+            "text": "you'll",
+            "start": 134122,
+            "end": 134326,
+            "confidence": 0.73628,
+            "speaker": null
+          },
+          {
+            "text": "be",
+            "start": 134338,
+            "end": 134478,
+            "confidence": 0.99496,
+            "speaker": null
+          },
+          {
+            "text": "learning",
+            "start": 134504,
+            "end": 134694,
+            "confidence": 0.99957,
+            "speaker": null
+          },
+          {
+            "text": "how",
+            "start": 134732,
+            "end": 134934,
+            "confidence": 0.99859,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 134972,
+            "end": 135138,
+            "confidence": 0.54,
+            "speaker": null
+          },
+          {
+            "text": "combine",
+            "start": 135164,
+            "end": 135550,
+            "confidence": 0.97755,
+            "speaker": null
+          },
+          {
+            "text": "these",
+            "start": 135610,
+            "end": 135834,
+            "confidence": 0.9928,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 135872,
+            "end": 136110,
+            "confidence": 0.96,
+            "speaker": null
+          },
+          {
+            "text": "start",
+            "start": 136160,
+            "end": 136410,
+            "confidence": 0.99932,
+            "speaker": null
+          },
+          {
+            "text": "travelling",
+            "start": 136460,
+            "end": 136894,
+            "confidence": 0.89976,
+            "speaker": null
+          },
+          {
+            "text": "effectively",
+            "start": 136942,
+            "end": 137662,
+            "confidence": 0.99923,
+            "speaker": null
+          },
+          {
+            "text": "to",
+            "start": 137746,
+            "end": 137958,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "all",
+            "start": 137984,
+            "end": 138138,
+            "confidence": 0.99867,
+            "speaker": null
+          },
+          {
+            "text": "corners",
+            "start": 138164,
+            "end": 138466,
+            "confidence": 0.99181,
+            "speaker": null
+          },
+          {
+            "text": "of",
+            "start": 138478,
+            "end": 138546,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 138548,
+            "end": 138606,
+            "confidence": 0.99,
+            "speaker": null
+          },
+          {
+            "text": "badminton",
+            "start": 138608,
+            "end": 138934,
+            "confidence": 0.07899,
+            "speaker": null
+          },
+          {
+            "text": "court.",
+            "start": 138982,
+            "end": 139222,
+            "confidence": 0.82488,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "But you can't do that until you've mastered the basics.",
+        "start": 139246,
+        "end": 141922,
+        "confidence": 0.98261,
+        "words": [
+          {
+            "text": "But",
+            "start": 139246,
+            "end": 139398,
+            "confidence": 0.98261,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 139424,
+            "end": 139542,
+            "confidence": 0.99957,
+            "speaker": null
+          },
+          {
+            "text": "can't",
+            "start": 139556,
+            "end": 139870,
+            "confidence": 0.64024,
+            "speaker": null
+          },
+          {
+            "text": "do",
+            "start": 139930,
+            "end": 140118,
+            "confidence": 0.9999,
+            "speaker": null
+          },
+          {
+            "text": "that",
+            "start": 140144,
+            "end": 140406,
+            "confidence": 0.99968,
+            "speaker": null
+          },
+          {
+            "text": "until",
+            "start": 140468,
+            "end": 140766,
+            "confidence": 0.98815,
+            "speaker": null
+          },
+          {
+            "text": "you've",
+            "start": 140828,
+            "end": 141022,
+            "confidence": 0.76265,
+            "speaker": null
+          },
+          {
+            "text": "mastered",
+            "start": 141046,
+            "end": 141346,
+            "confidence": 0.98485,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 141358,
+            "end": 141498,
+            "confidence": 0.97,
+            "speaker": null
+          },
+          {
+            "text": "basics.",
+            "start": 141524,
+            "end": 141922,
+            "confidence": 0.99263,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      },
+      {
+        "text": "So I'll see you in the next video where we'll go over the first building block of footwork that starts.",
+        "start": 142006,
+        "end": 146590,
+        "confidence": 0.81534,
+        "words": [
+          {
+            "text": "So",
+            "start": 142006,
+            "end": 142326,
+            "confidence": 0.81534,
+            "speaker": null
+          },
+          {
+            "text": "I'll",
+            "start": 142388,
+            "end": 142618,
+            "confidence": 0.60093,
+            "speaker": null
+          },
+          {
+            "text": "see",
+            "start": 142654,
+            "end": 142782,
+            "confidence": 0.99971,
+            "speaker": null
+          },
+          {
+            "text": "you",
+            "start": 142796,
+            "end": 142902,
+            "confidence": 0.97779,
+            "speaker": null
+          },
+          {
+            "text": "in",
+            "start": 142916,
+            "end": 143022,
+            "confidence": 0.98161,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 143036,
+            "end": 143142,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "next",
+            "start": 143156,
+            "end": 143334,
+            "confidence": 0.99948,
+            "speaker": null
+          },
+          {
+            "text": "video",
+            "start": 143372,
+            "end": 143610,
+            "confidence": 0.99896,
+            "speaker": null
+          },
+          {
+            "text": "where",
+            "start": 143660,
+            "end": 143802,
+            "confidence": 0.61276,
+            "speaker": null
+          },
+          {
+            "text": "we'll",
+            "start": 143816,
+            "end": 143986,
+            "confidence": 0.70759,
+            "speaker": null
+          },
+          {
+            "text": "go",
+            "start": 143998,
+            "end": 144174,
+            "confidence": 0.99894,
+            "speaker": null
+          },
+          {
+            "text": "over",
+            "start": 144212,
+            "end": 144450,
+            "confidence": 0.99917,
+            "speaker": null
+          },
+          {
+            "text": "the",
+            "start": 144500,
+            "end": 144714,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "first",
+            "start": 144752,
+            "end": 144954,
+            "confidence": 1,
+            "speaker": null
+          },
+          {
+            "text": "building",
+            "start": 144992,
+            "end": 145230,
+            "confidence": 0.99974,
+            "speaker": null
+          },
+          {
+            "text": "block",
+            "start": 145280,
+            "end": 145462,
+            "confidence": 0.99764,
+            "speaker": null
+          },
+          {
+            "text": "of",
+            "start": 145486,
+            "end": 145602,
+            "confidence": 0.95,
+            "speaker": null
+          },
+          {
+            "text": "footwork",
+            "start": 145616,
+            "end": 146026,
+            "confidence": 0.97507,
+            "speaker": null
+          },
+          {
+            "text": "that",
+            "start": 146098,
+            "end": 146334,
+            "confidence": 0.50855,
+            "speaker": null
+          },
+          {
+            "text": "starts.",
+            "start": 146372,
+            "end": 146590,
+            "confidence": 0.87853,
+            "speaker": null
+          }
+        ],
+        "speaker": null
+      }
+    ]
+  }
+]

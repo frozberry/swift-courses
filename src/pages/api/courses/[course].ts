@@ -5,6 +5,8 @@ import kotc from "../../../../courses-data/kotc.json"
 import authUserSession from "../../../lib/authUserSession"
 import { findUserById } from "../../../services/server/userService"
 import { User } from "@prisma/client"
+import * as fs from "fs"
+import { Course } from "../../../lib/types"
 
 const GET = async (
   req: NextApiRequest,
@@ -21,7 +23,25 @@ const GET = async (
       res.status(403).end("You do not have access to this course")
       return
     }
-    res.send(footworkFastlane)
+
+    // Add the transcript to the course data
+    // Could be cleaner, but this works for now
+    const ff = footworkFastlane as Course
+    fs.readdir("./courses-data/transcripts", (err, files) => {
+      files.forEach((file) => {
+        const moduleNum = Number(file[0])
+        const lessonNum = Number(file[2])
+        fs.readFile(`./courses-data/transcripts/${file}`, (err, data) => {
+          if (err) console.log(file)
+          const transcript = JSON.parse(data.toString())
+
+          ff.modules[moduleNum - 1].lessons[lessonNum - 1].transcript =
+            transcript
+        })
+      })
+    })
+
+    res.send(ff)
     return
   }
   if (course === "pp") {

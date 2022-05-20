@@ -2,7 +2,6 @@ import { Container, Divider } from "@mui/material"
 import axios from "axios"
 import { useRouter } from "next/router"
 import { useRef, useState } from "react"
-import transcript from "../../courses-data/transcripts/lesson1.json"
 import DrawerHeader from "../components/drawer/DrawerHeader"
 import LessonDescription from "../components/LessonDescription"
 import Transcript from "../components/Transcript"
@@ -60,13 +59,16 @@ const Page = () => {
           courseName={courseName}
         />
 
-        <Divider sx={{ my: 4 }} />
-
-        <Transcript
-          transcript={transcript}
-          seekTo={seekTo}
-          timestamp={timestamp}
-        />
+        {lesson.transcript && (
+          <>
+            <Divider sx={{ my: 4 }} />
+            <Transcript
+              transcript={lesson.transcript}
+              seekTo={seekTo}
+              timestamp={timestamp}
+            />
+          </>
+        )}
       </Container>
     </DrawerHeader>
   )
