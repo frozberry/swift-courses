@@ -6,7 +6,6 @@ import authUserSession from "../../../lib/authUserSession"
 const config = {
   headers: {
     authorization: process.env.ASSEMBLY_KEY!,
-    "content-type": "application/json",
   },
 }
 
