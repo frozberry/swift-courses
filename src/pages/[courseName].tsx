@@ -1,6 +1,8 @@
 import { Box, Button, Container, Typography } from "@mui/material"
 import axios from "axios"
 import { useRouter } from "next/router"
+import { useRef, useState } from "react"
+import transcript from "../../courses-data/transcripts/lesson1.json"
 import Anchor from "../components/Anchor"
 import DrawerHeader from "../components/drawer/DrawerHeader"
 import LinkButton from "../components/LinkButton"
@@ -15,11 +17,15 @@ const getCourse = async (course: string) => {
 
 const Page = () => {
   const router = useRouter()
+  const videoRef = useRef(null)
   const { courseName, moduleId, lessonId } = router.query as CourseQuery
   const { data, escape, component } = useAuthQuery(courseName, () =>
     getCourse(courseName)
   )
+
+  const [timestamp, setTimestamp] = useState(0)
   const course = data as Course
+
   if (!(courseName === "ff" || courseName === "pp" || courseName === "kotc"))
     return null
   if (escape) return component
@@ -45,10 +51,47 @@ const Page = () => {
     nextLesson = 1
   }
 
+  const seekTo = (time: number) => {
+    // @ts-ignore
+    videoRef.current.seekTo(time / 1000)
+  }
+
   return (
     <DrawerHeader course={course}>
       <Container sx={{ mt: 4, px: { xs: 0, sm: 2 } }}>
-        <VideoPlayer url={lesson.url} />
+        <VideoPlayer
+          url={lesson.url}
+          videoRef={videoRef}
+          setTimestamp={setTimestamp}
+        />
+        {transcript.map((paragraph: any) => (
+          <Box key={paragraph.start} sx={{ my: 2 }}>
+            {paragraph.sentences.map((sentence: any) => (
+              <>
+                <Typography
+                  key={sentence.start}
+                  display="inline"
+                  onClick={() => seekTo(sentence.start)}
+                  sx={{
+                    cursor: "pointer",
+                    backgroundColor:
+                      sentence.start / 1000 < timestamp &&
+                      sentence.end / 1000 > timestamp
+                        ? "primary.light"
+                        : null,
+                    "&:hover": {
+                      backgroundColor: "secondary.light",
+                    },
+                  }}
+                >
+                  {sentence.text}
+                </Typography>
+                {/* Prevents styling being applied to space */}
+                <Typography display="inline"> </Typography>
+              </>
+            ))}
+          </Box>
+        ))}
 
         <Container maxWidth="lg">
           <Typography variant="h4" sx={{ mt: 3 }}>
