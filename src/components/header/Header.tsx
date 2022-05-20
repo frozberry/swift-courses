@@ -1,8 +1,6 @@
 import MenuIcon from "@mui/icons-material/Menu"
 import { AppBar, Box, IconButton, Toolbar, Typography } from "@mui/material"
 import Link from "next/link"
-import { useSession } from "../../hooks/useSession"
-import { MySession } from "../../lib/types"
 import LoggedIn from "./LoggedIn"
 
 type Props = {
@@ -16,9 +14,6 @@ const Header = ({
   menu = false,
   isAdmin = false,
 }: Props) => {
-  const { session } = useSession() as { session: MySession }
-  console.log(session)
-
   return (
     <AppBar
       position="fixed"
