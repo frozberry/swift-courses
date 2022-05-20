@@ -22,9 +22,11 @@ const Page = ({ lesson, module, course, courseName }: Props) => {
       <Typography variant="h4" sx={{ mt: 3 }}>
         {lesson.name}
       </Typography>
-      <Typography variant="h5" sx={{ mt: 1 }}>
-        {module.name}
-      </Typography>
+      {courseName !== "kotc" && (
+        <Typography variant="h5" sx={{ mt: 1 }}>
+          {module.name}
+        </Typography>
+      )}
       <Typography sx={{ mt: 1, mb: 2 }}>{lesson.description}</Typography>
 
       {lesson.pdfUrl && (
