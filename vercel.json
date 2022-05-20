@@ -1,7 +1,7 @@
 {
   "functions": {
     "src/pages/api/courses/[course].ts": {
-      "includeFiles": "_files/**"
+      "includeFiles": "courses-data/transcripts/**"
     }
   }
 }
