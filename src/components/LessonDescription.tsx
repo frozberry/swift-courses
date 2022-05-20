@@ -1,4 +1,4 @@
-import { Box, Button, Typography } from "@mui/material"
+import { Box, Button, Container, Typography } from "@mui/material"
 import Anchor from "../components/Anchor"
 import LinkButton from "../components/LinkButton"
 import getNextLessonAndModule from "../lib/getNextLessonAndModule"
@@ -18,7 +18,7 @@ const Page = ({ lesson, module, course, courseName }: Props) => {
     course
   )
   return (
-    <Box>
+    <Container maxwidth="lg">
       <Typography variant="h4" sx={{ mt: 3 }}>
         {lesson.name}
       </Typography>
@@ -46,7 +46,7 @@ const Page = ({ lesson, module, course, courseName }: Props) => {
           />
         </Box>
       )}
-    </Box>
+    </Container>
   )
 }
 
