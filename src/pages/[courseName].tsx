@@ -5,8 +5,9 @@ import { useRef, useState } from "react"
 import transcript from "../../courses-data/transcripts/lesson1.json"
 import Anchor from "../components/Anchor"
 import DrawerHeader from "../components/drawer/DrawerHeader"
+import LessonDescription from "../components/LessonDescription"
 import LinkButton from "../components/LinkButton"
-import Transcript from "../components/Transcrip"
+import Transcript from "../components/Transcript"
 import VideoPlayer from "../components/VideoPlayer"
 import useAuthQuery from "../hooks/useAuthQuery"
 import getNextLessonAndModule from "../lib/getNextLessonAndModule"
@@ -40,12 +41,6 @@ const Page = () => {
   const module = course.modules[Number(moduleId) - 1]
   const lesson = module.lessons[Number(lessonId) - 1]
 
-  const { nextLesson, nextModule, isFinal } = getNextLessonAndModule(
-    lesson,
-    module,
-    course
-  )
-
   const seekTo = (time: number) => {
     setTimestamp(time / 1000)
     // @ts-ignore
@@ -60,38 +55,16 @@ const Page = () => {
           videoRef={videoRef}
           setTimestamp={setTimestamp}
         />
+        <LessonDescription
+          lesson={lesson}
+          module={module}
+          course={course}
+          courseName={courseName}
+        />
 
-        <Container maxWidth="lg">
-          <Typography variant="h4" sx={{ mt: 3 }}>
-            {lesson.name}
-          </Typography>
-          <Typography variant="h5" sx={{ mt: 1 }}>
-            {module.name}
-          </Typography>
-          <Typography sx={{ mt: 1, mb: 2 }}>{lesson.description}</Typography>
+        <Divider sx={{ my: 4 }} />
 
-          {lesson.pdfUrl && (
-            <Anchor href={lesson.pdfUrl}>
-              <Button>PDF Worksheet</Button>
-            </Anchor>
-          )}
-          {lesson.checklistUrl && (
-            <Anchor href={lesson.checklistUrl}>
-              <Button>Swift Checklist</Button>
-            </Anchor>
-          )}
-
-          {!isFinal && (
-            <Box sx={{ mt: 4 }}>
-              <LinkButton
-                text="Next lesson"
-                href={`/${courseName}?moduleId=${nextModule}&lessonId=${nextLesson}`}
-              />
-            </Box>
-          )}
-          <Divider sx={{ my: 4 }} />
-
-          <Typography variant="h6">Transcript</Typography>
+        <Container maxWidth="md">
           <Transcript
             transcript={transcript}
             seekTo={seekTo}
