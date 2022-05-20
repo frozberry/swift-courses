@@ -1,4 +1,4 @@
-import { Box, Button, Container, Typography } from "@mui/material"
+import { Box, Button, Container, Divider, Typography } from "@mui/material"
 import axios from "axios"
 import { useRouter } from "next/router"
 import { useRef, useState } from "react"
@@ -24,6 +24,7 @@ const Page = () => {
     getCourse(courseName)
   )
 
+  const [showTranscript, setShowTranscript] = useState(false)
   const [timestamp, setTimestamp] = useState(0)
   const course = data as Course
 
@@ -67,12 +68,6 @@ const Page = () => {
           setTimestamp={setTimestamp}
         />
 
-        <Transcript
-          transcript={transcript}
-          seekTo={seekTo}
-          timestamp={timestamp}
-        />
-
         <Container maxWidth="lg">
           <Typography variant="h4" sx={{ mt: 3 }}>
             {lesson.name}
@@ -101,6 +96,14 @@ const Page = () => {
               />
             </Box>
           )}
+          <Divider sx={{ my: 4 }} />
+
+          <Typography variant="h6">Transcript</Typography>
+          <Transcript
+            transcript={transcript}
+            seekTo={seekTo}
+            timestamp={timestamp}
+          />
         </Container>
       </Container>
     </DrawerHeader>

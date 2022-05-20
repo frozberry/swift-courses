@@ -3,7 +3,7 @@ import transcript from "../../courses-data/transcripts/lesson1.json"
 
 const Transcript = ({ seekTo, timestamp }: any) => {
   return (
-    <>
+    <Box sx={{ my: 2 }}>
       {transcript.map((paragraph: any) => (
         <Box key={paragraph.start} sx={{ my: 2 }}>
           {paragraph.sentences.map((sentence: any) => (
@@ -32,7 +32,7 @@ const Transcript = ({ seekTo, timestamp }: any) => {
           ))}
         </Box>
       ))}
-    </>
+    </Box>
   )
 }
 
