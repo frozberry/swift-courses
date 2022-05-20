@@ -18,9 +18,10 @@ type Payload = {
 const useAuthQuery = (
   key: string,
   queryFn: QueryFunction,
-  allowNonUser = false
+  allowNonUser = false,
+  enabled = true
 ) => {
-  const query = useQuery(key, queryFn)
+  const query = useQuery(key, queryFn, { enabled })
   const { session } = useSession()
 
   const isLoading = query.isLoading || session === undefined

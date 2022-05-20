@@ -1,0 +1,466 @@
+[
+  {
+    "sentences": [
+      {
+        "text": "I want you to think back to the first time you played a certain video game.",
+        "start": 190,
+        "end": 3942
+      },
+      {
+        "text": "Maybe it was a fighting game, a first person shooter, or a mobile.",
+        "start": 4076,
+        "end": 8698
+      },
+      {
+        "text": "And if you're not a gamer, I want you to just pretend for now, you didn't know what each button on the controller did, and you had to constantly refer back to the instruction manual.",
+        "start": 8794,
+        "end": 17230
+      },
+      {
+        "text": "Maybe you couldn't even do the basics like move your character around.",
+        "start": 17350,
+        "end": 20850
+      },
+      {
+        "text": "After spending some time playing the game, you learn what all the controls are and can do the basics, but you're still a little clumsy and have to consciously think about what buttons to press.",
+        "start": 20960,
+        "end": 29502
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "You would struggle to play the game if you were distracted, for example, trying to maintain a conversation with someone at the same time.",
+        "start": 29576,
+        "end": 35274
+      },
+      {
+        "text": "This is probably a good representation of where your footwork was when you started the course.",
+        "start": 35432,
+        "end": 40398
+      },
+      {
+        "text": "After going through module two and three, as well as doing all of the assignments, you should see a huge amount of progress.",
+        "start": 40484,
+        "end": 45838
+      },
+      {
+        "text": "You'll go from awkwardly stumbling around the court to being very fluent with your footwork.",
+        "start": 45934,
+        "end": 50338
+      },
+      {
+        "text": "Not only that, you should be able to do it without even thinking your legs will move as if they had a life of their own, but still execute all the techniques correctly with speed and precision.",
+        "start": 50434,
+        "end": 59194
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "You've heard me constantly say that you need to build the muscle memory before the speed, but at this point you should have the muscle memory down.",
+        "start": 59242,
+        "end": 65862
+      },
+      {
+        "text": "So, as promised, let's start building up the speed, and that's exactly what module four is going to be about.",
+        "start": 65936,
+        "end": 71142
+      },
+      {
+        "text": "Until now, you've had to focus on technique over speed, but from this point on it's going to be technique and speed.",
+        "start": 71276,
+        "end": 76930
+      },
+      {
+        "text": "We're going to take the fundamentals that you've already learned and push it further than you can imagine.",
+        "start": 76990,
+        "end": 81454
+      },
+      {
+        "text": "This is where your hard work pays off.",
+        "start": 81502,
+        "end": 83214
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "By the end of the module, not only will you be moving around, abandonement court with great fundamental footwork, you'll be doing so at a speed that you've previously thought was impossible.",
+        "start": 83312,
+        "end": 92290
+      },
+      {
+        "text": "As a side note, have you ever sat in a class and thought, Why are we learning this?",
+        "start": 92350,
+        "end": 96474
+      },
+      {
+        "text": "When are we ever going to use this information in real life?",
+        "start": 96572,
+        "end": 99462
+      },
+      {
+        "text": "Me too.",
+        "start": 99536,
+        "end": 100026
+      },
+      {
+        "text": "It's pretty frustrating, and while the assignments have been great for helping you build the correct muscle memory, and I certainly hope the course hasn't been boring, this module is going to revolve around taking the knowledge you've just learned and implementing it into a real game.",
+        "start": 100088,
+        "end": 113286
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "This will be especially useful if you're a balanced player who has pretty good skills and practise.",
+        "start": 113348,
+        "end": 117730
+      },
+      {
+        "text": "But as soon as you step on court and there's a shuttle involved, all those skills goes right out of your head and you're back to square one, this module will help you bridge the gap so you're just as sharp in game as you are in training.",
+        "start": 117850,
+        "end": 128526
+      },
+      {
+        "text": "We'll start off pretty simple, but we'll progress onto more advanced drills that even professional players frequently use in their footwork training.",
+        "start": 128588,
+        "end": 135486
+      },
+      {
+        "text": "This will cover a wide range of movements, all of which have the goal of developing a certain aspect of your footwork and implementing it into a real game.",
+        "start": 135548,
+        "end": 143646
+      },
+      {
+        "text": "For example, one drill might focus on increasing your speed in aggressive situations, while another might be based around improving your reaction time.",
+        "start": 143708,
+        "end": 150894
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "But before we get into it, I want to give you some more context.",
+        "start": 150932,
+        "end": 153610
+      },
+      {
+        "text": "All of the drills you're about to do can be placed in one of three categories shadow, multi feed, or live rally.",
+        "start": 153730,
+        "end": 160054
+      },
+      {
+        "text": "You should already be familiar with shadow.",
+        "start": 160102,
+        "end": 162166
+      },
+      {
+        "text": "Most of the assignments in the footwork fast Lane have some element of shadow in them.",
+        "start": 162298,
+        "end": 166074
+      },
+      {
+        "text": "It's simply any footwork drill that takes place without a shuttle.",
+        "start": 166112,
+        "end": 169282
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "For example, practising lunges on an empty court is a shadow exercise.",
+        "start": 169366,
+        "end": 173506
+      },
+      {
+        "text": "But there's also more advanced shadow drills that we're going to cover.",
+        "start": 173578,
+        "end": 176646
+      },
+      {
+        "text": "In this module, we've also done some multi feed drills.",
+        "start": 176708,
+        "end": 179374
+      },
+      {
+        "text": "This is when someone feeds you multiple shuttles at once.",
+        "start": 179422,
+        "end": 182022
+      },
+      {
+        "text": "It can be hand thrown or hit with a racket and involves you moving to the shuttle and playing a shot.",
+        "start": 182096,
+        "end": 187270
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "Then, instead of returning the shot, the feeder will hit over the next shuttle in his possession.",
+        "start": 187330,
+        "end": 191782
+      },
+      {
+        "text": "Lastly, we have live rallies, which you haven't seen much of until now.",
+        "start": 191866,
+        "end": 195246
+      },
+      {
+        "text": "This starts off the same as a multi feed.",
+        "start": 195308,
+        "end": 197230
+      },
+      {
+        "text": "The feeder hits you a shuttle for you to retrieve, but the drill continues for as long as you can keep the rally going with the one shuttle.",
+        "start": 197290,
+        "end": 204046
+      },
+      {
+        "text": "This is the main difference between a live rally and a multi feed drill.",
+        "start": 204118,
+        "end": 207514
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "So why are there three types of drills?",
+        "start": 207562,
+        "end": 209662
+      },
+      {
+        "text": "You might think the answer is as basic as well.",
+        "start": 209746,
+        "end": 212286
+      },
+      {
+        "text": "Shadowy is the easiest, so you start with that and then gradually move on to multi feed and then live rally.",
+        "start": 212348,
+        "end": 218278
+      },
+      {
+        "text": "But that is not correct at all.",
+        "start": 218374,
+        "end": 220110
+      },
+      {
+        "text": "It's true that for beginners, shadowing is easier compared to a live rally where you'll constantly be picking up the shuttle and making mistakes.",
+        "start": 220160,
+        "end": 227026
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "But even professional players use a lot of shadow in their training, so there must be more to it than that.",
+        "start": 227158,
+        "end": 232434
+      },
+      {
+        "text": "It all comes down to this concept of specificity versus transferability.",
+        "start": 232472,
+        "end": 236698
+      },
+      {
+        "text": "You can think of it like a spectrum.",
+        "start": 236854,
+        "end": 238678
+      },
+      {
+        "text": "A drill can either be very specific, very transferable, or lie anywhere along the spectrum, but importantly, it can't be both at the same time.",
+        "start": 238774,
+        "end": 246870
+      },
+      {
+        "text": "There's a trade off that takes place.",
+        "start": 246920,
+        "end": 248622
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "If a drill is specific, it means refining a certain aspect of that sport.",
+        "start": 248696,
+        "end": 252874
+      },
+      {
+        "text": "For example, imagine a 100 metre sprinter.",
+        "start": 252922,
+        "end": 255682
+      },
+      {
+        "text": "A specific exercise might be spending a few hours working just on his explosive start out of the blocks, he do a variety of drills that covers the initial part of this race without running the rest of it.",
+        "start": 255766,
+        "end": 266970
+      },
+      {
+        "text": "Since he has less to worry about, he can focus his attention on developing the acceleration phase.",
+        "start": 267020,
+        "end": 272086
+      },
+      {
+        "text": "If a drill is transferable, it closely replicates a real competition scenario, meaning it transfers well into a real game.",
+        "start": 272158,
+        "end": 279966
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "An example of a very transferable exercise with our sprinter Would be just to run the whole 100 metre race from start to finish.",
+        "start": 280028,
+        "end": 286218
+      },
+      {
+        "text": "This is pretty much as transferable as you can get since it's just mimicking the real requirements of a competition.",
+        "start": 286304,
+        "end": 292102
+      },
+      {
+        "text": "So you see why we have to implement both elements into our training.",
+        "start": 292186,
+        "end": 295302
+      },
+      {
+        "text": "It wouldn't be easy to develop a specific skill like starting from the blocks if all you did was run the full 100 metres over and over again.",
+        "start": 295376,
+        "end": 302766
+      },
+      {
+        "text": "There's too many things to think about in a full run so you'll never be able to Hone in that skill specifically.",
+        "start": 302828,
+        "end": 307690
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "As a result, your starting skills would never improve.",
+        "start": 307750,
+        "end": 310366
+      },
+      {
+        "text": "Likewise, you can't only practise specific skills if all you ever did in training was just the first part of the race.",
+        "start": 310438,
+        "end": 316594
+      },
+      {
+        "text": "You'd be screwed in a real competition where you actually need to run a full 100 metres.",
+        "start": 316702,
+        "end": 321310
+      },
+      {
+        "text": "It's the same thing in badminton.",
+        "start": 321370,
+        "end": 322786
+      },
+      {
+        "text": "We need a good mix of specific training to help us Hone in certain aspects of our footwork as well as transferable training so we can actually implement it into a real game.",
+        "start": 322858,
+        "end": 332370
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "And remember, an exercise isn't specific or transferable it lies anywhere along the spectrum.",
+        "start": 332420,
+        "end": 338326
+      },
+      {
+        "text": "A good training programme will take advantage of the whole spectrum to develop your footwork skills.",
+        "start": 338458,
+        "end": 343414
+      },
+      {
+        "text": "As I'm sure you've figured out by now, shallow exercises tend to be more specific.",
+        "start": 343462,
+        "end": 347502
+      },
+      {
+        "text": "Since you're not hitting a shuttle you can focus more on what your feet are actually doing.",
+        "start": 347696,
+        "end": 351786
+      },
+      {
+        "text": "Likewise, a live rally tends to be the most transferable since you're actually hitting a shuttle.",
+        "start": 351848,
+        "end": 356134
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "Just like in a real game, multi feed drills tend to lie somewhere in the middle.",
+        "start": 356182,
+        "end": 360162
+      },
+      {
+        "text": "But notice how I said tends to be because there are shallow drills that are more transferable.",
+        "start": 360236,
+        "end": 365014
+      },
+      {
+        "text": "Just like there are live rallies which are more specific.",
+        "start": 365122,
+        "end": 367722
+      },
+      {
+        "text": "But that's enough of the theory for now.",
+        "start": 367856,
+        "end": 369918
+      },
+      {
+        "text": "I just wanted to give you a good understanding before you dive into this module.",
+        "start": 370004,
+        "end": 373594
+      }
+    ]
+  },
+  {
+    "sentences": [
+      {
+        "text": "We'll kick things off in the next lesson lesson where I'll introduce some shadow exercises that will take your footwork to the next level get excited.",
+        "start": 373642,
+        "end": 380278
+      },
+      {
+        "text": "You're about to see all the hard work you've put in really start to show in your badminton games.",
+        "start": 380374,
+        "end": 384814
+      },
+      {
+        "text": "But fair warning, some of these are going to be brutal.",
+        "start": 384862,
+        "end": 387814
+      },
+      {
+        "text": "I'll see you there.",
+        "start": 387922,
+        "end": 388650
+      },
+      {
+        "text": "Bye.",
+        "start": 388700,
+        "end": 388810
+      }
+    ]
+  }
+]

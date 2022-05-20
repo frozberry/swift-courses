@@ -44,7 +44,7 @@ export type Lesson = {
   id: number
   pdfUrl?: string
   checklistUrl?: string
-  transcript?: any
+  transcriptId?: any
 }
 
 export type CourseQuery = {
