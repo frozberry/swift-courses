@@ -1,6 +1,6 @@
 {
   "functions": {
-    "src/api/courses/*.ts": {
+    "src/api/courses/*.js": {
       "includeFiles": "_files/**"
     }
   }
