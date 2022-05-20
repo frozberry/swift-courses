@@ -1,16 +1,13 @@
-import { Box, Button, Container, Divider, Typography } from "@mui/material"
+import { Container, Divider } from "@mui/material"
 import axios from "axios"
 import { useRouter } from "next/router"
 import { useRef, useState } from "react"
 import transcript from "../../courses-data/transcripts/lesson1.json"
-import Anchor from "../components/Anchor"
 import DrawerHeader from "../components/drawer/DrawerHeader"
 import LessonDescription from "../components/LessonDescription"
-import LinkButton from "../components/LinkButton"
 import Transcript from "../components/Transcript"
 import VideoPlayer from "../components/VideoPlayer"
 import useAuthQuery from "../hooks/useAuthQuery"
-import getNextLessonAndModule from "../lib/getNextLessonAndModule"
 import { Course, CourseQuery } from "../lib/types"
 
 const getCourse = async (course: string) => {
@@ -55,6 +52,7 @@ const Page = () => {
           videoRef={videoRef}
           setTimestamp={setTimestamp}
         />
+
         <LessonDescription
           lesson={lesson}
           module={module}
@@ -64,13 +62,11 @@ const Page = () => {
 
         <Divider sx={{ my: 4 }} />
 
-        <Container maxWidth="md">
-          <Transcript
-            transcript={transcript}
-            seekTo={seekTo}
-            timestamp={timestamp}
-          />
-        </Container>
+        <Transcript
+          transcript={transcript}
+          seekTo={seekTo}
+          timestamp={timestamp}
+        />
       </Container>
     </DrawerHeader>
   )
