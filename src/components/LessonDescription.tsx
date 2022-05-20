@@ -18,7 +18,7 @@ const Page = ({ lesson, module, course, courseName }: Props) => {
     course
   )
   return (
-    <Container maxwidth="lg">
+    <Container maxWidth="lg">
       <Typography variant="h4" sx={{ mt: 3 }}>
         {lesson.name}
       </Typography>
