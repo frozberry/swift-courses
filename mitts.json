@@ -257,7 +257,8 @@
           "name": "Diving Masterclass",
           "url": "https://youtu.be/MhUkBNQawUY",
           "description": "We all dream of pulling off the perfect dive, recovering, then winning the rally. In this bonus lesson, former England International player Ben Beckman will teach you exactly how to do that.",
-          "id": 1
+          "id": 1,
+          "transcriptId": "o7kae6hbpz-e981-4f1f-8e66-c19ef9a8cd61"
         }
       ]
     },
@@ -269,7 +270,8 @@
           "name": "Mobility Manual",
           "url": "https://youtu.be/DCtHNaJhoqY",
           "description": "Welcome to the Mobility Manual! This will help you develop the lower body mobility needed to get into the correct positions for efficient footwork.",
-          "id": 1
+          "id": 1,
+          "transcriptId": "o7kaej77tl-7695-4875-acfe-027f54216ede"
         }
       ]
     },
@@ -281,37 +283,43 @@
           "name": "Jeremy",
           "url": "https://youtu.be/8refwAe6BcE",
           "description": "Welcome to the Student Analysis bonus course! Here, I will be doing a breakdown/analysis of several Footwork Fastlane student's movement. There should be something for everyone to learn here.",
-          "id": 1
+          "id": 1,
+          "transcriptId": "o7kaextr7x-5c2e-4a12-843f-0641feece4f3"
         },
         {
           "name": "Daniel",
           "url": "https://youtu.be/tuDb_FbLwK4",
           "description": "",
-          "id": 2
+          "id": 2,
+          "transcriptId": "o7km9d46oc-e460-40c4-b17f-6e4500dff8be"
         },
         {
           "name": "Martin",
           "url": "https://youtu.be/v0x5hmyahHE",
           "description": "",
-          "id": 3
+          "id": 3,
+          "transcriptId": "o7kaeiiwx5-fb62-4215-aff2-d9f91b484d86"
         },
         {
           "name": "Dennis",
           "url": "https://youtu.be/THH2t07G9Kk",
           "description": "",
-          "id": 4
+          "id": 4,
+          "transcriptId": "o7km9fm1yv-3335-4da2-b9fa-69f462c5b1e5"
         },
         {
           "name": "Hao",
           "url": "https://youtu.be/JrQl5mLcKIc",
           "description": "",
-          "id": 5
+          "id": 5,
+          "transcriptId": "o7kaeszyy3-25a3-4223-9557-3d6a5d174ea6"
         },
         {
           "name": "Daniel",
           "url": "https://youtu.be/T80n-p6vtk0",
           "description": "",
-          "id": 6
+          "id": 6,
+          "transcriptId": "o7km9afax8-009f-4a67-8caa-a2731e6469c5"
         }
       ]
     },
@@ -323,26 +331,30 @@
           "name": "Introduction",
           "url": "https://youtu.be/ImK2oIarQco",
           "description": "Welcome to the Explosive Strength bonus course, where you’ll build the lower body strength to supplement your new found footwork skills.",
-          "id": 1
+          "id": 1,
+          "transcriptId": "o7km9zqo1l-9e89-4eaf-8728-0b12a88044ec"
         },
         {
           "name": "Key Principles of Strength Training",
           "url": "https://youtu.be/TkuCM_4Lh_o",
           "description": "Strength training can be a beast, before you start it’s important that you understand these key principles.",
-          "id": 2
+          "id": 2,
+          "transcriptId": "o7km9br9e5-d5b8-4eb9-9af7-3657a8c634c8"
         },
         {
           "name": "Exercises",
           "url": "https://youtu.be/H_fvFsvFHL0",
           "description": "Time to dive in to the meat and potatoes, the actual exercises themselves. Learn how to do these 4 lower body exercises properly, and implement them into your routine.",
-          "id": 3
+          "id": 3,
+          "transcriptId": "o7km9ipy8h-2c0e-4956-9c3a-2485439b31da."
         },
         {
           "name": "Program",
           "url": "https://youtu.be/xnuyLmxcDkE",
           "description": "A solid training program is key to achieving true results. Here’s yours. Note: Please make sure you're able to preform all the exercises safely and with good form before you start adding weights",
           "id": 4,
-          "pdfUrl": "https://drive.google.com/open?id=1kid6xg24n8M0jZib7gaCHb8WUuTm5F5i"
+          "pdfUrl": "https://drive.google.com/open?id=1kid6xg24n8M0jZib7gaCHb8WUuTm5F5i",
+          "transcriptId": "o7km936i73-e959-4e21-bf0d-35c06afa3550"
         }
       ]
     }
