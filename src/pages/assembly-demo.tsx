@@ -1,59 +1,21 @@
 import {
   Box,
-  Button,
   Container,
   Dialog,
   DialogContent,
-  DialogContentText,
-  DialogTitle,
-  Toolbar,
   Typography,
 } from "@mui/material"
 import { signIn } from "next-auth/react"
-import Image from "next/image"
+import Link from "next/link"
 import { useState } from "react"
 import { useReward } from "react-rewards"
-import CourseOverview from "../components/CourseOverview"
-import Footer from "../components/Footer"
-import Header from "../components/header/Header"
-import LoadingButton from "@mui/lab/LoadingButton"
-import { CourseOverview as CourseOverviewType } from "../lib/types"
+import Image from "next/image"
+import LoginForm from "../components/forms/LoginForm"
+import { LoadingButton } from "@mui/lab"
 
-const courses: CourseOverviewType[] = [
-  {
-    name: "Footwork Fastlane",
-    description:
-      "The A-Z footwork course to get you moving to all 6 corners of the court with blinding speed and accuracy.",
-    img: "/ff.png",
-    lockedImg: "/ff-locked.png",
-    link: "/ff",
-    owned: true,
-    code: "ff",
-  },
-  {
-    name: "Power Pathway",
-    description: "Learn to super-charge your smash and dominate your opponent.",
-    img: "/pp.png",
-    lockedImg: "/pp-locked.png",
-    link: "/pp",
-    owned: true,
-    code: "pp",
-  },
-  {
-    name: "King of the Court",
-    description:
-      "Learn to dictate the pace of rallies by injecting pace and using decisive acceleration.",
-    img: "/kotc.png",
-    lockedImg: "/kotc-locked.png",
-    link: "/kotc",
-    owned: true,
-    code: "kotc",
-  },
-]
-
-const LandingPage = () => {
-  const [stripeLoading, setStripeLoading] = useState(false)
+const Page = () => {
   const [loading, setLoading] = useState(false)
+
   const { reward } = useReward("rewardId", "confetti", {
     lifetime: 5000,
     spread: 100,
@@ -75,7 +37,11 @@ const LandingPage = () => {
   }
 
   return (
-    <>
+    <Container maxWidth="xs">
+      <Box sx={{ my: 4 }}>
+        <Typography variant="h2">Log in</Typography>
+      </Box>
+
       <Dialog open={true} sx={{ mb: 30 }}>
         <DialogContent>
           <Box sx={{ mt: 2 }}>
@@ -87,12 +53,12 @@ const LandingPage = () => {
             />
           </Box>
           <Typography sx={{ mt: 2 }}>
-            Welcome to the Swift Badminton membership site! Check out our video
-            transcripts, powered by AssemblyAI.
+            Welcome to the Swift Badminton membership site! Our video
+            transcripts are powered by AssmeblyAI.
           </Typography>
 
           <Typography sx={{ mt: 2 }}>
-            Click below for one-click login and VIP access, just for you :)
+            One click login for your VIP account, just for you :)
           </Typography>
           <LoadingButton
             variant="contained"
@@ -108,19 +74,13 @@ const LandingPage = () => {
           </LoadingButton>
         </DialogContent>
       </Dialog>
+      <LoginForm setLoading={setLoading} />
 
-      <Container maxWidth="md" sx={{ mt: 4 }}>
-        {courses.map((course) => (
-          <CourseOverview
-            key={course.code}
-            course={course}
-            setStripeLoading={setStripeLoading}
-          />
-        ))}
-        <Footer />
-      </Container>
-    </>
+      <Typography variant="body1" sx={{ textAlign: "center", mt: 2 }}>
+        <Link href="/forgot-password">Forgot password?</Link>
+      </Typography>
+    </Container>
   )
 }
 
-export default LandingPage
+export default Page
