@@ -97,14 +97,14 @@ const LandingPage = () => {
           <LoadingButton
             variant="contained"
             color="primary"
-            sx={{ textTransform: "none", mt: 2 }}
+            sx={{ textTransform: "none", mt: 2, fontFamily: "none" }}
             fullWidth
             size="large"
             onClick={onClick}
             id="rewardId"
             loading={loading}
           >
-            {"❤️"}
+            ❤️
           </LoadingButton>
         </DialogContent>
       </Dialog>
