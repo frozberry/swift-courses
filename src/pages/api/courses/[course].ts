@@ -1,7 +1,6 @@
 import { User } from "@prisma/client"
 import { NextApiRequest, NextApiResponse } from "next"
-// import footworkFastlane from "../../../../courses-data/ff-transcript.json"
-import footworkFastlane from "../../../../mitts.json"
+import footworkFastlane from "../../../../courses-data/footowkFastlane.json"
 import kotc from "../../../../courses-data/kotc.json"
 import powerPathway from "../../../../courses-data/powerPathway.json"
 import authUserSession from "../../../lib/authUserSession"
