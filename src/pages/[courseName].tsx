@@ -33,7 +33,7 @@ const Page = () => {
   const lesson = module?.lessons[Number(lessonId) - 1]
 
   const { data: transcript } = useAuthQuery(
-    moduleId + lessonId,
+    courseName + moduleId + lessonId,
     () => getTranscript(lesson),
     false,
     !!course
