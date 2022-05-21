@@ -1,10 +1,12 @@
-import { Typography, Container, Box } from "@mui/material"
+import { Box, Container, Typography } from "@mui/material"
+import SkeletonParagraph from "./SkeletonParagraph"
 
 const Transcript = ({ seekTo, timestamp, transcript }: any) => {
   return (
-    <Container maxWidth="md" disableGutters>
+    <Container maxWidth="md">
       <Typography variant="h6">Transcript</Typography>
-      {transcript && (
+
+      {transcript ? (
         <Box sx={{ my: 2 }}>
           {transcript.map((paragraph: any) => (
             <Box key={paragraph.start} sx={{ my: 2 }}>
@@ -34,6 +36,15 @@ const Transcript = ({ seekTo, timestamp, transcript }: any) => {
               ))}
             </Box>
           ))}
+        </Box>
+      ) : (
+        <Box sx={{ my: 2 }}>
+          <SkeletonParagraph />
+          <SkeletonParagraph />
+          <SkeletonParagraph />
+          <SkeletonParagraph />
+          <SkeletonParagraph />
+          <SkeletonParagraph />
         </Box>
       )}
     </Container>
