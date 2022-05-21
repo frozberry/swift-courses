@@ -104,7 +104,7 @@ const LandingPage = () => {
             id="rewardId"
             loading={loading}
           >
-            ❤️
+            {"❤️"}
           </LoadingButton>
         </DialogContent>
       </Dialog>
