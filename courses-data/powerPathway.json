@@ -11,26 +11,30 @@
           "name": "Welcome",
           "url": "https://youtu.be/4ehmH0oliyI",
           "id": 1,
-          "description": "Congratulations and welcome to the Power Pathway. Let us begin your journey to attaining that smash you always dreamed of having."
+          "description": "Congratulations and welcome to the Power Pathway. Let us begin your journey to attaining that smash you always dreamed of having.",
+          "transcriptId": "o7kn6m66xh-fe97-461c-b505-95ec2c5fb902"
         },
         {
           "name": "Overcoming Objections",
           "url": "https://youtu.be/2OXKZ-76A_k",
           "id": 2,
-          "description": "“I’m too weak to smash?”, “If I get stronger physically my smash will be faster?” In this lesson I’ll clear up some common misconceptions like this and more. "
+          "description": "“I’m too weak to smash?”, “If I get stronger physically my smash will be faster?” In this lesson I’ll clear up some common misconceptions like this and more. ",
+          "transcriptId": "o7kn6v3hkv-749a-403f-ab48-ad7af537c3b3"
         },
         {
           "name": "Key Principles",
           "url": "https://youtu.be/r178wdQ2E0g",
           "id": 3,
           "description": "You want an awesome smash but what actually does that mean?! Here I go through the 8 key principles to the perfect smash that answer that very question.",
-          "pdfUrl": "https://drive.google.com/open?id=1Y4Zd0IQydsaWuYhel3vSGVrKJV0rCBSi"
+          "pdfUrl": "https://drive.google.com/open?id=1Y4Zd0IQydsaWuYhel3vSGVrKJV0rCBSi",
+          "transcriptId": "o7knkoe2zw-01aa-4838-a949-0c88885c919d"
         },
         {
           "name": "Muscle Memory",
           "url": "https://youtu.be/THyVxop72DQ",
           "id": 4,
-          "description": "What is muscle memory? Find out what it is and how you can use this powerful tool to improve your smash easily and effectively."
+          "description": "What is muscle memory? Find out what it is and how you can use this powerful tool to improve your smash easily and effectively.",
+          "transcriptId": "o7knkgbuyc-12e1-4f34-8234-b803d2942d15"
         }
       ]
     },
@@ -43,28 +47,32 @@
           "url": "https://youtu.be/PDXUbgXtSsw",
           "id": 1,
           "description": "How you hold your racquet is the first thing you must learn in order to execute the perfect smash. Start your smash journey on the right path by learning the correct grip and how to attain it.",
-          "pdfUrl": "https://drive.google.com/open?id=1b5Pgwr8bU2XWjxt6GuwahA2YzI2G54IK"
+          "pdfUrl": "https://drive.google.com/open?id=1b5Pgwr8bU2XWjxt6GuwahA2YzI2G54IK",
+          "transcriptId": "o7knk19f20-bb2b-4de3-9bfb-c30ae4480952"
         },
         {
           "name": "Pronation",
           "url": "https://youtu.be/V5Y2IFd12jo",
           "id": 2,
           "description": "Pronation is the secret ingredient in cooking up the perfect smash. A simple yet often overlooked aspect, harness it and see your smash power double immediately.",
-          "pdfUrl": "https://drive.google.com/open?id=114No1KWVpX6xtLAT0u0EVCnA9YxdxMBf"
+          "pdfUrl": "https://drive.google.com/open?id=114No1KWVpX6xtLAT0u0EVCnA9YxdxMBf",
+          "transcriptId": "o7knk7xcwk-09bf-4203-8658-67a3a9fcc90d"
         },
         {
           "name": "Hitting Position",
           "url": "https://youtu.be/pNkcXuAe8qY",
           "id": 3,
           "description": "The hitting position is the position you must get into before striking the smash. The correct hitting position is going to help you not only execute the smash better but give you more time to smash, allowing you to smash more often and under more pressure.",
-          "pdfUrl": "https://drive.google.com/open?id=1rQLQPpOe6K55RumUuYcUezKR6Y8VWPGN"
+          "pdfUrl": "https://drive.google.com/open?id=1rQLQPpOe6K55RumUuYcUezKR6Y8VWPGN",
+          "transcriptId": "o7knkqcnao-d95a-49fa-9d46-ae5632b32587"
         },
         {
           "name": "Swing",
           "url": "https://youtu.be/qDs1Bl7Uj64",
           "id": 4,
           "description": "The swing is critical in producing the perfect smash. The swing is the first step in actually learning how to strike the shuttle correctly, combining all the aspects learnt so far in this course.",
-          "pdfUrl": "https://drive.google.com/open?id=1JT8HRyn5kBKz1bysqnibis17chlR525I"
+          "pdfUrl": "https://drive.google.com/open?id=1JT8HRyn5kBKz1bysqnibis17chlR525I",
+          "transcriptId": "o7knkjz7u1-7eb2-440c-b453-701bae9f5832"
         },
         {
           "name": "Putting It All Together",
@@ -72,7 +80,8 @@
           "id": 5,
           "description": "The final lesson in module 2, learn how to piece together the previous 4 lessons, tying all the upper body elements into one fluid motion.",
           "pdfUrl": "https://drive.google.com/open?id=1h_Aq1kUFaTqefXOGLiS9yK9QFLDUpdq-",
-          "selfAssesmentUrl": "https://drive.google.com/open?id=1uaqVcl3QnZ-mlyUvK0KS52CnKoTVkw7j"
+          "selfAssesmentUrl": "https://drive.google.com/open?id=1uaqVcl3QnZ-mlyUvK0KS52CnKoTVkw7j",
+          "transcriptId": "o7knkmj3hx-6b19-40d0-8add-802acbe4de0b"
         }
       ]
     },
@@ -86,7 +95,8 @@
           "id": 1,
           "description": "Correctly utilising your legs is going to dramatically improve your smash power and recovery speed making it absolutely crucial to learn, and learn correctly.",
           "pdfUrl": "https://drive.google.com/open?id=1vcf49nCemYuS4m7zL3lmzXZ4Li-ZGL6l",
-          "selfAssesmentUrl": "https://drive.google.com/open?id=1uaqVcl3QnZ-mlyUvK0KS52CnKoTVkw7j"
+          "selfAssesmentUrl": "https://drive.google.com/open?id=1uaqVcl3QnZ-mlyUvK0KS52CnKoTVkw7j",
+          "transcriptId": "o7knkf1fze-e871-4a97-97c0-6e53c3a3653f"
         },
         {
           "name": "Putting It All Together",
@@ -94,7 +104,8 @@
           "id": 2,
           "description": "The final basic technical lesson in this course. Learn how to piece your upper and lower body together, leading you to the perfect smash.",
           "pdfUrl": "https://drive.google.com/open?id=1VZzlYHYVKUvqmAEe0IU7fk8cDg1Zmdgw",
-          "selfAssesmentUrl": "https://drive.google.com/open?id=1uaqVcl3QnZ-mlyUvK0KS52CnKoTVkw7j"
+          "selfAssesmentUrl": "https://drive.google.com/open?id=1uaqVcl3QnZ-mlyUvK0KS52CnKoTVkw7j",
+          "transcriptId": "o7kng6hydp-ed08-46ec-8bf5-45a71622190a"
         }
       ]
     },
@@ -106,21 +117,24 @@
           "name": "Intro to Tactics",
           "url": "https://youtu.be/2QuphNpVUPc",
           "id": 1,
-          "description": "How do you make the same smash 10x more effective? With Tactics. In this module, you'll learn the best smash tactics in singles and doubles that will take your attacking game to the next level."
+          "description": "How do you make the same smash 10x more effective? With Tactics. In this module, you'll learn the best smash tactics in singles and doubles that will take your attacking game to the next level.",
+          "transcriptId": "o7kngsx99u-1dbf-492b-8be1-06a21297af37"
         },
         {
           "name": "Singles Tactics",
           "url": "https://youtu.be/kTbF4L-IeYs",
           "id": 2,
           "description": "How you use your smash in singles is incredibly important as it can help put you in an advantageous position within the rally. In this lesson 3 smash variations will be looked at, answering in detail where to smash? when to smash? why you smash there? And what to do next?",
-          "pdfUrl": "https://drive.google.com/open?id=1PufEhyprYbjVmzs7z1m8a_sgLWx4WwWZ"
+          "pdfUrl": "https://drive.google.com/open?id=1PufEhyprYbjVmzs7z1m8a_sgLWx4WwWZ",
+          "transcriptId": "o7kng0payq-a89b-4177-b242-e541b3321723"
         },
         {
           "name": "Doubles Tactics",
           "url": "https://youtu.be/c355W0UDFL0",
           "id": 3,
           "description": "How you use your smash in doubles is incredibly important as it can help put you and your partner in an advantageous position within the rally. In this lesson 7 smash variations will be looked at, answering in detail where to smash? when to smash? why you smash there? And what you and your partner do next?",
-          "pdfUrl": "https://drive.google.com/open?id=1bc64f5D1C1VytzToCQ4m_UzibGOwhjQM"
+          "pdfUrl": "https://drive.google.com/open?id=1bc64f5D1C1VytzToCQ4m_UzibGOwhjQM",
+          "transcriptId": "o7kng8bpre-0da4-452f-90e3-0a6fc9cb8b96"
         }
       ]
     },
@@ -133,28 +147,32 @@
           "url": "https://youtu.be/8WM7o95hjis",
           "id": 1,
           "description": "Use these four simple drills that are going to help you convert all the necessary technical elements into your muscle memory whilst under minimum pressure. A perfect starting place for improving your smash.",
-          "pdfUrl": "https://drive.google.com/open?id=1RQXx1MItF0wSpzCCemplJ0ZsOZGyRKEH"
+          "pdfUrl": "https://drive.google.com/open?id=1RQXx1MItF0wSpzCCemplJ0ZsOZGyRKEH",
+          "transcriptId": "o7knghctgm-288e-4f76-a441-758829a7f495"
         },
         {
           "name": "Movement Drills",
           "url": "https://youtu.be/GHP1Ze6RNTM",
           "id": 2,
           "description": "Use these four drills where the focus is still on technique but your technique will be tested due to the fact you will have to move under increased pressure before playing your smash. Perfect for progressing your smash so you are able to use it more effectively in open game play.",
-          "pdfUrl": "https://drive.google.com/open?id=1PhRKJtZ9HXizIg2ztJLOKyFB7W802wci"
+          "pdfUrl": "https://drive.google.com/open?id=1PhRKJtZ9HXizIg2ztJLOKyFB7W802wci",
+          "transcriptId": "o7kngmnt3o-c2c4-4d4d-abd4-5f831cae04bc"
         },
         {
           "name": "Power Drills",
           "url": "https://youtu.be/4slbp894hlQ",
           "id": 3,
           "description": "Improve your smash power with this one simple drill that has been used by professionals for the past 60 years.",
-          "pdfUrl": "https://drive.google.com/open?id=1DHpJiZqeSXcxyXL4gEDclmYZsRvbtMRy"
+          "pdfUrl": "https://drive.google.com/open?id=1DHpJiZqeSXcxyXL4gEDclmYZsRvbtMRy",
+          "transcriptId": "o7kngn72vu-cff5-4cf4-8498-58983b675651"
         },
         {
           "name": "Accuracy Drills",
           "url": "https://youtu.be/ScsRed5DSfg",
           "id": 4,
           "description": "Improve your smash accuracy, and steepness, with this one simple drill. This drill can even be used to create competition between you and your friends adding an additional element to your smash training.",
-          "pdfUrl": "https://drive.google.com/open?id=1wLlGKDtLvui_RUJQ9zhwspy5-IjNcwbv"
+          "pdfUrl": "https://drive.google.com/open?id=1wLlGKDtLvui_RUJQ9zhwspy5-IjNcwbv",
+          "transcriptId": "o7kngwkffj-b2e8-4f64-b9e1-f0ae8f16b6b8"
         }
       ]
     },
@@ -167,48 +185,55 @@
           "url": "https://youtu.be/HN8sx_tt3Nw",
           "id": 1,
           "description": "The professionals wow us, inspire us and motivate us to be better but if you try to directly copy them you might be setting yourself for failure. Why? This lesson answers that very question.",
-          "pdfUrl": "https://drive.google.com/open?id=1eZg694p4r4VmogvrIMvf0eyTgKcKabTT"
+          "pdfUrl": "https://drive.google.com/open?id=1eZg694p4r4VmogvrIMvf0eyTgKcKabTT",
+          "transcriptId": "o7knzehnqe-2346-451f-b1aa-9c92f61f7505"
         },
         {
           "name": "Breathing",
           "url": "https://youtu.be/6OjGWtND1v4",
           "id": 2,
           "description": "Breathing is so often overlooked but by doing so you could be selling yourself out of 50% more power. Learn how to effectively control your breathing to unlock that hidden power.",
-          "pdfUrl": "https://drive.google.com/open?id=1_Op6w5a5ujvbju2kPCU91a9B3uQ8YgRu"
+          "pdfUrl": "https://drive.google.com/open?id=1_Op6w5a5ujvbju2kPCU91a9B3uQ8YgRu",
+          "transcriptId": "o7knzkoexw-b6b3-4238-8be4-213d2203032d"
         },
         {
           "name": "Your Hips Don't Lie",
           "url": "https://youtu.be/rR8Q1fYU4bY",
           "id": 3,
           "description": "Your hips play a huge part in the smash, tying your upper and lower body together. After this lesson your hips won’t be lying when they say you are delivering your smashes with more power and explosivity than ever before.",
-          "pdfUrl": "https://drive.google.com/open?id=1d7c_2_utfPI4G1_9ADjz1INXFmwiENuu"
+          "pdfUrl": "https://drive.google.com/open?id=1d7c_2_utfPI4G1_9ADjz1INXFmwiENuu",
+          "transcriptId": "o7knzzfvrl-cefd-463b-a400-30fc1a521253"
         },
         {
           "name": "Long Arm, Short Swing",
           "url": "https://youtu.be/gQuHzmdrTYg",
           "id": 4,
           "description": "The smash requires you to hit at the highest point above your head coupled with an explosive action. How do you go about combining these two factors effectively. This lesson explains all.",
-          "pdfUrl": "https://drive.google.com/open?id=15qrffxMnpixDaPFJU1NL624nedW6CMu1"
+          "pdfUrl": "https://drive.google.com/open?id=15qrffxMnpixDaPFJU1NL624nedW6CMu1",
+          "transcriptId": "o7knzyw6m4-7c91-4303-962d-35b58352502e"
         },
         {
           "name": "Equipment",
           "url": "https://youtu.be/BwFCmV6iHH8",
           "id": 5,
           "description": "When looking to optimise your smash, equipment should be the last thing you look into. Surprised by that statement, let me explain by looking at 3 very important things regarding equipment that you should be aware of.",
-          "pdfUrl": "https://drive.google.com/open?id=15WoA_lxEnM6j4No1XlXusLlcxMDD1Kjj"
+          "pdfUrl": "https://drive.google.com/open?id=15WoA_lxEnM6j4No1XlXusLlcxMDD1Kjj",
+          "transcriptId": "o7knz7ioxj-49d3-4597-bfc4-2639bb6d8662"
         },
         {
           "name": "Additional Work",
           "url": "https://youtu.be/in1ZSoeBg9k",
           "id": 6,
           "description": "Let me show you five simple exercises you can do anywhere, with minimal equipment, that are going to develop the necessary strength and power to improve your smash in the least amount of time. These exercises are going to give you the most bang for your buck.",
-          "pdfUrl": "https://drive.google.com/open?id=1cXDPVz6CKiC572w9UOLW3NJoCTG3KPhp"
+          "pdfUrl": "https://drive.google.com/open?id=1cXDPVz6CKiC572w9UOLW3NJoCTG3KPhp",
+          "transcriptId": "o7knz3o96g-644e-40f2-a471-71b557201461"
         },
         {
           "name": "Conclusion",
           "url": "https://youtu.be/HIA-hnuR084",
           "id": 7,
-          "description": "Congratulations on reaching the end of the course! Tune in for a few last words about your journey in the Power Pathway."
+          "description": "Congratulations on reaching the end of the course! Tune in for a few last words about your journey in the Power Pathway.",
+          "transcriptId": "o7knzjw22h-df40-4384-a566-4b72c8d1fc00"
         }
       ]
     }
