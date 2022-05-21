@@ -76,8 +76,6 @@ const LandingPage = () => {
 
   return (
     <>
-      <Header isAdmin={false} />
-      <Toolbar />
       <Dialog open={true} sx={{ mb: 30 }}>
         <DialogContent>
           <Box sx={{ mt: 2 }}>
@@ -94,7 +92,7 @@ const LandingPage = () => {
           </Typography>
 
           <Typography sx={{ mt: 2 }}>
-            Click below for easy one-click login, just for you :)
+            Click below for one-click login and VIP access, just for you :)
           </Typography>
           <LoadingButton
             variant="contained"
