@@ -1,5 +1,4 @@
 import { NextApiRequest, NextApiResponse } from "next"
-// import footworkFastlane from "../../../../courses-data/ff-transcript.json"
 import axios from "axios"
 import authUserSession from "../../../lib/authUserSession"
 
