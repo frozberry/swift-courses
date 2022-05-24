@@ -16,6 +16,14 @@ import { useRouter } from "next/router"
 const logos = {
   assembly: "/logos/assembly.png",
   stripe: "/logos/stripe.png",
+  openai: "/logos/openai.png",
+  deepmind: "/logos/deepmind.png",
+  vercel: "/logos/vercel.png",
+  prisma: "/logos/prisma.png",
+  supabase: "/logos/supabase.png",
+  google: "/logos/google.png",
+  facebook: "/logos/facebook.png",
+  rev: "/logos/rev.png",
 }
 
 const Page = () => {
@@ -38,7 +46,7 @@ const Page = () => {
 
     setTimeout(async () => {
       await signIn("credentials", {
-        email: "assembly@swiftbadminton.com",
+        email: "demo@swiftbadminton.com",
         password: process.env.NEXT_PUBLIC_DEMO_PASSWORD,
         callbackUrl: "/ff",
       })
