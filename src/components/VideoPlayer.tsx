@@ -10,7 +10,7 @@ type Props = {
 }
 
 const VideoPlayer = ({ url, videoRef, setTimestamp }: Props) => {
-  const [playing, setPlaying] = useState(true)
+  const [playing, setPlaying] = useState(false)
 
   return (
     <Container maxWidth="lg">
