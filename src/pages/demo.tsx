@@ -9,12 +9,19 @@ import { signIn } from "next-auth/react"
 import Link from "next/link"
 import { useState } from "react"
 import { useReward } from "react-rewards"
-import Image from "next/image"
 import LoginForm from "../components/forms/LoginForm"
 import { LoadingButton } from "@mui/lab"
+import { useRouter } from "next/router"
+
+const logos = {
+  assembly: "/logos/assembly.png",
+  stripe: "/logos/stripe.png",
+}
 
 const Page = () => {
   const [loading, setLoading] = useState(false)
+  const router = useRouter()
+  const { company } = router.query as { company: string }
 
   const { reward } = useReward("rewardId", "confetti", {
     lifetime: 5000,
@@ -22,6 +29,8 @@ const Page = () => {
     decay: 0.96,
     elementCount: 50,
   })
+
+  if (!(company in logos)) return null
 
   const onClick = async () => {
     setLoading(true)
@@ -45,16 +54,12 @@ const Page = () => {
       <Dialog open={true} sx={{ mb: 30 }}>
         <DialogContent>
           <Box sx={{ mt: 2 }}>
-            <Image
-              src="/assembly.png"
-              alt="AssemblyAI"
-              width={376}
-              height={76}
-            />
+            <img src={logos[company]} alt={company} style={{ width: "100%" }} />
           </Box>
           <Typography sx={{ mt: 2 }}>
-            Welcome to the Swift Badminton membership site! Our video
-            transcripts are powered by AssmeblyAI.
+            Welcome to the Swift Badminton membership site!
+            {company === "assembly" &&
+              " Our video transcripts are powered by AssmeblyAI. "}
           </Typography>
 
           <Typography sx={{ mt: 2 }}>
