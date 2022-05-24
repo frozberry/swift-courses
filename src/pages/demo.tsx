@@ -62,6 +62,7 @@ const Page = () => {
       <Dialog open={true} sx={{ mb: 30 }}>
         <DialogContent>
           <Box sx={{ mt: 2 }}>
+            {/* @ts-ignore */}
             <img src={logos[company]} alt={company} style={{ width: "100%" }} />
           </Box>
           <Typography sx={{ mt: 2 }}>
