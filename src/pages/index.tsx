@@ -1,5 +1,5 @@
 import { User } from ".prisma/client"
-import { Alert, Container, LinearProgress, Toolbar } from "@mui/material"
+import { Alert, Container, LinearProgress, Toolbar, Box } from "@mui/material"
 import { signOut } from "next-auth/react"
 import { useState } from "react"
 import getCoursesOverview from "../../courses-data/getOverview"
@@ -37,13 +37,15 @@ const LandingPage = () => {
       )}
 
       <Container maxWidth="md" sx={{ mt: 4 }}>
-        {courses.map((course) => (
-          <CourseOverview
-            key={course.code}
-            course={course}
-            setStripeLoading={setStripeLoading}
-          />
-        ))}
+        <Box sx={{ minHeight: "80vh" }}>
+          {courses.map((course) => (
+            <CourseOverview
+              key={course.code}
+              course={course}
+              setStripeLoading={setStripeLoading}
+            />
+          ))}
+        </Box>
         <Footer />
       </Container>
     </>

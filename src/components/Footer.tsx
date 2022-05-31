@@ -10,13 +10,6 @@ const Footer = () => {
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
-        position: {
-          xs: "static",
-          sm: "fixed",
-        },
-        bottom: 10,
-        left: 0,
-        right: 0,
       }}
     >
       <Divider sx={{ my: 2, width: 30 }} />
