@@ -29,7 +29,7 @@ const logos = {
 const Page = () => {
   const [loading, setLoading] = useState(false)
   const router = useRouter()
-  const { company } = router.query as { company: string }
+  const { company, co } = router.query as { company: string; co: string }
 
   const { reward } = useReward("rewardId", "confetti", {
     lifetime: 5000,
@@ -38,7 +38,9 @@ const Page = () => {
     elementCount: 50,
   })
 
-  if (!(company in logos)) return null
+  const c = company || co
+
+  if (!(c in logos)) return null
 
   const onClick = async () => {
     setLoading(true)
@@ -63,11 +65,11 @@ const Page = () => {
         <DialogContent>
           <Box sx={{ mt: 2 }}>
             {/* @ts-ignore */}
-            <img src={logos[company]} alt={company} style={{ width: "100%" }} />
+            <img src={logos[c]} alt={c} style={{ width: "100%" }} />
           </Box>
           <Typography sx={{ mt: 2 }}>
             Welcome to the Swift Badminton membership site!
-            {company === "assembly" &&
+            {c === "assembly" &&
               " Our video transcripts are powered by AssmeblyAI. "}
           </Typography>
 
