@@ -5,7 +5,18 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "vercel-build": "prisma generate && prisma migrate deploy && next build",
+    "lint": "eslint src",
+    "fix": "eslint --fix",
+    "check": "npx tsc",
+    "prettier": "prettier --write .",
+    "seed": "npx ts-node --transpileOnly src/prisma/seed.ts",
+    "reset": "npx ts-node --transpileOnly src/prisma/seed.ts --reset",
+    "db": "npx ts-node --transpileOnly scripts/db.ts",
+    "main": "npx ts-node --transpileOnly scripts/main.ts",
+    "import": "npx ts-node --transpileOnly scripts/import.ts",
+    "as": "npx ts-node --transpileOnly scripts/assembly.ts"
   },
   "prisma": {
     "schema": "src/prisma/schema.prisma",
