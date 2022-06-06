@@ -38,6 +38,7 @@ const Page = () => {
     elementCount: 50,
   })
 
+  // Fixes my typo in email
   const c = company || co
 
   if (!(c in logos)) return null
