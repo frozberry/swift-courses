@@ -8,6 +8,9 @@ const Transcript = ({ seekTo, timestamp, transcript }: any) => {
 
       {transcript ? (
         <Box sx={{ my: 2 }}>
+          <Typography color="gray" sx={{ mt: 2 }}>
+            Click text to navigate
+          </Typography>
           {transcript.map((paragraph: any) => (
             <Box key={paragraph.start} sx={{ my: 2 }}>
               {paragraph.sentences.map((sentence: any) => (
