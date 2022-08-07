@@ -1,3 +1,4 @@
+import { LoadingButton } from "@mui/lab"
 import {
   Box,
   Container,
@@ -10,26 +11,9 @@ import Link from "next/link"
 import { useState } from "react"
 import { useReward } from "react-rewards"
 import LoginForm from "../components/forms/LoginForm"
-import { LoadingButton } from "@mui/lab"
-import { useRouter } from "next/router"
-
-const logos = {
-  assembly: "/logos/assembly.png",
-  stripe: "/logos/stripe.png",
-  openai: "/logos/openai.png",
-  deepmind: "/logos/deepmind.png",
-  vercel: "/logos/vercel.png",
-  prisma: "/logos/prisma.png",
-  supabase: "/logos/supabase.png",
-  google: "/logos/google.png",
-  facebook: "/logos/facebook.png",
-  rev: "/logos/rev.png",
-}
 
 const Page = () => {
   const [loading, setLoading] = useState(false)
-  const router = useRouter()
-  const { company, co } = router.query as { company: string; co: string }
 
   const { reward } = useReward("rewardId", "confetti", {
     lifetime: 5000,
@@ -37,11 +21,6 @@ const Page = () => {
     decay: 0.96,
     elementCount: 50,
   })
-
-  // Fixes my typo in email
-  const c = company || co
-
-  if (!(c in logos)) return null
 
   const onClick = async () => {
     setLoading(true)
@@ -64,18 +43,10 @@ const Page = () => {
 
       <Dialog open={true} sx={{ mb: 30 }}>
         <DialogContent>
-          <Box sx={{ mt: 2 }}>
-            {/* @ts-ignore */}
-            <img src={logos[c]} alt={c} style={{ width: "100%" }} />
-          </Box>
+          <Box sx={{ mt: 2 }}>{/* @ts-ignore */}</Box>
           <Typography sx={{ mt: 2 }}>
-            Welcome to the Swift Badminton membership site!
-            {c === "assembly" &&
-              " Our video transcripts are powered by AssmeblyAI. "}
-          </Typography>
-
-          <Typography sx={{ mt: 2 }}>
-            One click login for your VIP account, just for you :)
+            Welcome to the Swift Badminton membership site! Click below for easy
+            one-click login, just for you :)
           </Typography>
           <LoadingButton
             variant="contained"
