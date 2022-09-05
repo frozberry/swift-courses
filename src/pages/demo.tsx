@@ -30,7 +30,7 @@ const Page = () => {
       await signIn("credentials", {
         email: "demo@swiftbadminton.com",
         password: process.env.NEXT_PUBLIC_DEMO_PASSWORD,
-        callbackUrl: "/ff",
+        callbackUrl: "/",
       })
     }, 1500)
   }
